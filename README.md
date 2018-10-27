@@ -8,11 +8,11 @@
 * [20181027] Officially starting this project because I bought a Thinkpad X1E. Thank you for support!
 
 ## Introduction
-#### If you want to download the EFI files to try your luck, you can check out the [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases).
-#### Or, if you are interested in the theme I used, check it out over here: [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism).
+* If you want to download the EFI files to try your luck, you can check out the [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases).
+* Or, if you are interested in the theme I used, check it out over here: [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism).
 
 ## Main Information
-#### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
+* Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 
 ### Warning
 * DO NOT USE FILEVAULT DURING INSTALLATION!!! 100% DISK BREAK AFTER REBOOT GUARANTEED.
@@ -45,9 +45,9 @@
 * Airdrop: -
  
 ## Special Thanks
-#### Individual
+* Individual
 * [RehabMan](https://www.tonymacx86.com/members/rehabman.429483/)
-#### Organization
+* Organization
 * [TonyMacX86](https://www.tonymacx86.com)
 * [PCBeta](http://bbs.pcbeta.com/forum-558-1.html)
 
