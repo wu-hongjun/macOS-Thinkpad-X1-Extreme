@@ -15,11 +15,11 @@
 ## Developer
 * [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 
-### Announcements 
+## Announcements 
 * If you cannot mount EFI via [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/), then here is a *[Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Aero-15W/blob/master/Mount%20EFI%20on%20macOS.MD).*
 
 
-### Specs
+## Specs
 * CPU: Intel Core i7-8850H vPro 6C12T @2.6GHz
 * GPU: UHD 630 + NVIDIA GTX 1050TI MAX-Q (Disabled)
 * Wifi: BCM943602BAED
