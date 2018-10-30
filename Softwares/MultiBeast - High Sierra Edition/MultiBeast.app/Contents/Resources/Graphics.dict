@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Name</key>
+        <array>
+            <string>Graphics</string>
+            <string>Choose from the following additional graphics configurations.</string>
+        </array>
+        <key>Children</key>
+        <array>
+            <array>
+                <string>Intel HD 6xx</string>
+                <string>Fixes most Intel HD 6xx graphics issues on desktop systems. Adds -disablegfxfirmware boot flag to /Volumes/EFI/EFI/CLOVER/config.plist.</string>
+                <string>Clover-HD6xx-Graphics.pkg</string>
+            </array>
+            <array>
+                <string>Inject ATI</string>
+                <string>For desktop systems with older ATI graphics cards such as ATI Radeon 4xxx. Adds Graphics/Inject/ATI=YES to CustoMac Default /Volumes/EFI/EFI/CLOVER/config.plist. Equivalent to Chimera/Chameleon GraphicsEnabler=Yes.</string>
+                <string>InjectATI</string>
+            </array>
+            <array>
+                <string>Inject NVIDIA</string>
+                <string>For desktop systems with older NVIDIA graphics cards such as GeForce 8xxx, 9xxx, 2xx, 4xx, 610, and 630. Adds Graphics/Inject/NVIDIA=YES to CustoMac Default /Volumes/EFI/EFI/CLOVER/config.plist. Equivalent to Chimera/Chameleon GraphicsEnabler=Yes.</string>
+                <string>InjectNVIDIA</string>
+            </array>
+            <array>
+                <string>NVIDIA Web Drivers Boot Flag</string>
+                <string>For desktop systems with newer NVIDIA graphics cards based on Kepler, Maxwell or Pascal GPUs. Adds SystemParameters/NvidiaWeb =YES to CustoMac default /Volumes/EFI/EFI/CLOVER/config.plist.</string>
+                <string>Clover-NVIDIA-Web.pkg</string>
+            </array>
+        </array>
+    </dict>
+</plist>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Name</key>
+        <array>
+            <string>Audio</string>
+            <string>Collection of kexts to enable the on-board Audio on your system. Make sure to read the descriptions carefully and only install the correct files for your audio codec. CloverALC patching technique by toleda.</string>
+        </array>
+        <key>Children</key>
+        <array>
+            <array>
+                <string>AppleALC</string>
+                <string>Enables native macOS HD audio for unsupported codecs without any filesystem modifications by vit9696. Installs Lilu.kext and AppleALC.kext to /Library/Extensions.</string>
+                <string>AppleALC-v1.3.0.pkg</string>
+            </array>
+            <dict>
+                <key>Name</key>
+                <array>
+                    <string>Realtek ALCxxx</string>
+                    <string>Enables audio for motherboards featuring the Realtek ALC269, ALC283, ALC887/888b, ALC888, ALC885/889a, ALC889, ALC892, ALC898 or ALC1150 high-definition audio codecs.</string>
+                </array>
+                <key>Children</key>
+                <array>
+                    <array>
+                        <string>ALC885/889a</string>
+                        <string>Enables full functionality for the Realtek ALC885 high-definition audio codec. Installs RealtekALC.kext in /Library/Extensions. Adds codec-specific patches for AppleHDA.kext into /Volumes/EFI/EFI/CLOVER/config.plist. Adds codec specific zlib files into /System/Library/Extensions/AppleHDA.kext/Contents/Resources. CloverALC patching technique by toleda.</string>
+                        <string>Clover-ALC885.pkg</string>
+                    </array>
+                    <array>
+                        <string>ALC887/888b Legacy</string>
+                        <string>Enables full functionality for the Realtek ALC887 Legacy high-definition audio codec. Installs RealtekALC.kext in /Library/Extensions. Adds codec-specific patches for AppleHDA.kext into /Volumes/EFI/EFI/CLOVER/config.plist. Adds codec specific zlib files into /System/Library/Extensions/AppleHDA.kext/Contents/Resources. CloverALC patching technique by toleda.</string>
+                        <string>Clover-ALC887_Legacy.pkg</string>
+                    </array>
+                    <array>
+                        <string>ALC887/888b</string>
+                        <string>Enables full functionality for the Realtek ALC887 high-definition audio codec. Installs RealtekALC.kext in /Library/Extensions. Adds codec-specific patches for AppleHDA.kext into /Volumes/EFI/EFI/CLOVER/config.plist. Adds codec specific zlib files into /System/Library/Extensions/AppleHDA.kext/Contents/Resources. CloverALC patching technique by toleda.</string>
+                        <string>Clover-ALC887.pkg</string>
+                    </array>
+                    <array>
+                        <string>ALC888 Legacy</string>
+                        <string>Enables full functionality for the Realtek ALC888 Legacy high-definition audio codec. Installs RealtekALC.kext in /Library/Extensions. Adds codec-specific patches for AppleHDA.kext into /Volumes/EFI/EFI/CLOVER/config.plist. Adds codec specific zlib files into /System/Library/Extensions/AppleHDA.kext/Contents/Resources. CloverALC patching technique by toleda.</string>
+                        <string>Clover-ALC888_Legacy.pkg</string>
+                    </array>
+                    <array>
+                        <string>ALC888</string>
+                        <string>Enables full functionality for the Realtek ALC888 high-definition audio codec. Installs RealtekALC.kext in /Library/Extensions. Adds codec-specific patches for AppleHDA.kext into /Volumes/EFI/EFI/CLOVER/config.plist. Adds codec specific zlib files into /System/Library/Extensions/AppleHDA.kext/Contents/Resources. CloverALC patching technique by toleda.</string>
+                        <string>Clover-ALC888.pkg</string>
+                    </array>
+                    <array>
+                        <string>ALC889</string>
+                        <string>Enables full functionality for the Realtek ALC889 high-definition audio codec. Installs RealtekALC.kext in /Library/Extensions. Adds codec-specific patches for AppleHDA.kext into /Volumes/EFI/EFI/CLOVER/config.plist. Adds codec specific zlib files into /System/Library/Extensions/AppleHDA.kext/Contents/Resources. CloverALC patching technique by toleda.</string>
+                        <string>Clover-ALC889.pkg</string>
+                    </array>
+                    <array>
+                        <string>ALC892</string>
+                        <string>Enables full functionality for the Realtek ALC892 high-definition audio codec. Installs RealtekALC.kext in /Library/Extensions. Adds codec-specific patches for AppleHDA.kext into /Volumes/EFI/EFI/CLOVER/config.plist. Adds codec specific zlib files into /System/Library/Extensions/AppleHDA.kext/Contents/Resources. CloverALC patching technique by toleda.</string>
+                        <string>Clover-ALC892.pkg</string>
+                    </array>
+                    <array>
+                        <string>ALC898</string>
+                        <string>Enables full functionality for the Realtek ALC898 high-definition audio codec. Installs RealtekALC.kext in /Library/Extensions. Adds codec-specific patches for AppleHDA.kext into /Volumes/EFI/EFI/CLOVER/config.plist. Adds codec specific zlib files into /System/Library/Extensions/AppleHDA.kext/Contents/Resources. CloverALC patching technique by toleda.</string>
+                        <string>Clover-ALC898.pkg</string>
+                    </array>
+                    <array>
+                        <string>ALC1150</string>
+                        <string>Enables full functionality for the Realtek ALC1150 high-definition audio codec. Installs RealtekALC.kext in /Library/Extensions. Adds codec-specific patches for AppleHDA.kext into /Volumes/EFI/EFI/CLOVER/config.plist. Adds codec specific zlib files into /System/Library/Extensions/AppleHDA.kext/Contents/Resources. CloverALC patching technique by toleda.</string>
+                        <string>Clover-ALC1150.pkg</string>
+                    </array>
+                    <array>
+                        <string>ALC1220</string>
+                        <string>Enables full functionality for the Realtek ALC1220 high-definition audio codec. Installs RealtekALC.kext in /Library/Extensions. Adds codec-specific patches for AppleHDA.kext into /Volumes/EFI/EFI/CLOVER/config.plist. Adds codec specific zlib files into /System/Library/Extensions/AppleHDA.kext/Contents/Resources. CloverALC patching technique by toleda.</string>
+                        <string>Clover-ALC1220.pkg</string>
+                    </array>
+                    <array>
+                        <string>ALC1220A (ASUS ROG STRIX Only)</string>
+                        <string>Enables full functionality for the Realtek ALC1220S high-definition audio codec. Installs RealtekALC.kext in /Library/Extensions. Adds codec-specific patches for AppleHDA.kext into /Volumes/EFI/EFI/CLOVER/config.plist. Adds codec specific zlib files into /System/Library/Extensions/AppleHDA.kext/Contents/Resources. CloverALC patching technique by toleda.</string>
+                        <string>Clover-ALC1220A.pkg</string>
+                    </array>
+                    <array>
+                        <string>Optional 3 Port (5.1) Audio</string>
+                        <string>Optional for 3 port audio layouts. Remaps audio input and output ports for 5.1 analog support. Adds Devices/Audio/Inject=2 to /Volumes/EFI/EFI/CLOVER/config.plist.</string>
+                        <string>Optional3PortAudio</string>
+                    </array>
+                    <array>
+                        <string>Optional HD 3000/HD 4000 HDMI Audio</string>
+                        <string>Enables HDMI audio on HD 3000/4000 with limited analog output options. May need additional edited DSDT or SSDT and Intel Framebuffer patch for full support. Adds Devices/Audio/Inject=3 to /Volumes/EFI/EFI/CLOVER/config.plist.</string>
+                        <string>OptionalHDMIAudio</string>
+                    </array>
+                    <array>
+                        <string>100 / 200 / 300 Series Audio Support</string>
+                        <string>Required for 100 / 200 / 300 Series onboard audio. Must be installed before any codec installation. Adds Rename HDAS to HDEF patch to /Volumes/EFI/EFI/CLOVER/config.plist.</string>
+                        <string>Clover-HDAS-HDEF-Patch.pkg</string>
+                    </array>
+                    <array>
+                        <string>200 / Z370 Series / X299 Audio Device ID Patch</string>
+                        <string>Required for 200 / Z370 Series and X299 onboard audio. Must be installed before any codec installation. Adds temporary device ID patch to /Volumes/EFI/EFI/CLOVER/config.plist.</string>
+                        <string>Clover-Unsupported_Audio_Device_ID_Kaby_Lake.pkg</string>
+                    </array>
+                    <array>
+                        <string>H310 / B360 / H370 / Q370 Audio Device ID Patch</string>
+                        <string>Required for H310 / B360 / H370 / Q370 onboard audio. Must be installed before any codec installation. Adds temporary device ID patch to /Volumes/EFI/EFI/CLOVER/config.plist.</string>
+                        <string>Clover-Unsupported_Audio_Device_ID_Coffee_Lake.pkg</string>
+                    </array>
+                </array>
+            </dict>
+            <dict>
+                <key>Name</key>
+                <array>
+                    <string>Universal</string>
+                    <string>Enables audio for most codecs. Uses VoodooHDA which is an open source audio driver for devices compliant with the Intel High Definition Audio (HDA) specification, based primarily on code from the FreeBSD hdac driver. It is intended as an Intel-only replacement for AppleHDA. Enables sound without DSDT patching. Click the triangle to expand and then choose the appropriate version.</string>
+                </array>
+                <key>Children</key>
+                <array>
+                    <array>
+                        <string>VoodooHDA v2.8.6</string>
+                        <string>Installs VoodooHDA.kext in /Library/Extensions. Also installs VoodooHDA.prefPane in /Library/PreferencePanes, VoodooHdaSettingsLoader.app in /Applications and getdump in /usr/local/bin.</string>
+                        <string>VoodooHDA-v2.8.6.pkg</string>
+                    </array>
+                    <array>
+                        <string>VoodooHDA v2.8.7</string>
+                        <string>Installs VoodooHDA.kext in /Library/Extensions. Also installs VoodooHDA.prefPane in /Library/PreferencePanes, VoodooHdaSettingsLoader.app in /Applications and getdump in /usr/local/bin.</string>
+                        <string>VoodooHDA-v2.8.7.pkg</string>
+                    </array>
+                    <array>
+                        <string>VoodooHDA v2.8.8</string>
+                        <string>Installs VoodooHDA.kext in /Library/Extensions. Also installs VoodooHDA.prefPane in /Library/PreferencePanes, VoodooHdaSettingsLoader.app in /Applications and getdump in /usr/local/bin.</string>
+                        <string>VoodooHDA-v2.8.8.pkg</string>
+                    </array>
+                    <array>
+                        <string>VoodooHDA v2.8.9</string>
+                        <string>Installs VoodooHDA.kext in /Library/Extensions. Also installs VoodooHDA.prefPane in /Library/PreferencePanes, VoodooHdaSettingsLoader.app in /Applications and getdump in /usr/local/bin.</string>
+                        <string>VoodooHDA-v2.8.9.pkg</string>
+                    </array>
+                    <array>
+                        <string>VoodooHDA v2. 9.0d10</string>
+                        <string>Installs VoodooHDA.kext in /Library/Extensions. Also installs VoodooHDA.prefPane in /Library/PreferencePanes, VoodooHdaSettingsLoader.app in /Applications and getdump in /usr/local/bin.</string>
+                        <string>VoodooHDA-v2.9.0d10.pkg</string>
+                    </array>
+                </array>
+            </dict>
+        </array>
+    </dict>
+</plist>

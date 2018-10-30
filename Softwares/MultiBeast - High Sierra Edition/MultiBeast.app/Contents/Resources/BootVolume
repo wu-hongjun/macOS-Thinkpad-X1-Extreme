@@ -1,0 +1,5 @@
+#!/bin/bash
+
+/usr/libexec/PlistBuddy -c "Set Boot:DefaultVolume ${1}" "${2}"
+
+exit 0

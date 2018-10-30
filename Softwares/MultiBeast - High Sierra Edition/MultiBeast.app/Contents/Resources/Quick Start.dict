@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UEFIBoot</key>
+    <string>Installs Clover bootloader for UEFI booting only to the EFI Partition of the selected destination drive. Installs AptioMemoryFix.efi and ApfsDriverLoader-64.efi in /EFI/CLOVER/Drivers64UEFI/. Recommended for 7/8/9/100/200/300 Series UEFI based CustoMac systems.
+        
+        UEFI Boot Mode pre-configured choices:
+        Bootloaders -> Clover UEFI Boot Mode
+        Customize -> System Definition -> iMac -> iMac 14,2
+        Drivers -> Misc -> FakeSMC
+    </string>
+	<key>LegacyBoot</key>
+    <string>Installs Clover bootloader in Legacy mode to the EFI System Partition of the selected drive. Installs apfs.efi in /EFI/CLOVER/Drivers64/.  Adds ACPI/DSDT/Fixes/AddDTGP=YES, ACPI/DSDT/Fixes/FixHDA=YES, ACPI/DSDT/Fixes/FixHPET=YES, ACPI/DSDT/Fixes/FixIPIC=YES and ACPI/DSDT/Fixes/FixUSB=YES to CustoMac default config.plist. Recommended for 5/6 Series BIOS based CustoMac systems.
+        
+        Legacy Boot Mode pre-configured choices:
+            Bootloaders -> Clover Legacy Boot Mode
+            Customize -> System Definition -> iMac -> iMac 14,2
+            Drivers -> Misc -> FakeSMC
+    </string>
+	<key>NoSelection</key>
+	<string>Quick Start will load a pre-built configuration based on which option is chosen. If you don't want to use any of these pre-built options, you can build your own by selecting a bootloader, theme and kexts.</string>
+</dict>
+</plist>

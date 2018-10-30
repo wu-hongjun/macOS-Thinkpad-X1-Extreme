@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Name</key>
+        <array>
+            <string>USB</string>
+            <string></string>
+        </array>
+        <key>Children</key>
+        <array>
+            <array>
+                <string>3rd Party USB 3.0</string>
+                <string>Enables 3rd Party USB 3.0 controller support. Installs GenericUSBXHCI.kext to /Library/Extensions.</string>
+                <string>GenericUSBXHCI-v1.2.11.pkg</string>
+            </array>
+            <array>
+                <string>7/8/9 Series USB Support</string>
+                <string>Enables full USB 2.0 and 3.0 support on 7/8/9 Series motherboards. Installs FakePCIID.kext and FakePCIID_XHCIMux.kext to /Library/Extensions.</string>
+                <string>FakePCIID_XHCIMux-v1.3.9.pkg</string>
+            </array>
+            <array>
+                <string>Remove XHCI USB Port Limit</string>
+                <string>Adds PMHeart’s patch to remove XHCI USB Port Limit to /Volumes/EFI/EFI/CLOVER/config.plist. Removes previous increase port limit patch. </string>
+                <string>Clover-Remove-XHCI-USB-Port-Limit-High-Sierra.pkg</string>
+            </array>
+            <array>
+                <string>USBInjectAll</string>
+                <string>Rehabman’s USB device injector. May be required for UEFI motherboards that use uncommon XHCI device IDs or don't enable all XHCI ports in DSDT/SSDT. Installs USBInjectAll.kext in /Library/Extensions.</string>
+                <string>USBInjectAll.pkg</string>
+            </array>
+        </array>
+    </dict>
+</plist>

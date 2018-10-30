@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Name</key>
+        <array>
+            <string>Misc</string>
+            <string>Collection of miscellaneous kexts that provide enhanced hardware support. Be sure to read the descriptions carefully before installation.</string>
+        </array>
+        <key>Children</key>
+        <array>
+            <array>
+                <string>FakeSMC</string>
+                <string>FakeSMC.kext is the only absolutely mandatory kext required for booting the system. Rehabman’s branch of kozlek’s FakeSMC, which is a branch of the original developed by netkas. Installs FakeSMC.kext in /Library/Extensions and /Volumes/EFI/EFI/CLOVER/kexts/Other.</string>
+                <string>FakeSMC-v6.26-344-g1cf53906.1787.pkg</string>
+            </array>
+            <array>
+                <string>FakeSMC Plugins</string>
+                <string>Installs FakeSMC plugins ACPISensors.kext, CPUSensors.kext, GPUSensors.kext and LPCSensors.kext in /Library/Extensions. These plugins allow software access to motherboard hardware monitors.</string>
+                <string>FakeSMC-Plugins-v6.26-344-g1cf53906.1787.pkg</string>
+            </array>
+            <array>
+                <string>FakeSMC HWMonitor Application</string>
+                <string>Hardware Monitoring application from kozlek's branch. Requires FakeSMC Motherboard Plugins. Installs /Applications/HWMonitor.app.</string>
+                <string>FakeSMC-HWMonitor-v6.26-344-g1cf53906.1787.pkg</string>
+            </array>
+            <array>
+                <string>NullCPUPowerManagement</string>
+                <string>Disables AppleIntelCPUPowerManagement.kext to prevent kernel panic without proper HPET DSDT edits. Installs NullCPUPowerManagement.kext in /Library/Extensions.</string>
+                <string>NullCPUPowerManagement-v1.0.0d2.pkg</string>
+            </array>
+            <array>
+                <string>Core Graphics Fixup AKA WhateverGreen</string>
+                <string>Provides various patches necessary for certain AMD/Intel/Nvidia GPUs by vit9696. Installs Lilu.kext and WhateverGreen.kext to /Library/Extensions.</string>
+                <string>WhateverGreen-v1.2.0.pkg</string>
+            </array>
+            <dict>
+                <key>Name</key>
+                <array>
+                    <string>VoodooTSCSync</string>
+                    <string>VoodooTSCSync.kext synchronizes the Timer Stamp Counter (TSC) on x86/Intel®64 CPUs. Only necessary for LGA2011 CPUs. Written by Cosmosis Jones.</string>
+                </array>
+                <key>Children</key>
+                <array>
+                    <array>
+                        <string>VoodooTSCSync 4 Core</string>
+                        <string>Pre-edited VoodooTSCSync.kext for 4 core CPUs.</string>
+                        <string>VoodooTSCSync-4.pkg</string>
+                    </array>
+                    <array>
+                        <string>VoodooTSCSync 6 Core</string>
+                        <string>Pre-edited VoodooTSCSync.kext for 6 core CPUs.</string>
+                        <string>VoodooTSCSync-6.pkg</string>
+                    </array>
+                    <array>
+                        <string>VoodooTSCSync 8 Core</string>
+                        <string>Pre-edited VoodooTSCSync.kext for 8 core CPUs.</string>
+                        <string>VoodooTSCSync-8.pkg</string>
+                    </array>
+                </array>
+            </dict>
+        </array>
+    </dict>
+</plist>

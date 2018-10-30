@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Name</key>
+        <array>
+            <string>Bootloaders</string>
+            <string>Install Clover to make your drive bootable. Includes tonymacx86 theme and standard config.plist.</string>
+        </array>
+        <key>Children</key>
+        <array>
+            <array>
+                <string>Clover UEFI Boot Mode</string>
+                <string>Installs Clover bootloader for UEFI booting only to the EFI Partition of the selected destination drive. Installs AptioMemoryFix.efi and ApfsDriverLoader-64.efi in /EFI/CLOVER/Drivers64UEFI/. Recommended for 7/8/9/100/200/300 Series UEFI based CustoMac systems.</string>
+                <string>Clover_v2.4k_r4630-UEFI.pkg</string>
+            </array>
+            <array>
+                <string>Clover Legacy Boot Mode</string>
+                <string>Installs Clover bootloader in Legacy mode to the EFI System Partition of the selected drive. Installs apfs.efi in /EFI/CLOVER/Drivers64/.  Adds ACPI/DSDT/Fixes/AddDTGP=YES, ACPI/DSDT/Fixes/FixHDA=YES, ACPI/DSDT/Fixes/FixHPET=YES, ACPI/DSDT/Fixes/FixIPIC=YES and ACPI/DSDT/Fixes/FixUSB=YES to CustoMac default config.plist. Recommended for 5/6 Series BIOS based CustoMac systems.</string>
+                <string>Clover_v2.4k_r4630-Legacy.pkg</string>
+            </array>
+            <array>
+                <string>Clover UEFI Boot Mode + Emulated NVRAM</string>
+                <string>Installs Clover bootloader for UEFI booting only to the EFI System Partition of the selected destination drive. Installs OsxAptioFix2Drv-64.efi, EmuVariableUefi-64.efi and apfs.efi in /EFI/CLOVER/Drivers64UEFI/. Installs Clover rc scripts files in /etc, ~/Library/Application Support/Clover and ~/Library/LaunchDaemons. Required for support of Apple Messages and/or NVIDIA Web Drivers on 7/8/9/100/200/300 Series UEFI based CustoMac systems that don’t support native NVRAM.</string>
+                <string>Clover_v2.4k_r4630-UEFI-EmuNVR.pkg</string>
+            </array>
+        </array>
+    </dict>
+</plist>

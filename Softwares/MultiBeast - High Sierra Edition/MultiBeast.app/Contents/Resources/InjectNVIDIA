@@ -1,0 +1,6 @@
+#!/bin/bash
+
+/usr/libexec/PlistBuddy -c "Set :Graphics:Inject:Intel false" "${1}"
+/usr/libexec/PlistBuddy -c "Set :Graphics:Inject:NVidia true" "${1}"
+
+exit 0

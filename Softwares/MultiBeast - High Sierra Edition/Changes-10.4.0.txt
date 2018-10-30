@@ -1,0 +1,691 @@
+MultiBeast 10.4.0 Released 2018-08-14
+
+NOTE:	MultiBeast 10.4.0: High Sierra Edition is ONLY for OS X 10.13.6+
+
+Visible Changes:
+	- Added Drivers → Audio → AppleALC
+	- Added Drivers → Misc → Core Graphics Fixup AKA WhatEverGreen
+	- Removed Customize → Graphics Configuration → Intel HD 3000
+	- Removed Customize → Graphics Configuration → Intel HD 5xx
+	- Removed Customize → Graphics Configuration → AMD Graphics Fixup
+	- Removed Customize → Graphics Configuration → Intel Graphics Fixup
+	- Removed Customize → Graphics Configuration → Nvidia Graphics Fixup 
+	
+Internal Changes:
+	- Updated Clover to v2.4k r4630
+	- Updated Clover UEFI Mode to use AptioMemoryFix.efi and added ApfsDriverLoader-64.efi
+	- Updated Drivers Audio → Realtek ALCxxx → ALCnnn with realtekALC 3.0
+	- Updated Drivers → USB → Remove XHCI USB Port Limit with 10.13.6 patch
+	- Updated Drivers → USB → USBInjectAll to v0.6.5
+	- Fixed Drivers Audio → Realtek ALCxxx → 200 / Z370 Series / X299 Audio Device ID Patch
+	- Fixed Drivers Audio → Realtek ALCxxx → H310 / B360 / H370 / Q370 Audio Device ID Patch 
+
+New Choice Details:
+	- Drivers → Audio → AppleALC installs AppleALC v1.3.0 with LiLu v1.2.5
+	- Drivers → Misc → Core Graphics Fixup AKA WhatEverGreen installs WhatEverGreen v1.2.0 with LiLu v1.2.5
+
+
+MultiBeast 10.3.0 Released 2018-05-16
+
+NOTE:	MultiBeast 10.3.0: High Sierra Edition is ONLY for OS X 10.13.4+
+
+Visible Changes:
+	- Fixed desecription for Quick Start → Legacy Boot Mode to reflect new ACPI/DSDT/Fixes naming convention.
+	- Rename Drivers Audio → Realtek ALCxxx → 200 / 300 Series / X299 Audio Device ID Patch to 200 / Z370 Series / X299 Audio Device ID Patch
+	- Added Drivers Audio → Realtek ALCxxx → H310 / B360 / H370 / Q370 Audio Device ID Patch
+	- Added Drivers → Network → Intel → IntelMausiEthernet v2.4.0
+	- Replaced Drivers → Network → Realtek → RealtekRTL81xx v2.2.1 with Drivers → Network → Realtek → RealtekRTL81xx v2.2.2
+	- Added Drivers → USB → USBInjectAll
+	- Renamed Drivers → USB → Increase Max Port Limit to Drivers → USB → Remove XHCI USB Port Limit
+	- Removed Drivers → USB → Increase Max Port Limit 200 Series
+	- Fixed desecription for Bootloaders → Legacy Boot Mode to reflect new ACPI/DSDT/Fixes naming convention.
+	- Changed Drivers Audio → Realtek ALCxxx behavior to enforce that codecs cannot be chosen at the same time as Audio Support and/or Audio Device ID Patch. 
+	  Codec installation must be done after installing Audio Support and/or Audio Device ID Patch.
+	- Fixed UI issues with choice selections unchecking or not being able to be checked.
+
+Internal Changes:
+	- Updated Clover to v2.4k r4458
+	- Updated Clover UEFI Mode to use OsxAptioFix3Drv-64.efi
+	- Updated all Clover config.plist to include /ACPI/AutoMerge=true
+	- Fixed Drivers → Audio → Realtek ALCxxx → 200 / Z370 Series / X299 Audio Device ID Patch
+	- Updated Drivers → Misc → FakeSMC to RehabMan's Branch v6.26-344-g1cf53906.1787
+	- Updated Drivers → Misc → FakeSMC Plugins to RehabMan's Branch v6.26-344-g1cf53906.1787
+	- Updated Drivers → Misc → FakeSMC HWMonitor to RehabMan's Branch v6.26-344-g1cf53906.1787
+	- Updated Customize → Graphics Configuration → Intel Graphics Fixup to v1.2.7 with Lilu v1.2.3
+	- Updated Customize → Graphics Configuration → Nvidia Graphics Fixup to v1.2.6 with Lilu v1.2.3
+
+
+MultiBeast 10.2.0 Released 2017-12-18
+
+NOTE:	MultiBeast 10.2.0: High Sierra Edition is ONLY for OS X 10.13.x.
+
+Visible Changes:
+	- Renamed Drivers → Audio → Realtek ALCxxx → 100 / 200 Series Audio to 100 / 200 / 300 Series Audio Support
+	- Added Drivers → Audio → Realtek ALCxxx → 200 / 300 Series / X299 Audio Device ID Patch
+
+Internal Changes:
+	- Updated Clover to v2.4k r4359
+	- Updated Clover defaults to include APCI > DSDT > Drop Tables > MATS
+	- Updated Clover defaults APCI > DSDT > Fixes to use the current fix names
+	- Updated FakeSMC installation to install to /Library/Extensions and /Volumes/EFI/EFI/CLOVER/kexts/Other/
+	- Updated Drivers → USB → Increase Max Port Limit with USBInjectAll v0.6.3
+	- Updated Drivers → USB → Increase Max Port Limit 200 Series with USBInjectAll v0.6.3
+	- Updated Customize → Graphics Configuration → Intel Graphics Fixup to v1.2.1 with Lilu v1.2.1
+	- Updated Customize → Graphics Configuration → Nvidia Graphics Fixup with Lilu v1.2.1
+	- Updated all Customize → System Definitions to latest BiosVersions and removed unnecessary fields.
+	- Removed unmount of destination volume EFI partition when finished.
+
+
+MultiBeast 10.1.1 Released 2017-11-13
+
+NOTE:	MultiBeast 10.1.1: High Sierra Edition is ONLY for OS X 10.13.x.
+
+Internal Changes:
+	- Fixed EFI volume mounting and unmounting. 
+
+
+MultiBeast 10.1.0 Released 2017-11-12
+
+NOTE:	MultiBeast 10.1.0: High Sierra Edition is ONLY for OS X 10.13.x.
+
+Visible Changes:
+	- Renamed Customize → Graphics Configuration → AMD Graphics Fixup AKA Whatevergreen to 
+			  Customize → Graphics Configuration → AMD Graphics Fixup
+	- Added details for "Mounting EFI failed" 
+
+Internal Changes:
+	- Fixed EFI volume mounting and unmounting. 
+	- Updated Clover to v2.4k r4297
+	- Fixed Drivers → Network → Realtek → RealtekRTL81xx v2.2.1 package permissions
+	- Fixed Drivers → Network → Atheros → AtherosE2200Ethernet v2.0.1 package permissions
+	- Fixed Drivers → Network → Atheros → AtherosE2200Ethernet v2.1.0 package permissions
+	- Changed Customize → Graphics Configuration → AMD Graphics Fixup to use RadeonDeInit in Clover v2.4k r4297
+	 
+
+MultiBeast 10.0.0 Released 2017-11-07
+
+NOTE:	MultiBeast 10.0.0: High Sierra Edition is ONLY for OS X 10.13.x.
+
+Visible Changes:
+	- Removed Drivers → Audio → Realtek ALCxxx → ALC269 (BRIX only) 
+	- Removed Drivers → Audio → Realtek ALCxxx → ALC283 (BRIX Pro and NUC only)
+	- Renamed Drivers → Misc → FakeSMC v6.25-333-g05e0f4be.1759 to Drivers → Misc → FakeSMC 
+	- Renamed Drivers → Misc → FakeSMC Plugins v6.25-333-g05e0f4be.1759 to Drivers → Misc → FakeSMC Plugins
+	- Renamed Drivers → Misc → FakeSMC HWMonitor v6.25-333-g05e0f4be.1759 to Drivers → Misc → FakeSMC HWMonitor
+	- Renamed Drivers → Misc → NullCPUPowerManagement v1.0.0d2 to Drivers → Misc → NullCPUPowerManagement
+	- Replaced Drivers → Network → Atheros → AtherosE2200Ethernet v2.2.1 with AtherosE2200Ethernet v2.2.2
+	- Removed Drivers → Network → Intel → AppleIntelE1000e v3.3.1
+	- Replaced Drivers → Network → Intel → AppleIntelE1000e v3.3.3 with AppleIntelE1000e v3.3.6
+	- Renamed Bootloaders → Clover v2.4k r4063 UEFI Boot Mode to Clover UEFI Boot Mode
+	- Renamed Bootloaders → Clover v2.4k r4063 UEFI Boot Mode + Emulated NVRAM to Clover UEFI Boot Mode + Emulated NVRAM
+	- Renamed Bootloaders → Clover v2.4k r4063 Legacy Boot Mode to Clover Legacy Boot Mode
+
+Internal Changes:
+	- Added support for choosing APFS volumes as destination.
+	- Updated Clover installers to install apfs.efi from destination volume.
+	- Updated Clover to v2.4k r4289
+	- Replaced Drivers → Audio → Universal → VoodooHDA v2.9.0d10 with the correct installer
+	- Updated Drivers → Misc → FakeSMC to RehabMan's Branch v6.26-322-g1b20eab7.1765 
+	- Updated Drivers → Misc → FakeSMC Plugins to RehabMan's Branch v6.26-322-g1b20eab7.1765
+	- Updated Drivers → Misc → FakeSMC HWMonitor to RehabMan's Branch v6.26-322-g1b20eab7.1765
+	- Updated Drivers → USB → Increase Max Port Limit 9 Series for High Sierra 10.13
+	- Updated Drivers → USB → Increase Max Port Limit 100 Series for High Sierra 10.13
+	- Updated Drivers → USB → Increase Max Port Limit 200 Series for High Sierra 10.13
+	- Updated Customize → Graphics Configuration → HD 6xx to include -disablegfxfirmware boot flag
+	- Updated Customize → Graphics Configuration → AMD Graphics Fixup AKA WhateverGreen to v1.1.2
+	- Updated Customize → Graphics Configuration → Intel Graphics Fixup to v1.2.0
+	- Updated Customize → Graphics Configuration → Nvidia Graphics Fixup to v1.2.1
+
+
+MultiBeast 9.2.1 Released 2017-09-06
+
+NOTE:	MultiBeast 9.2.0: Sierra Edition is ONLY for OS X 10.12.x.
+
+Internal Changes:
+	- Fixed Drivers → USB → Increase Max Port Limit 200 Series
+	
+	
+MultiBeast 9.2.0 Released 2017-08-20
+
+NOTE:	MultiBeast 9.2.0: Sierra Edition is ONLY for OS X 10.12.x.
+
+Visible Changes:
+	- Added Drivers → Audio → Universal → VoodooHDA v2.8.9
+	- Added Drivers → Audio → Universal → VoodooHDA v2.9.0d10
+	- Replaced Drivers → Network → Atheros → AtherosE2200Ethernet v2.2.0 with AtherosE2200Ethernet v2.2.1
+	- Replaced Drivers → Network → Intel → IntelMausiEthernet v2.2.1d1 with IntelMausiEthernet v2.3.0
+	- Added Customize → Graphics Configuration → AMD Graphics Fixup AKA WhateverGreen
+	- Added Customize → Graphics Configuration → Intel Graphics Fixup
+	- Added Customize → Graphics Configuration → Nvidia Graphics Fixup
+	- Added Customize → System Definitions → iMac → iMac18,2
+	- Added Customize → System Definitions → iMac → iMac18,3
+
+Internal Changes:
+	- Updated Clover to v2.4k r4173
+	- Corrected Permissions on Drivers → Disk → 3rd Party SATA
+	- Updated Drivers → Disk → Intel Generic AHCI SATA to v0.4
+	- Updated Drivers → Misc → FakeSMC to RehabMan's Branch v6.25-333-g05e0f4be.1759 
+	- Updated Drivers → Misc → FakeSMC Plugins to RehabMan's Branch v6.25-333-g05e0f4be.1759
+	- Updated Drivers → Misc → FakeSMC HWMonitor to RehabMan's Branch v6.25-333-g05e0f4be.1759
+	- Updated Drivers → USB → 7/8/9 Series USB Support to FakePCIID v1.3.9
+	- Updated Drivers → USB → Increase Max Port Limit 9 Series with USBInjectAll v0.6.2
+	- Updated Drivers → USB → Increase Max Port Limit 100 Series with USBInjectAll v0.6.2
+	- Updated Drivers → USB → Increase Max Port Limit 200 Series with USBInjectAll v0.6.2
+	- Updated Customize → Graphics Configuration → HD5xx
+	- Updated Customize → Graphics Configuration → HD6xx
+
+
+MultiBeast 9.1.0 Released 2017-05-02
+
+NOTE:	MultiBeast 9.1.0: Sierra Edition is ONLY for OS X 10.12.x.
+
+Visible Changes:
+	- Added Drivers → Audio → Realtek ALCxxx → ALC1220
+	- Added Drivers → Audio → Realtek ALCxxx → ALC1220A (ASUS ROG STRIX Only)
+	- Renamed Drivers → Audio → Realtek ALCxxx → Optional HD3000/HD4000/HD530 HDMI Audio to Optional HD3000/HD4000 HDMI Audio
+	- Removed Drivers → Audio → Realtek ALCxxx → Optional HD 4600 HDMI Audio
+	- Renamed Drivers → Audio → Realtek ALCxxx → 100 Series Audio to 100 / 200 Series Audio
+	- Added Drivers → Network → Intel → IntelMausiEthernet v2.2.1d1
+	- Renamed Drivers → USB → Increase Max Port Limit to Increase Max Port Limit 100 Series
+	- Added Drivers → USB → Increase Max Port Limit 9 Series
+	- Added Drivers → USB → Increase Max Port Limit 200 Series
+	- Added Bootloaders → Clover v2.4k r4063 UEFI Boot Mode + Emulated NVRAM
+	- Renamed Customize → Graphics Configuration → HD530 to HD 5xx 
+	- Added Customize → Graphics Configuration → HD6xx 
+	- Added Customize → Graphics Configuration → NVIDIA Web Drivers Boot Flag
+
+Internal Changes:
+	- Updated Clover to v2.4k r4063
+	- Updated Drivers → Disk → 3rd Party SATA to v0.6
+	- Updated Drivers → Disk → Intel Generic AHCI SATA to v0.3
+	- Updated Drivers → Misc → FakeSMC to RehabMan's Branch v6.25-332-gf3a8525c.1758 
+	- Updated Drivers → Misc → FakeSMC Plugins to RehabMan's Branch v6.25-332-gf3a8525c.1758
+	- Updated Drivers → Misc → FakeSMC HWMonitor to RehabMan's Branch v6.25-332-gf3a8525c.1758
+	- Updated Drivers → USB → 7/8/9 Series USB Support to FakePCIID v1.3.6
+	- Updated Drivers → USB → Increase Max Port Limit 100 Series with USBInjectAll v0.5.17
+	- Updated Customize → Graphics Configuration → HD 5xx with glitch fix 
+	- Fixed Drivers → Audio → Realtek ALCxxx → ALC885/889a to remove erroneous installation of patch
+
+NOTE:
+	The FakeSMC_GPUSensors.kext in FakeSMC Plugins v6.25-332-gf3a8525c.1758 is NOT COMPATIBLE with NVIDIA Pascal Video Cards. 
+	If you do not delete it from /Library/Extensions your system will kernel panic on boot.	
+MultiBeast 9.0.1 Released 2016-10-11
+
+NOTE:	MultiBeast 9.0.1: Sierra Edition is ONLY for OS X 10.12.x.
+
+Internal Changes:
+	- Corrected permissions for Drivers → Network → Atheros → AtherosE2200Ethernet v2.0.1 kext
+	- Corrected permissions for Drivers → Network → Atheros → AtherosE2200Ethernet v2.2.0 kext
+	- Corrected permissions for Drivers → Network → Intel → AppleIGB v5.3.5.3
+	
+	
+MultiBeast 9.0.0 Released 2016-09-29
+
+NOTE:	MultiBeast 9.0.0: Sierra Edition is ONLY for OS X 10.12.x.
+
+Visible Changes:
+	- Removed Drivers → Network → Atheros → AtherosE2200Ethernet v2.2.0d0
+	- Added Drivers → Network → Atheros → AtherosE2200Ethernet v2.2.0
+	- Added Drivers → Network → Intel → AppleIGB v5.3.5.3
+	- Removed Drivers → Network → Intel → IntelMausiEthernet v2.1.0d0
+	- Removed Drivers → Network → Intel → IntelMausiEthernet v2.1.0d3
+	- Added Drivers → Network → Intel → IntelMausiEthernet v2.1.0
+	- Added Drivers → Network → Intel → IntelMausiEthernet v2.2.0
+	- Removed Customize → System Definitions → Mac Pro → Mac Pro 3,1
+	- Removed Customize → System Definitions → Mac Pro → Mac Pro 4,1
+
+Internal Changes:
+	- Updated Clover to v2.3k r3766
+	- Changed QuickStart default system definition from MacPro3,1 to iMac14,2
+	- Updated Audio → Realtek ALCxxx to macOS Sierra 10.12 versions
+	- Updated Drivers → Misc → FakeSMC to RehabMan's Branch v6.21-311-g2958f55.1723 
+	- Updated Drivers → Misc → FakeSMC Plugins to RehabMan's Branch v6.21-311-g2958f55.1723
+	- Updated Drivers → Misc → FakeSMC HWMonitor to RehabMan's Branch v6.21-311-g2958f55.1723
+	- Updated Drivers → USB → 7/8/9 Series USB Support to FakePCIID v1.3.2
+	- Updated Drivers → USB → Increase Max Port Limit with USBInjectAll v0.5.14 and Max Ports of 26
+	- Add Clover AppleTyMCEDriver patch to Customize → System Definitions → Mac Pro → Mac Pro 5,1
+
+
+MultiBeast 8.2.3 Released 2016-06-03
+
+NOTE:	MultiBeast 8.2.1: El Capitan Edition is ONLY for OS X 10.11.x.
+
+Internal Changes:
+	- Changed Audio → Realtek ALCxxx → 100 Series Audio installation to run before any ALCxxx install
+	- Changed Clover_v2.3k_r3423-Legacy installed config.plist back to NewWay_80000000 = False
+	- Fixed permissions for Network → Intel → IntelMausiEthernet v2.1.0d3
+
+
+MultiBeast 8.2.2 Released 2016-05-05
+
+NOTE:	MultiBeast 8.2.1: El Capitan Edition is ONLY for OS X 10.11.x.
+
+Visible Changes:
+	- Fixed Drivers → Audio → Realtek ALCxxx → 100 Series Audio to allow it to be chosen with a codec.
+
+Internal Changes:
+	- Fixed install failure for USB → Increase Max Port Limit already installed
+	
+
+MultiBeast 8.2.1 Released 2016-04-26
+
+NOTE:	MultiBeast 8.2.1: El Capitan Edition is ONLY for OS X 10.11.x.
+
+Internal Changes:
+	- Fixed false failure message when Audio → Realtek ALCxxx → 100 Series Audio already installed
+	- Fixed false failure message when USB → Increase Max Port Limit already installed
+	
+	
+MultiBeast 8.2.0 Released 2016-04-xx
+
+NOTE:	MultiBeast 8.2.0: El Capitan Edition is ONLY for OS X 10.11.x.
+
+Visible Changes:
+	- Added Drivers → Audio → Realtek ALCxxx → 100 Series Audio
+	- Added Drivers → Graphics → Intel HD 530 Graphics
+	- Added Drivers → Misc → NullCPUPowerManagement v1.0.0d2
+	- Added Drivers → Network → Atheros → AtherosE2200Ethernet v2.2.0d0
+	- Added Drivers → Network → Intel → AppleIntelE1000e v3.3.3
+	- Added Drivers → Network → Intel → IntelMausiEthernet v2.1.0d3
+	- Added Drivers → Network → Realtek → Realtek8111 v2.2.1
+	- Added Drivers → USB → Increase Max Port Limit
+	
+Internal Changes:
+	- Updated Clover to v2.3k r3423
+
+
+MultiBeast 8.1.0 Released 2016-03-06
+
+NOTE:	MultiBeast 8.1.0: El Capitan Edition is ONLY for OS X 10.11.x.
+
+Visible Changes:
+	- Added Drivers → USB
+	- Added Drivers → USB → 3rd Party USB 3.0
+	- Added Drivers → USB → 7/8/9 Series USB Support
+	- Added Drivers → Network → Atheros → AtherosE2200Ethernet v2.1.0
+	- Added Drivers → Network → Intel → AppleIntelE1000e v3.3.1
+	- Added Drivers → Network → Intel → IntelMausiEthernet v2.1.0d0
+	- Added Drivers → Network → Realtek → Realtek8111 v2.1.0d1
+	- Added Customize → System Definitions → iMac → iMac 16,2
+	- Added Customize → System Definitions → iMac → iMac 17,1
+	
+Internal Changes:
+	- Updated Drivers → Misc → FakeSMC to RehabMan's Branch v6.18-313-g671f31c.1707 
+	- Updated Drivers → Misc → FakeSMC Plugins to RehabMan's Branch v6.18-313-g671f31c.1707
+	- Updated Drivers → Misc → FakeSMC HWMonitor to RehabMan's Branch v6.18-313-g671f31c.1707
+	
+	
+MultiBeast 8.0.1 Released 2015-11-20
+
+NOTE:	MultiBeast 8.0.1: El Capitan Edition is ONLY for OS X 10.11.x.
+
+Visible Changes:
+	- Added HD530 to Drivers → Audio → Realtek ALCxxx → Optional HD 3000/4000 HDMI
+	- Fixed Descriptions for Clover Legacy Boot Mode
+	
+Internal Changes:
+	- Fixed installation of all Customize → SSDT Options
+	- SSDT Options installed SSDT name now describes it's function
+
+MultiBeast 8.0.0 Released 2015-11-16
+
+NOTE:	MultiBeast 8.0.0: El Capitan Edition is ONLY for OS X 10.11.x.
+
+Visible Changes:
+	- Replaced EasyBeast, UserDSDT and DSDT Free in QuickStart Menu with UEFI Boot Mode and Legacy Boot Mode
+	- Replaced Drivers → Audio → Realtek ALCxxx with CloverALC patching technique by toleda
+	- Removed Drivers → Audio → Universal → VooDooHDA v2.8.4 and earlier versions
+	- Added Drivers → Audio → Universal → VooDooHDA v2.8.8
+	- Removed Drivers → Disk → IOAHCIBlockStorageInjector since Clover can provide this
+	- Removed Drivers → Disk → TRIM Enabler since it's no longer needed
+	- Removed Drivers → Graphics since Clover can provide this
+	- Removed Drivers → Misc → ElliottForceLegacyRTC, EvOreboot and NullCPUPowerManagement since Clover can provide these functions
+	- Removed Drivers → Misc → PS/2 Keyboard/Mice and Trackpads
+	- Removed Drivers → Misc → USB 3.0 - Universal
+	- Removed Drivers → Network → Atheros → ALXEthernet, AtherosL1cEthernet, Killer ALXEthernet and AtherosE2200Ethernet v1.0.0
+	- Removed Drivers → Network → Intel → AppleIntelE1000e v3.1.0a and earlier versions
+	- Removed Drivers → Network → Realtek → RealtekRTL81xx, RealtekRTL8111 v1.2.3 and AppleRTL8169Ethernet
+	- Removed Drivers → System since Clover can provide these patches
+	- Replace Bootloaders → Chimera with Clover v2.3k r3320 UEFI Boot Mode and Legacy Boot Mode
+	- Removed Customize → Boot Options as they are Chimera specific options
+	- Added Customize → Graphics Configuration → Intel HD 3000, Inject ATI and Inject NVIDIA
+	- Removed Customize → Themes as they are Chimera specific
+	- Added Customize → System Definitions → iMac → iMac 11,3
+	- Removed Customize → System Definitions → Mac mini → Mac mini 6,1
+	- Added Customize → System Definitions → MacBook Pro → MacBook Pro 6,2, 8,2, 8,3 9,1, 9,2 10,1 11,1 and 11,2
+	- Added Customize → System Definitions → MacBook Air → MacBook Air 5,2 and 6,2
+
+Internal Changes:
+	- Replaced Chimera with Clover
+	- Changed Drivers/Kext install location to /Library/Extensions
+	- Changed Customize → SSDT Options to install to /Volumes/EFI/EFI/CLOVER/ACPI/patched/
+	- Changed Customize → System Definitions to install SMBIOS information in /Volumes/EFI/EFI/CLOVER/config.plist
+
+MultiBeast 7.5.0 Released 2015-09-03
+
+NOTE:	MultiBeast 7.5.0: Yosemite Edition is ONLY for OS X 10.10.x.
+
+Visible Changes:
+	- Updated Drivers → Network → Atheros → AtherosE2200Ethernet v2.0.0 to v2.0.1
+	- Updated Drivers → Misc → FakeSMC and Plugins to kozlek's branch v6.18.1394
+
+Internal Changes:
+	- Replaced Drivers → Audio → Realtek ALCxxx → ALC283 with a new version that supports the Mic input
+
+NOTE:	Apple did not update AppleHDA in 10.10.5, so they have not been updated.
+
+MultiBeast 7.4.1 Released 2015-08-12
+
+NOTE:	MultiBeast 7.4.0: Yosemite Edition is ONLY for OS X 10.10.x.
+
+Internal Changes:
+	- Fixed install permissions for Drivers → Network → Realtek → RealtekRTL8111 v2.0.0
+
+MultiBeast 7.4.0 Released 2015-07-10
+
+NOTE:	MultiBeast 7.4.0: Yosemite Edition is ONLY for OS X 10.10.x.
+
+Visible Changes:
+	- Added Drivers → Network → Realtek → RealtekRTL8111 v2.0.0
+	- Added Drivers → Network → Intel → AppleIntelE1000e v3.2.4.2
+	- Added Drivers → Network → Atheros → AtherosE2200Ethernet v2.0.0
+	- Updated Drivers → Misc → FakeSMC and Plugins to kozlek's branch v6.16.1372
+
+Internal Changes:
+	- Updated AppleHDA to 10.10.4 versions
+
+MultiBeast 7.3.0 Released 2015-04-24
+
+NOTE:	MultiBeast 7.3.0: Yosemite Edition is ONLY for OS X 10.10.x.
+
+Visible Changes:
+	- Added Drivers → Audio → Universal → VoodooHDA v2.8.6
+	- Added Drivers → Audio → Universal → VoodooHDA v2.8.7
+	- Renamed Drivers → Disk → TRIM Enabler → 10.10.x TRIM Patch to 10.10.0 - 10.10.2 TRIM Patch
+	- Added Drivers → Disk → TRIM Enabler → 10.10.3 TRIM Patch
+	- Updated description for PS/2 Keyboard/Mice and Trackpads to note that is is mainly for laptops.
+
+Internal Changes:
+	- Updated Chimera to v4.1.0
+	- Updated AppleHDA to 10.10.3 versions
+	- Updated Drivers → Disk → Intel Generic AHCI SATA
+	- Added PS/2 Keyboard/Mice daemon
+	- Fixed install permissions for PS/2 Keyboard/Mice and Trackpads
+	- Fixed install permissions for all previous versions of VoodooHDA
+	- Fixed install permissions for Drivers → Misc → VoodooTSCSync → 8 Core
+
+
+MultiBeast 7.2.0 Released 2015-02-04
+
+NOTE:	MultiBeast 7.2.0: Yosemite Edition is ONLY for OS X 10.10.x.
+
+Visible Changes:
+	- Updated Drivers → Misc → FakeSMC and Plugins to kozlek's branch v6.14.1364
+	- Updated Drivers → Misc → PS/2 Keyboard/Mice and Trackpads to RehabMan v1.8.13
+	- Updated Drivers → Misc → USB 3.0 - Universal to RehabMan's Branch v1.2.8d9
+	- Updated Drivers → Network → Realtek → RealtekRTL8111 v1.2.2 to RealtekRTL8111 v1.2.3
+
+Internal Changes:
+	- Updated AppleIntelE1000e v3.1.0 to set NETIF_F_TSO to false
+	- Updated AppleHDA to 10.10.2 versions
+
+
+MultiBeast 7.1.1 Released 2014-11-26
+
+NOTE:	MultiBeast 7.1.1: Yosemite Edition is ONLY for OS X 10.10.x.
+
+Internal Changes:
+	- Fixed serial number generation for iMac14,1, iMac14,2, iMac15,1 and MacPro6,1
+
+
+MultiBeast 7.1.0 Released 2014-11-26
+
+NOTE:	MultiBeast 7.1.0: Yosemite Edition is ONLY for OS X 10.10.x.
+
+Visible Changes:
+	- Added Drivers → Audio → Realtek ALCxxx → ALC269
+	- Added Drivers → Audio → Realtek ALCxxx → ALC283
+	- Added Drivers → Audio → Realtek ALCxxx → Optional HDAEnabler → Audio ID: 1
+	- Added Drivers → Audio → Realtek ALCxxx → Optional HDAEnabler → Audio ID: 2
+	- Renamed Drivers → Disk → TRIM Enabler → 10.10.0 TRIM Patch to 10.10.x TRIM Patch
+	- Replaced Drivers → Network → Atheros → AtherosE2200Ethernet v1.0.0d7 with AtherosE2200Ethernet v1.0.0
+	- Added Customize → System Definitions → iMac → iMac 15,1
+
+Internal Changes:
+	- Updated AppleHDA to 10.10.1 versions
+	- Fixed serial number generation for iMac14,1, iMac14,2 and MacPro6,1
+
+
+MultiBeast 7.0.2 Released 2014-11-02
+
+NOTE:	MultiBeast 7.0.2: Yosemite Edition is ONLY for OS X 10.10.x.
+
+Internal Changes:
+	- Updated Chimera to v4.0.1
+
+
+MultiBeast 7.0.1 Released 2014-10-20
+
+NOTE:	MultiBeast 7.0.1: Yosemite Edition is ONLY for OS X 10.10.x.
+
+Visible Changes:
+	- Updated all Drivers → Network kexts descriptions to display the correct install location /System/Library/Extensions/
+
+Internal Changes:
+	- Updated GenericUSBXHCI.kext to v1.2.7 for Yosemite
+
+
+MultiBeast 7.0.0 Released 2014-10-16
+
+NOTE:	MultiBeast 7.0.0: Yosemite Edition is ONLY for OS X 10.10.x.
+
+Visible Changes:
+	- Removed Drivers → Audio → Realtek ALCxxx → Intel 9 Series Motherboard Support
+	- Renamed Drivers → Disk → TRIM Enabler → 10.9.0 - 10.9.3 TRIM Patch
+	- Removed Drivers → Disk → TRIM Enabler → 10.9.4 TRIM Patch
+	- Added Drivers → Disk → TRIM Enabler → 10.10.0 TRIM Patch
+	- Removed Drivers → Graphics → Intel 9 Series HD 4600 Graphics Fix
+	- Updated Drivers → Misc → FakeSMC and Plugins to kozlek's branch v6.11.1328
+	- Removed Drivers → System → AppleACPIPlatform Rollback → 10.6.8 Rollback for ASUS X58 System
+	- Removed Drivers → System → AppleACPIPlatform Rollback → 10.8.1 Rollback
+	- Added Drivers → System → AppleACPIPlatform Rollback → 10.9.5 Rollback
+	- Removed Bootloaders → Chimera 3.0
+	- Added Bootloaders → Chimera 4.0
+	- Added Customize → Boot Options → Kext Dev Mode
+
+Internal Changes:
+	- Updated AppleHDA to 10.10.0 versions
+	- Updated all Quick Start options to use Chimera 4.0
+	- Updated Themes → tonymacx86 Black and tonymacx86 White for Yosemite
+	- Removed Drivers → System → AppleRTC Patch for CMOS Reset from all Quick Start Options
+	- Added kext-dev-mode=1 to all Quick Start Options
+	- Changed install location for all networking kexts from /System/Library/Extensions/IONetworkingFamily.kext/Contents/PlugIns to /System/Library/Extensions/
+
+
+MultiBeast 6.5.0 Released 2014-09-22
+
+NOTE:	MultiBeast 6.5.0: Mavericks Edition is ONLY for OS X 10.9.x.
+
+Visible Changes:
+	- Added Drivers → Disk → Intel Generic AHCI SATA
+	- Renamed Drivers → Disk → TRIM Enabler → 10.9.4 TRIM Patch to 10.9.4+ TRIM Patch
+	- Added Drivers → Graphics → Intel 9 Series HD 4600 Graphics Fix
+	- Added Drivers → Network → Intel → AppleIGB v5.2.9.4
+	- Added Drivers → Network → Atheros → AtherosE2200Ethernet v1.0.0d7
+	- Updated Drivers → Network → Realtek → RealtekRTL8111 v1.2.0 to RealtekRTL8111 v1.2.2
+
+Internal Changes:
+	- Removed kernel=mach_kernel from Customize → Boot Options → Basic Boot Options.
+	- Updated AppleHDA to 10.9.5 versions
+
+
+MultiBeast 6.4.2 Released 2014-08-15
+
+NOTE:	MultiBeast 6.4.2: Mavericks Edition is ONLY for OS X 10.9.x.
+
+Internal Changes:
+	- Updated ALC887/888b Current, ALC892, ALC898 and ALC1150 for EAPD support.
+
+
+MultiBeast 6.4.1 Released 2014-08-06
+
+NOTE:	MultiBeast 6.4.1: Mavericks Edition is ONLY for OS X 10.9.x.
+
+Internal Changes:
+	- Fixed ALC887/888b Current, ALC892, ALC898 and ALC1150 no HD4600 HDMI audio.
+	- Fixed ALC1150 no green audio output on 9 Series motherboards.
+	- Fixed installation of Drivers → Misc → PS/2 Keyboard/Mice and Trackpads.
+
+
+MultiBeast 6.4.0 Released 2014-07-18
+
+NOTE:	MultiBeast 6.4.0: Mavericks Edition is ONLY for OS X 10.9.x.
+
+Visible Changes:
+	- Added Drivers → Network → Intel → AppleIntelE1000e v3.1.0
+	- Renamed Drivers → Disk → TRIM Enabler → 10.9.0 TRIM Patch to 10.9.0 - 10.9.3 TRIM Patch
+	- Added Drivers → Disk → TRIM Enabler → 10.9.4 TRIM Patch
+
+Internal Changes:
+	- Updated AppleHDA to 10.9.4 versions
+	- Updated FakeSMC and Plugins to kozlek's branch v6.9.1315
+
+
+MultiBeast 6.3.1 Released 2014-06-20
+
+NOTE:	MultiBeast 6.3.1: Mavericks Edition is ONLY for OS X 10.9.x.
+
+Visible Changes:
+	- Added Drivers → Audio → Realtek ALCxxx → Intel 9 Series Motherboard Support
+	- Fixed description for Drivers → Misc → PS/2 Keyboard/Mice and Trackpads
+
+Internal Changes:
+	- Replaced Killer ALXEthernet v1.0.2 with the correct version.
+	- Fixed installation of Drivers → Misc → PS/2 Keyboard/Mice and Trackpads
+	- Added to MultiBeast 6.3.0 Internal Changes that we replaced ApplePS2Controller in PS/2 Keyboard/Mice and Trackpads with Rehabman's Branch of VoodooPS2Controller
+
+
+MultiBeast 6.3.0 Released 2014-05-27
+
+NOTE:	MultiBeast 6.3.0: Mavericks Edition is ONLY for OS X 10.9.x.
+
+Visible Changes:
+	- Drivers → Audio → Realtek ALCxxx → With DSDT and Without DSDT merged into Drivers → Audio → Realtek ALCxxx
+	- Renamed Drivers → Audio → Realtek ALCxxx → Optional 3 Port Audio Enabler to Optional 3 Port (5.1) Audio
+	- Added Drivers → Audio → Realtek ALCxxx → Optional HD3000/HD4000 HDMI Audio
+	- Added Drivers → Audio → Realtek ALCxxx → Optional EFI Installed Bootloader Support
+	- Replaced Drivers → Network → Intel → AppleIntelE1000e v3.0.4 with v3.0.4.1a
+	- Added Drivers → Network → Realtek → RealtekRTL8111 v1.2.0
+	- Replaced all previous versions of Chimera with 3.0.1
+
+Internal Changes:
+	- Improved performance
+	- Build phase now checks for the presence of /Extra/org.chameleon.Boot.plist or the selection of "Basic Boot Options" for any option that edits that file.
+	- Updated FakeSMC and Plugins to kozlek's branch v6.8.1307
+	- Replaced ApplePS2Controller in PS/2 Keyboard/Mice and Trackpads with Rehabman's Branch of VoodooPS2Controller
+	- Updated VoodooPS2Controller to Rehabman's Branch
+	- Updated AppleHDA to 10.9.3 versions
+	- Drivers → Audio → Realtek ALCxxx patched AppleHDA’s are now dependent on the Chameleon/Chimera module HDAEnabler.dylib or a DSDT or SSDT with a layout-id=1, 2 or 3.
+	- Build phase checks for /Extra/modules/HDAEnabler.dylib, DSDT, SSDT or Chimera 3.0.1 selected when installing any AppleHDA unless "Optional EFI Installed Bootloader Support" is selected.
+	- AppleHDA installation will delete any HDAEnabler if found, and adds HDAEnabler=Yes and default HDEFLayoutID=01000000 to Boot.plist unless "Optional EFI Installed Bootloader Support" is selected.
+
+
+MultiBeast 6.2.2 Released 2014-05-16
+
+NOTE:	MultiBeast 6.2.0: Mavericks Edition is ONLY for OS X 10.9.x.
+
+Internal Changes:
+	- Replaced AppleHDA.kext ALC887/888b Current v100302 with a fixed version.
+	- Replaced AppleHDA.kext ALC892 with a fixed version.
+	- Replaced AppleHDA.kext ALC892 with a fixed version.
+
+MultiBeast 6.2.1 Released 2014-03-05
+
+NOTE:	MultiBeast 6.2.0: Mavericks Edition is ONLY for OS X 10.9.x.
+
+Internal Changes:
+	- Replaced AppleHDA.kext ALC887/888b Current v100302 with the correct version.
+
+MultiBeast 6.2.0 Released 2014-03-05
+
+NOTE:	MultiBeast 6.2.0: Mavericks Edition is ONLY for OS X 10.9.x.
+
+Visible Changes:
+	- Added Drivers → Misc → VoodooTSCSync → 4 Core
+	- Moved Drivers → Network → Atheros - Shailua's ALXEthernet v1.0.2 to Drivers → Network → Atheros → ALXEthernet v1.0.2
+	- Added Drivers → Network → Atheros → AtherosL1cEthernet v1.2.3
+	- Added Drivers → Network → Atheros → Killer ALXEthernet v1.0.2
+	- Moved Drivers → Network → Intel - hnak's AppleIntelE1000e v2.4.14 to Drivers → Network → Intel → AppleIntelE1000e v2.4.14
+	- Added Drivers → Network → Intel → AppleIntelE1000e v2.5.4d
+	- Added Drivers → Network → Intel → AppleIntelE1000e v3.0.4
+	- Moved Drivers → Network → Realtek - Lnx2Mac's RealtekRTL81xx v0.0.90 to Drivers → Network → Realtek → RealtekRTL81xx v0.0.90
+	- Restored Drivers → Network → Realtek – AppleRTL8169Ethernet 2.0.6 as Drivers → Network → Realtek –> AppleRTL8169Ethernet v2.0.6
+	- Added Customize → System Definitions → Mac Pro → Mac Pro 6,1
+
+Internal Changes:
+	- Updated AppleHDA.kext to 10.9.2 versions
+	- Updated FakeSMC and Plugins to kozlek's branch v6.0.1123
+	- Updated FakeSMC installer to delete any possible old versions and plugins.
+	- Updated FakeSMC Plugins installer to delete any possible old versions.
+	- Fixed saved config choice name being renamed or moved.
+	- Added additional notification when a choice version in a saved config has been upgraded within MultiBeast.
+	- Added support for future MultiBeast changes when loading saved configs.
+
+MultiBeast 6.1.0 Released 2014-01-05
+
+NOTE:	MultiBeast 6.1.0: Mavericks Edition is ONLY for OS X 10.9.x.
+
+Visible Changes:
+	- Updated Drivers → Disk → TRIM Enabler → 10.9.0 TRIM Patch to 10.9.x TRIM Patch
+	- Added Drivers → Misc → VoodooTSCSync → 6 Core
+	- Added Drivers → Misc → VoodooTSCSync → 8 Core
+	- Renamed Drivers → Misc → USB 3.0 - Universal by Zenith432 to USB 3.0 - Universal
+	- Removed Drivers → Network → Realtek – AppleRTL8169Ethernet
+	- Updated Help PDF to v6.1
+	- Updated Credits in About MultiBeast
+
+Internal Changes:
+	- Updated AppleHDA.kext to 10.9.1 versions
+	- Fixed a bug with loading a config that had no current valid selections
+
+MultiBeast 6.0.1 Released 2013-11-10
+
+NOTE:	MultiBeast 6.0.0: Mavericks Edition is ONLY for OS X 10.9.x.
+
+Visible Changes:
+	- Downgraded AppleIntelE1000e to v2.4.14
+	- Updated Install Screen progress bar to initiate with a tiny sliver animating progress to visually verify it is still working
+
+Internal Changes:
+	- Updated Drivers → Misc → USB 3.0 - Universal by Zenith432's to v1.2.7
+	- Fixed install issue with Patched AppleIntelCPUPowerManagement not deleting NullCPUPowerManagement.kext
+	- Fixed issue with saving a Quick Start config with changed default Quick Start choices
+	- Application is signed with an Apple Developer ID
+
+Known Issues:
+	- When using the UserDSDT Quick Start option, you cannot use /Extra/DSDT.aml on the destination volume as the DSDT file. If you do MultiBeast will fail to build correctly. This will be fixed in a future release.
+
+
+MultiBeast 6.0.0 Released 2013-10-22
+
+NOTE:	MultiBeast 6.0.0: Mavericks Edition is ONLY for OS X 10.9.x.
+
+Visible Changes:
+	- MultiBeast is now a Cocoa application with new workflow and usage
+	- Changed default Boot.plist to GraphicsEnabler=No and added IGPEnabler=Yes for EasyBeast, User DSDT and DSDT Free
+	- Changed Customize → Boot Options → GraphicsEnabler=No to GraphicsEnabler=Yes to reflect new default
+	- Added Customize → Boot Options → IGPEnabler=No
+	- Added Customize → Boot Options → DropSSDT=Yes
+	- Added Customize → System Definitions → iMac → iMac 14,1
+	- Added Customize → System Definitions → iMac → iMac 14,2
+	- Renamed Drivers → Audio → Realtek ALC8xx to ALCxxx
+	- Added Drivers → Audio → Realtek ALCxxx → With DSDT → ALC1150
+	- Added Drivers → Audio → Realtek ALCxxx → Without DSDT → ALC1150
+	- Added Drivers → Disk → TRIM Enabler → 10.9.0 TRIM Patch
+	- Changed Drivers → Network → Realtek - Lnx2Mac's RealtekRTL81xx v0.0.90 to install release version by default
+	- Removed all Mountain Lion specific kexts and patches
+
+Internal Changes:
+	- Added automatic serial number generation for any smbios.plist installed
+	- Updated AppleHDA.kext to 10.9.0 versions
+	- Updated GenericUSBXHCI.kext to v1.2.6

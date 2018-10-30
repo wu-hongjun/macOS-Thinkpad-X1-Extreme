@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Name</key>
+        <array>
+            <string>Disk</string>
+            <string>Collection of kexts that provide enhanced hardware support for optical and disk drives.</string>
+        </array>
+        <key>Children</key>
+        <array>
+            <array>
+                <string>3rd Party SATA</string>
+                <string>Provides support for the ASMedia ASM1061, JMicron 36x (aka GSATA) and Marvell 88SE912x, 88SE9172 and 88SE9230 SATA controllers. All drives connected to these ports show on the desktop as Internal and can NOT be hot swapped. Installs AHCI_3rdParty_SATA.kext in /Library/Extensions.</string>
+                <string>AHCI_3rdParty_SATA-v0.6.pkg</string>
+            </array>
+            <array>
+                <string>3rd Party eSATA</string>
+                <string>Provides support for the ASMedia ASM1061, JMicron 36x (aka GSATA) and Marvell 88SE912x, 88SE9172 and 88SE9230 SATA controllers. All drives connected to these ports show on the desktop as External and can be hot swapped. Installs AHCI_3rdParty_eSATA.kext in /Library/Extensions.</string>
+                <string>AHCI_3rdParty_eSATA-v0.5.pkg</string>
+            </array>
+            <array>
+                <string>Intel Generic AHCI SATA</string>
+                <string>Changes display of Generic AHCI Controller in System Profiler for the Intel 200 Series, X79, X99 and some Intel 9 Series SATA controllers to the actual chipset name. All drives connected to these ports show on the desktop as Internal. Installs AHCI_Intel_Generic_SATA.kext in /Library/Extensions.</string>
+                <string>AHCI_Intel_Generic_SATA-v0.4.pkg</string>
+            </array>
+        </array>
+    </dict>
+</plist>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Name</key>
+        <array>
+            <string>Network</string>
+            <string>Collection of kexts to fully enable specific Ethernet controllers.</string>
+        </array>
+        <key>Children</key>
+        <array>
+            <dict>
+                <key>Name</key>
+                <array>
+                    <string>Atheros</string>
+                    <string></string>
+                </array>
+                <key>Children</key>
+                <array>
+                    <array>
+                        <string>AtherosE2200Ethernet v2.0.1</string>
+                        <string>Mieze’s driver based on Johannes Berg’s alx driver and RealtekRTL811 for the Killer E2200 controller. Installs AtherosE2200Ethernet in /Library/Extensions.</string>
+                        <string>AtherosE2200Ethernet-v2.0.1.pkg</string>
+                    </array>
+                    <array>
+                        <string>AtherosE2200Ethernet v2.1.0</string>
+                        <string>Mieze’s driver based on Johannes Berg’s alx driver and RealtekRTL811 for the Killer E2200 controller. Installs AtherosE2200Ethernet in /Library/Extensions.</string>
+                        <string>AtherosE2200Ethernet-v2.1.0.pkg</string>
+                    </array>
+                    <array>
+                        <string>AtherosE2200Ethernet v2.2.2</string>
+                        <string>Mieze’s driver based on Johannes Berg’s alx driver and RealtekRTL811 for the Killer E2200 controller. Installs AtherosE2200Ethernet in /Library/Extensions.</string>
+                        <string>AtherosE2200Ethernet-v2.2.2.pkg</string>
+                    </array>
+                </array>
+            </dict>
+            <dict>
+                <key>Name</key>
+                <array>
+                    <string>Intel</string>
+                    <string></string>
+                </array>
+                <key>Children</key>
+                <array>
+                    <array>
+                        <string>AppleIntelE1000e v3.2.4.2</string>
+                        <string>Enables Intel 825xx ethernet controllers. hnak's port of the e1000.sourceforge.net Intel Wired Ethernet for Linux driver. Installs AppleIntelE1000e.kext in /Library/Extensions.</string>
+                        <string>AppleIntelE1000e-v3.2.4.2.pkg</string>
+                    </array>
+                    <array>
+                        <string>AppleIntelE1000e v3.3.6</string>
+                        <string>Enables Intel 825xx ethernet controllers. hnak's port of the e1000.sourceforge.net Intel Wired Ethernet for Linux driver. Installs AppleIntelE1000e.kext in /Library/Extensions.</string>
+                        <string>AppleIntelE1000e-v3.3.6.pkg</string>
+                    </array>
+                    <array>
+                        <string>AppleIGB v5.2.9.4</string>
+                        <string>Enables Intel 82575, 82576, 82580, dh89xxcc, i350, i210 and i211 ethernet controllers. hnak's port of the Intel igb ethernet driver for Linux. Installs AppleIGB.kext in /Library/Extensions.</string>
+                        <string>AppleIGB-v5.2.9.4.pkg</string>
+                    </array>
+                    <array>
+                        <string>AppleIGB v5.3.5.3</string>
+                        <string>Enables Intel 82575, 82576, 82580, dh89xxcc, i350, i210 and i211 ethernet controllers. hnak's port of the Intel igb ethernet driver for Linux. Installs AppleIGB.kext in /Library/Extensions.</string>
+                        <string>AppleIGB-v5.3.5.3.pkg</string>
+                    </array>
+                    <array>
+                        <string>IntelMausiEthernet v2.1.0</string>
+                        <string>Mieze's OS X driver for Intel onboard LAN based on Linux source. Installs IntelMausiEthernet.kext in /Library/Extensions.</string>
+                        <string>IntelMausiEthernet-v2.1.0.pkg</string>
+                    </array>
+                    <array>
+                        <string>IntelMausiEthernet v2.2.0</string>
+                        <string>Mieze's OS X driver for Intel onboard LAN based on Linux source. Installs IntelMausiEthernet.kext in /Library/Extensions.</string>
+                        <string>IntelMausiEthernet-v2.2.0.pkg</string>
+                    </array>
+                    <array>
+                        <string>IntelMausiEthernet v2.3.0</string>
+                        <string>RehabMan’s branch of Mieze's OS X driver for Intel onboard LAN based on Linux source. Adds new device IDs for new 200 Series Ethernet controllers. Installs IntelMausiEthernet.kext in /Library/Extensions.</string>
+                        <string>IntelMausiEthernet-v2.3.0.pkg</string>
+                    </array>
+                    <array>
+                        <string>IntelMausiEthernet v2.4.0</string>
+                        <string>Mieze's OS X driver for Intel onboard LAN based on Linux source. Adds support for Coffee Lake systems. Installs IntelMausiEthernet.kext in /Library/Extensions.</string>
+                        <string>IntelMausiEthernet-v2.4.0.pkg</string>
+                    </array>
+                </array>
+            </dict>
+            <dict>
+                <key>Name</key>
+                <array>
+                    <string>Realtek</string>
+                    <string></string>
+                </array>
+                <key>Children</key>
+                <array>
+                    <array>
+                        <string>RealtekRTL8111 v2.0.0</string>
+                        <string>Mieze's port of the Realtek Linux v8.037.00 driver. Installs RealtekRTL8111.kext in /Library/Extensions.</string>
+                        <string>RealtekRTL8111-v2.0.0.pkg</string>
+                    </array>
+                    <array>
+                        <string>RealtekRTL8111 v2.1.0d1</string>
+                        <string>Mieze's port of the Realtek Linux v8.037.00 driver. Installs RealtekRTL8111.kext in /Library/Extensions.</string>
+                        <string>RealtekRTL8111-v2.1.0d1.pkg</string>
+                    </array>
+                    <array>
+                        <string>RealtekRTL8111 v2.2.2</string>
+                        <string>Mieze's port of the Realtek Linux v8.041.00 driver. Installs RealtekRTL8111.kext in /Library/Extensions.</string>
+                        <string>RealtekRTL8111-v2.2.2.pkg</string>
+                    </array>
+                </array>
+            </dict>
+        </array>
+    </dict>
+</plist>
