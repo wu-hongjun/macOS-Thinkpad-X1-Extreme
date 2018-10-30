@@ -1,0 +1,50 @@
+
+Clover EFI installer log - Mon Oct 29 19:14:00 PDT 2018
+Installer version: v2.4k r4630 EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         1.0 TB     disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk2         1.0 TB     disk0s2
+
+/dev/disk1 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         1.0 TB     disk1
+   1:                        EFI SYSTEM                  272.6 MB   disk1s1
+   2:         Microsoft Reserved                         16.8 MB    disk1s2
+   3:       Microsoft Basic Data Windows                 1.0 TB     disk1s3
+   4:           Windows Recovery                         1.0 GB     disk1s4
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +1.0 TB     disk2
+                                 Physical Store disk0s2
+   1:                APFS Volume Macintosh               70.8 GB    disk2s1
+   2:                APFS Volume Preboot                 44.8 MB    disk2s2
+   3:                APFS Volume Recovery                512.4 MB   disk2s3
+   4:                APFS Volume VM                      1.1 GB     disk2s4
+
+/dev/disk4 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *128.0 GB   disk4
+   1:       Microsoft Basic Data NexRepo                 128.0 GB   disk4s1
+
+Target volume /Volumes/Macintosh on disk2 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/'
+
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
