@@ -17,7 +17,7 @@
 * If you cannot mount EFI via the recommended [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/), then here is a *[Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Aero-15W/blob/master/Mount%20EFI%20on%20macOS.MD).*
 
 
-## Specs
+## Specifications
 * Model: Thinkpad X1 Extreme 20MF000DUS
 * BIOS: LENOVO N2EET30W(1.12)
 * SMBIOS: Apple Macbook Pro 15,1
