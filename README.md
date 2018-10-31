@@ -2,7 +2,6 @@
 ### *Current Clover Version of the Project: 4772*
 ### *Current macOS Version of the Project: 10.14.0*
 #### Don't forget to star this project if you like it!
-#### *FORK* the project to your own repository and clone it to your machine to make changes.
 
 ## Update
 * [20181030] Might need to return this laptop back to Lenovo and get a new one. Mine trackpad isn't behaving well.
@@ -12,6 +11,7 @@
 * [20181027] Officially starting this project because I bought a Thinkpad X1E.
 
 ## Introduction
+* *FORK* the project to your own repository and clone it to your machine using Github Desktop to make changes.
 * If you want to download the EFI files to try your luck, you can check out the [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases).
 * Or, if you are interested in the theme I used, check it out over here: [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism).
 
@@ -20,7 +20,7 @@
 
 
 ## Specs
-* Model: 20MF000DUS
+* Model: Thinkpad X1 Extreme 20MF000DUS
 * BIOS: LENOVO N2EET30W(1.12)
 * SMBIOS: Apple Macbook Pro 15,1
 * CPU: Intel Core i7-8850H vPro 6C12T @2.6GHz
@@ -38,7 +38,7 @@
 * ~~Audio: Realtek ALC285(AppleALC.kext)~~(TEMP: VoodooHDA.kext)
 * Microphone: Integrated Long Range Microphone Array
 * ~~Backlight Control: AppleIntelBacklight~~
-* Pen & Touch: WACOM Touch Screen & Pen Panel (Pen not tested)
+* Pen & Touch: WACOM Multi-Touch & Pen (Pen not tested)
 * Pointing Devices: Synaptics Trackpoint and Trackpad(VoodooPS2Controller.kext)
 * ~~Finger Print Reader: Synaptics Fingerprint Reader~~
 * USB: AppleIntelXHCIController USB3.1 Bus(USBInjectAll.kext)
