@@ -1,4 +1,4 @@
-# Hackintosh Configuration for Thinkpad X1 Extreme
+# Hackintosh Configuration for Thinkpad X1 Extreme [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 ### *Current Clover Version of the Project: 4772*
 ### *Current macOS Version of the Project: 10.14.0*
 #### Don't forget to star this project if you like it!
@@ -15,9 +15,6 @@
 * If you want to download the EFI files to try your luck, you can check out the [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases).
 * Or, if you are interested in the theme I used, check it out over here: [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism).
 
-## Developer
-* [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
-
 ## Announcements 
 * If you cannot mount EFI via [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/), then here is a *[Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Aero-15W/blob/master/Mount%20EFI%20on%20macOS.MD).*
 
@@ -25,19 +22,20 @@
 ## Specs
 * Model: 20MF000DUS
 * BIOS: LENOVO N2EET30W(1.12)
-* SMBIOS: Macbook Pro 15,1
+* SMBIOS: Apple Macbook Pro 15,1
 * CPU: Intel Core i7-8850H vPro 6C12T @2.6GHz
-* ~~GPU: Intel UHD Graphics 630 + NVIDIA GTX 1050TI MAX-Q (Disabled)~~
+* ~~iGPU: Intel UHD Graphics 630(Lilu.kext / WhateverGreen.kext)~~
+* ~~dGPU: NVIDIA GTX 1050TI MAX-Q (Disabled / DDGPU.SSDT)~~
 * Wifi: BCM943602BAED DW1830 802.11AC
 * RAM: 32GB DDR4 2666MHZ Dual-Channel SODIMM
 * Screen: Lenovo 15' 3840x2160 FlexView Display
 * SSD1: Samsung PM981 MZVLB1T0HALR-000L7 1024GB (Windows)
 * SSD2: Toshiba XG3 THNSN51T02DU7 1024GB (macOS)
 * ~~SDXC: Samsung EVO select 128GB microSDXC~~
-* Ethernet: Intel Mausi Ethernet Controller (I219-LM)
-* ~~BlueTooth: DW1830 BRCMBT4.1~~
+* Ethernet: Intel I219-LM Ethernet(IntelMausiEthernetController.kext)
+* ~~BlueTooth: DW1830 BRCMBT4.1(BrcmFixup.kext)~~
 * WebCamera: Integrated Camera & Integrated IR Camera
-* ~~Audio: Realtek ALC285(VoodooHDA.kext)~~
+* ~~Audio: Realtek ALC285(AppleALC.kext)~~(TEMP: VoodooHDA.kext)
 * Microphone: Integrated Long Range Microphone Array
 * ~~Backlight Control: AppleIntelBacklight~~
 * Pen & Touch: WACOM Touch Screen & Pen Panel (Pen not tested)
