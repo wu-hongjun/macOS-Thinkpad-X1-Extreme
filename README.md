@@ -8,7 +8,7 @@
 * [20181029] Uploaded INSTALL4.0 and BOOT3.0 post installations. iGPU weird with injected io-reg and fakeid on intelGFX.
 * [20181028] Clover have UEFI64Driver support FileVault2. Still, make sure you get everything else working first.
 * [20181027] ~~DO NOT USE FILEVAULT!!! 100% DISK BREAK AFTER REBOOT GUARANTEED.~~ 
-* [20181027] Officially starting this project because I bought a Thinkpad X1E.
+* [20181027] Project Started. Initial INSTALL1.0 posted.
 
 ## Introduction
 * *FORK* the project to your own repository and clone it to your machine using Github Desktop to make changes.
