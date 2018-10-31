@@ -1,6 +1,6 @@
 # Hackintosh for Thinkpad X1 Extreme [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
-### *Current Clover Version of the Project: 4772*
-### *Current macOS Version of the Project: 10.14.0*
+### *Current Clover Version: 4772*
+### *Current macOS Version: 10.14.0*
 #### Don't forget to star this project if you like it!
 
 ## Update
