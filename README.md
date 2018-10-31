@@ -5,11 +5,11 @@
 #### *FORK* the project to your own repository and clone it to your machine to make changes.
 
 ## Update
-* [20181030] Might need to return this laptop back to Lenovo and get a new one. Mine showed some flaws.
+* [20181030] Might need to return this laptop back to Lenovo and get a new one. Mine trackpad isn't behaving well.
 * [20181030] Uploaded INSTALL4.0 and some BOOT post installations. iGPU weird with injected ioreg and fakeid on intelGFX.
-* [20181028] Clover seemed to have DriverUEFI64 support FileVault2. I still don't recommended it, especially DURING INSTALL.
+* [20181028] Clover have UEFI64Driver support FileVault2. Still, make sure you get everything else working first.
 * [20181027] ~~DO NOT USE FILEVAULT!!! 100% DISK BREAK AFTER REBOOT GUARANTEED.~~ 
-* [20181027] Officially starting this project because I bought a Thinkpad X1E. Thank you for support!
+* [20181027] Officially starting this project because I bought a Thinkpad X1E.
 
 ## Introduction
 * If you want to download the EFI files to try your luck, you can check out the [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases).
