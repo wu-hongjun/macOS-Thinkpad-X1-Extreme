@@ -43,6 +43,6 @@
 * ~~Finger Print Reader: Synaptics Fingerprint Reader~~
 * USB: AppleIntelXHCIController USB3.1 Bus(USBInjectAll.kext)
 
-### Best, Errrneist.
+### Cheers, Errrneist.
 
 
