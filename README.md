@@ -5,7 +5,10 @@
 #### *FORK* the project to your own repository and clone it to your machine to make changes.
 
 ## Update
-* [20181027] DO NOT USE FILEVAULT DURING INSTALLATION!!! 100% DISK BREAK AFTER REBOOT GUARANTEED.
+* [20181030] Might need to return this laptop back to Lenovo and get a new one. Mine showed some flaws.
+* [20181030] Uploaded INSTALL4.0 and some BOOT post installations. iGPU weird with injected ioreg and fakeid on intelGFX.
+* [20181028] Clover seemed to have DriverUEFI64 support FileVault2. I still don't recommended it, especially DURING INSTALL.
+* [20181027] ~~DO NOT USE FILEVAULT!!! 100% DISK BREAK AFTER REBOOT GUARANTEED.~~ 
 * [20181027] Officially starting this project because I bought a Thinkpad X1E. Thank you for support!
 
 ## Introduction
