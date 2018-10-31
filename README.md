@@ -4,8 +4,8 @@
 #### Don't forget to star this project if you like it!
 
 ## Update
-* [20181030] Might need to return this laptop back to Lenovo and get a new one. Mine trackpad isn't behaving well.
-* [20181030] Uploaded INSTALL4.0 and BOOT post installations. iGPU weird with injected ioreg and fakeid on intelGFX.
+* [20181030] Uploaded BOOT4.0 which installed most KEXT into S/L/E. See "./KernalExtentions/".
+* [20181029] Uploaded INSTALL4.0 and BOOT3.0 post installations. iGPU weird with injected io-reg and fakeid on intelGFX.
 * [20181028] Clover have UEFI64Driver support FileVault2. Still, make sure you get everything else working first.
 * [20181027] ~~DO NOT USE FILEVAULT!!! 100% DISK BREAK AFTER REBOOT GUARANTEED.~~ 
 * [20181027] Officially starting this project because I bought a Thinkpad X1E.
