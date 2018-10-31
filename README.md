@@ -1,12 +1,12 @@
-# Hackintosh Configuration for Gigabyte Aero 15W
-### *Current Clover Version of the Project: 4558*
+# Hackintosh Configuration for Thinkpad X1 Extreme
+### *Current Clover Version of the Project: 4772*
 ### *Current macOS Version of the Project: 10.14.0*
 #### Don't forget to star this project if you like it!
 #### *FORK* the project to your own repository and clone it to your machine to make changes.
 
 ## Update
 * [20181030] Might need to return this laptop back to Lenovo and get a new one. Mine trackpad isn't behaving well.
-* [20181030] Uploaded INSTALL4.0 and some BOOT post installations. iGPU weird with injected ioreg and fakeid on intelGFX.
+* [20181030] Uploaded INSTALL4.0 and BOOT post installations. iGPU weird with injected ioreg and fakeid on intelGFX.
 * [20181028] Clover have UEFI64Driver support FileVault2. Still, make sure you get everything else working first.
 * [20181027] ~~DO NOT USE FILEVAULT!!! 100% DISK BREAK AFTER REBOOT GUARANTEED.~~ 
 * [20181027] Officially starting this project because I bought a Thinkpad X1E.
@@ -23,21 +23,27 @@
 
 
 ## Specs
+* Model: 20MF000DUS
+* BIOS: LENOVO N2EET30W(1.12)
+* SMBIOS: Macbook Pro 15,1
 * CPU: Intel Core i7-8850H vPro 6C12T @2.6GHz
-* GPU: UHD 630 + NVIDIA GTX 1050TI MAX-Q (Disabled)
-* Wifi: BCM943602BAED
-* RAM: 32GB DDR4 2666MHZ DC SODIMM
-* Screen: 15' UHD 
-* SSD1: Samsung PM981 1TB (Windows)
-* SSD2: Toshiba NVMe SSD XG3 1TB (macOS)
-* Ethernet: Intel Mausi Ethernet Controller
-* BlueTooth: -
-* WebCamera: -
-* Audio: -
-* Microphone: -
-* ~~AppleALC: -~~
-* Backlight Control: -
-* Airdrop: -
+* ~~GPU: Intel UHD Graphics 630 + NVIDIA GTX 1050TI MAX-Q (Disabled)~~
+* Wifi: BCM943602BAED DW1830 802.11AC
+* RAM: 32GB DDR4 2666MHZ Dual-Channel SODIMM
+* Screen: Lenovo 15' 3840x2160 FlexView Display
+* SSD1: Samsung PM981 MZVLB1T0HALR-000L7 1024GB (Windows)
+* SSD2: Toshiba XG3 THNSN51T02DU7 1024GB (macOS)
+* ~~SDXC: Samsung EVO select 128GB microSDXC~~
+* Ethernet: Intel Mausi Ethernet Controller (I219-LM)
+* ~~BlueTooth: DW1830 BRCMBT4.1~~
+* WebCamera: Integrated Camera & Integrated IR Camera
+* ~~Audio: Realtek ALC285(VoodooHDA.kext)~~
+* Microphone: Integrated Long Range Microphone Array
+* ~~Backlight Control: AppleIntelBacklight~~
+* Pen & Touch: WACOM Touch Screen & Pen Panel (Pen not tested)
+* Pointing Devices: Synaptics Trackpoint and Trackpad(VoodooPS2Controller.kext)
+* ~~Finger Print Reader: Synaptics Fingerprint Reader~~
+* USB: AppleIntelXHCIController USB3.1 Bus(USBInjectAll.kext)
 
 ### Best, Errrneist.
 
