@@ -189,7 +189,7 @@
 		<key>FakeID</key>
 		<dict>
 			<key>IntelGFX</key>
-			<string>0x3E968086</string>
+			<string>0x3E9B8086</string>
 			<key>XHCI</key>
 			<string>0x</string>
 		</dict>
@@ -252,7 +252,7 @@
 			<false/>
 		</dict>
 		<key>ig-platform-id</key>
-		<string>0x3E9B0000</string>
+		<string>0x3E9B8086</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
