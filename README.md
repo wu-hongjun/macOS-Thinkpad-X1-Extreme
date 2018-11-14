@@ -4,6 +4,8 @@
 #### Don't forget to star this project if you like it!
 
 ## Update
+* [20181113] Got an eGPU but TB3 not enabled for macOS in 10.13. My laptop showed defects and I have to send it back to Lenovo.
+* [20181112] Still stuck at getting iGPU working. Tried to downgrade to 10.13.
 * [20181030] Uploaded BOOT4.0 which installed most KEXT into S/L/E. See "./KernalExtentions/".
 * [20181029] Uploaded INSTALL4.0 and BOOT3.0 post installations. iGPU weird with injected io-reg and fakeid on intelGFX.
 * [20181028] Clover have UEFI64Driver support FileVault2. Still, make sure you get everything else working first.
