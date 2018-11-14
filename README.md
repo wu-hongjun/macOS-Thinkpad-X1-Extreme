@@ -26,7 +26,8 @@
 * SMBIOS: Apple Macbook Pro 15,1
 * CPU: Intel Core i7-8850H vPro 6C12T @2.6GHz
 * ~~iGPU: Intel UHD Graphics 630(Lilu.kext / WhateverGreen.kext)~~
-* ~~dGPU: NVIDIA GTX 1050TI MAX-Q (Disabled / DDGPU.SSDT)~~
+* ~~dGPU: NVIDIA GTX 1050TI MAX-Q 4GB GDDR5(Disabled / DDGPU.SSDT)~~
+* ~~eGPU: AORUS Gaming Box GeForce GTX 1080 8GB GDDR5X~~
 * Wifi: BCM943602BAED DW1830 802.11AC
 * RAM: 32GB DDR4 2666MHZ Dual-Channel SODIMM
 * Screen: Lenovo 15' 3840x2160 FlexView Display
