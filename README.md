@@ -9,7 +9,7 @@
 * [20181112] Got an eGPU but TB3 not enabled for macOS in 10.13. 
 * [20181111] Still stuck at getting iGPU working. Tried to downgrade to 10.13.
 * [20181030] Uploaded BOOT4.0 which installed most KEXT into S/L/E. See "./KernalExtentions/".
-* [20181029] Uploaded INSTALL4.0 and BOOT3.0 post installations. iGPU weird with injected io-reg and fakeid on intelGFX.
+* [20181029] Uploaded INSTALL4.0 installations. iGPU weird with injected io-reg and fakeid on intelGFX.
 * [20181028] Clover have UEFI64Driver support FileVault2. Still, make sure you get everything else working first.
 * [20181027] ~~DO NOT USE FILEVAULT!!! 100% DISK BREAK AFTER REBOOT GUARANTEED.~~ 
 * [20181027] Project Started. Initial INSTALL1.0 posted.
