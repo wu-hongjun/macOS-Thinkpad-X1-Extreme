@@ -24,7 +24,7 @@
 ## Specifications
 * Model: Thinkpad X1 Extreme 20MF000DUS
 * BIOS: LENOVO N2EET30W(1.12)
-* SMBIOS: Apple Macbook Pro 15,1
+* SMBIOS: Apple Macbook Pro 15,2
 * CPU: Intel Core i7-8850H vPro 6C12T @2.6GHz
 * iGPU: Intel UHD Graphics 630
 * ~~dGPU: NVIDIA GTX 1050TI MAX-Q 4GB GDDR5(Disabled / DDGPU.SSDT)~~
