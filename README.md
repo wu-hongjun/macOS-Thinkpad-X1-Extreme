@@ -11,7 +11,7 @@
 * [20181030] Uploaded BOOT4.0 which installed most KEXT into S/L/E. See "./KernalExtentions/".
 * [20181029] Uploaded INSTALL4.0 installations. iGPU weird with injected io-reg and fakeid on intelGFX.
 * [20181028] Clover have UEFI64Driver support FileVault2. Still, make sure you get everything else working first.
-* [20181027] ~~DO NOT USE FILEVAULT!!! 100% DISK BREAK AFTER REBOOT GUARANTEED.~~ 
+* [20181027] DO NOT USE FILEVAULT!!! 100% DISK BREAK AFTER REBOOT GUARANTEED.
 * [20181027] Project Started. Initial INSTALL1.0 posted.
 
 ## Introduction
