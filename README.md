@@ -4,6 +4,7 @@
 #### Don't forget to star this project if you like it!
 
 ## Update
+* [20181118] Modified and released version 5.0 based on [zysuper's work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI).
 * [20181113] My laptop showed defects and I have to send it back to Lenovo to replace a new one...ugggh.
 * [20181112] Got an eGPU but TB3 not enabled for macOS in 10.13. 
 * [20181111] Still stuck at getting iGPU working. Tried to downgrade to 10.13.
