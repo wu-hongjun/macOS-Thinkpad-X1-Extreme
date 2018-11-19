@@ -27,7 +27,7 @@
 * BIOS: LENOVO N2EET30W(1.12)
 * SMBIOS: Apple Macbook Pro 15,2
 * CPU: Intel Core i7-8850H vPro 6C12T @2.6GHz
-* iGPU: Intel UHD Graphics 630
+* iGPU: Intel UHD Graphics 630 1536MB
 * ~~dGPU: NVIDIA GTX 1050TI MAX-Q 4GB GDDR5(Disabled / DDGPU.SSDT)~~
 * ~~eGPU: Thunderbolt 3: AORUS Gaming Box GeForce GTX 1080~~
 * Wifi: BCM943602BAED DW1830 802.11AC
