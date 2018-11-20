@@ -20,6 +20,7 @@
 * If you want to download the EFI files to try your luck, you can check out the [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases).
 * Or, if you are interested in the theme I used, check it out over here: [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism).
 * If you cannot mount EFI via the recommended [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/), then here is a *[Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Aero-15W/blob/master/Mount%20EFI%20on%20macOS.MD).*
+* Also, here are the [issues and discussions](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues).
 
 
 ## Specifications
