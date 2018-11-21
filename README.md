@@ -38,7 +38,7 @@
 * **SSD2: Toshiba XG3 THNSN51T02DU7 1024GB (macOS)**
 * SDXC: Samsung EVO select 128GB microSDXC
 * Ethernet: Intel I219-LM Ethernet(IntelMausiEthernetController.kext)
-* ~~BlueTooth: DW1830 BRCMBT4.1(Due to M.2. connector lack USB channel)~~
+* ~~BlueTooth: DW1830 BRCMBT4.1(Due to M.2. connector lack USB channel)~~ [Bluetooth Discussions](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3)
 * WebCamera: Integrated Camera & Integrated IR Camera
 * Audio: Realtek ALC285 (VoodooHDA.kext)~~(AppleALC.kext)~~
 * Microphone: Integrated Long Range Microphone Array
