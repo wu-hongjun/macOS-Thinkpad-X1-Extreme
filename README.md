@@ -11,7 +11,7 @@
 * Or, if you are interested in the theme I used, check it out over here: [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism).
 * I recommend users to use [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) to configure their config.plist to eliminate typoes.
 * If you cannot mount EFI via Clover Configurator, then here is a *[Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Aero-15W/blob/master/Mount%20EFI%20on%20macOS.MD).*
-* Also, here are the [issues and discussions](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues) as well as [Another repository by zysuper](https://github.com/zysuper/Thinkpad-X1-extreme-EFI).
+* Also, here are the [Issues and discussions](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues) as well as [Another repository by zysuper](https://github.com/zysuper/Thinkpad-X1-extreme-EFI).
 
 ## Update
 * [20181120] Added [Driver for DW1830 in WINDOWS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1) Also had some [Discussion](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3) on getting bluetooth working.
