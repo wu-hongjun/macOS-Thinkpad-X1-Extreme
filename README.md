@@ -5,7 +5,7 @@
 #### Don't forget to star this project if you like it!
 
 ## Update
-* [20181120] Added [Driver for DW1830 in WINDOWS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1) Also had some [Interesting Discussion](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3) on getting bluetooth working.
+* [20181120] Added [Driver for DW1830 in WINDOWS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1) Also had some [Discussion](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3) on getting bluetooth working.
 * [20181118] Modified and released [Configuration for macOS 10.14.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.1) based on [zysuper's work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI).
 * [20181113] My laptop showed defects and I have to send it back to Lenovo to replace a new one...ugggh.
 * [20181112] Got an eGPU but TB3 not enabled for macOS in 10.13. 
