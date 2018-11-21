@@ -5,6 +5,7 @@
 #### Don't forget to star this project if you like it!
 
 ## Update
+* [20181120] Got my replacement new X1E! Also had some [interesting discussion](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3) on getting bluetooth working.
 * [20181118] Modified and released [Configuration for macOS 10.14.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.1) based on [zysuper's work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI).
 * [20181113] My laptop showed defects and I have to send it back to Lenovo to replace a new one...ugggh.
 * [20181112] Got an eGPU but TB3 not enabled for macOS in 10.13. 
@@ -38,7 +39,7 @@
 * **SSD2: Toshiba XG3 THNSN51T02DU7 1024GB (macOS)**
 * SDXC: Samsung EVO select 128GB microSDXC
 * Ethernet: Intel I219-LM Ethernet(IntelMausiEthernetController.kext)
-* ~~BlueTooth: DW1830 BRCMBT4.1(Due to M.2. connector lack USB channel)~~ [Bluetooth Discussions](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3)
+* ~~BlueTooth: DW1830 BRCMBT4.1(Due to M.2. connector lack USB channel)~~ 
 * WebCamera: Integrated Camera & Integrated IR Camera
 * Audio: Realtek ALC285 (VoodooHDA.kext)~~(AppleALC.kext)~~
 * Microphone: Integrated Long Range Microphone Array
