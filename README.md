@@ -6,12 +6,12 @@
 
 ## Introduction
 * *FORK* the project to your own repository and clone it to your machine using Github Desktop to make changes.
-* For windows drivers, here is the [Driver for BCM943602BAED](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1) to get DW1830 working. Also, here is [Driver for BRCM943602CS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1) if you try to use an adapter to install the native card used on macbook. These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
+* For windows drivers, here is the [Driver for BRCM943602BAED](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1) to get DW1830 working. Also, here is [Driver for BRCM943602CS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1) if you try to use an adapter to install the native card used on macbook. These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
 * If you want to download the EFI Clover Bootloader, you can check out the [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases).
 * Or, if you are interested in the theme I used, check it out over here: [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism).
 * I recommend users to use [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) to configure their config.plist to eliminate typos.
 * If you cannot mount EFI via Clover Configurator, then here is a *[Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Aero-15W/blob/master/Mount%20EFI%20on%20macOS.MD).*
-* Some might also experience time sync issues between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) credit to [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/).
+* Some might also experience [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/) between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) credit to [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/).
 * Also, here are the [Issues and discussions](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues) as well as [Another helpful repository by zysuper](https://github.com/zysuper/Thinkpad-X1-extreme-EFI).
 
 ## Pinned Discussions
@@ -41,7 +41,7 @@
 * iGPU: Intel UHD Graphics 630 1536MB
 * ~~dGPU: NVIDIA GTX 1050TI MAX-Q 4GB GDDR5(Disabled / DDGPU.SSDT)~~
 * ~~eGPU: Thunderbolt 3: AORUS Gaming Box GeForce GTX 1080~~
-* **Wifi: BCM943602BAED DW1830 802.11AC**
+* **Wifi: BRCM943602BAED DW1830 802.11AC**
 * RAM: 32GB DDR4 2666MHZ Dual-Channel SODIMM
 * Screen: Lenovo 15' 3840x2160 FlexView Display
 * SSD1: Samsung PM981 MZVLB1T0HALR-000L7 1024GB (Windows)
