@@ -1,8 +1,5 @@
 # Thinkpad X1 Extreme Specifications
 
-## Detailed Specifications
-* [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/Hardware/X1E-HWSpecs.pdf)
-
 ## Brief Specifications
 * Model: Thinkpad X1 Extreme 20MF000DUS
 * BIOS: LENOVO N2EET30W(1.12)
