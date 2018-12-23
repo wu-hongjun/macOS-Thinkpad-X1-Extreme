@@ -20,7 +20,7 @@
 
 ## Pinned Discussions
 * [Main Post Thread](https://www.tonymacx86.com/threads/macos-10-14-0-thinkpad-x1-extreme-hackintosh.263916/)
-* [Bluetooth Issues](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3)
+* [Bluetooth Issues](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3) PS: This is the biggest issue we are working on.
 * [Thunderbolt 3 Post](https://www.tonymacx86.com/threads/coffeelake-laptop-thunderbolt-3-support.265692/#post-1857305)
 * [Trackpad not working with Clover-booted Windows](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/5)
 * [UHD630 Poor OpenCL Performance](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/4)
