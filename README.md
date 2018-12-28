@@ -29,6 +29,7 @@
 
 ## Update
 ##### Recent
+* [20181225] Happy holiday humans.
 * [20181222] I ordered ribbon cable for smartcard slot in China. Will need to design a PCB tho...
 * [20181207] My laptop is dead due to I was stupid enough to tear it down without unplug the battery. Repair in progress.
 * [20181121] Added [Driver for BRCM943602CS in WINDOWS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1).
