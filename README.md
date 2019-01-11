@@ -17,7 +17,7 @@
 * If you want to see system specs, check out [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Hardware).
 * Some might also experience [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/) between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) credit to [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/).
 * Also, here are the [Issues and discussions](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues) as well as [Another helpful Clover EFI configuration repository by zysuper](https://github.com/zysuper/Thinkpad-X1-extreme-EFI).
-* Apple won't work with NVIDIA to release graphics card driver for 10.14. Currently, there is nothing we can do.
+* [Apple won't work with NVIDIA to release graphics card driver for 10.14](https://www.macrumors.com/2018/11/01/nvidia-comment-on-macos-mojave-drivers/). Currently, there is nothing we can do.
 
 ## Pinned Discussions
 * [Main Post Thread](https://www.tonymacx86.com/threads/macos-10-14-0-thinkpad-x1-extreme-hackintosh.263916/)
@@ -30,6 +30,7 @@
 
 ## Update
 ##### Recent
+* [20190105] I still cannot get BCM943602CS on adaptor working...
 * [20181225] Happy holiday humans.
 * [20181222] I ordered ribbon cable for smartcard slot in China. Will need to design a PCB tho...
 * [20181207] My laptop is dead due to I was stupid enough to tear it down without unplug the battery.
