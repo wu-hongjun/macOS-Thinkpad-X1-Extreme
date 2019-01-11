@@ -30,6 +30,7 @@
 
 ## Update
 ##### Recent
+* [20190111] Got BCM943602CS working. Turned out I didn't stuck it in enough.
 * [20190105] I still cannot get BCM943602CS on adaptor working...
 * [20181225] Happy holiday humans.
 * [20181222] I ordered ribbon cable for smartcard slot in China. Will need to design a PCB tho...
