@@ -4,6 +4,8 @@
 ### *Current macOS Version: 10.14.0*
 #### Don't forget to star this project if you like it!
 
+> This hackintosh you guys made, excited!  ————Zemin Jiang
+
 ## Instructions
 ##### Pre-Install
 * *FORK* the project to your own repository and clone it to your machine using Github Desktop to make changes.
