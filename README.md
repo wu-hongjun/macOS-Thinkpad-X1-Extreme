@@ -1,10 +1,11 @@
 # Hackintosh for Thinkpad X1 Extreme
+> This hackintosh you guys made, excited!  ————Zemin Jiang
 ### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 ### *Current Clover Version: 4772*
 ### *Current macOS Version: 10.14.0*
 #### Don't forget to star this project if you like it!
 
-> This hackintosh you guys made, excited!  ————Zemin Jiang
+
 
 ## Instructions
 ##### Pre-Install
