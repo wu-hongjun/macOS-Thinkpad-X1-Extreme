@@ -27,9 +27,8 @@
 * Recently, people on TonyMacX86 are having issue with PM981. PM981 is troublesome for Hackintosh and I am not using it for install. I'm using a Toshiba XG3. However, you can check out [zysuper's repo readme.MD](https://github.com/zysuper/Thinkpad-X1-extreme-EFI/blob/master/readme.md) on ACPI files to make PM981 working.
 
 ## Pinned Discussions
-* [Main Post Thread](https://www.tonymacx86.com/threads/macos-10-14-0-thinkpad-x1-extreme-hackintosh.263916/)
-* [Bluetooth Issues](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3) (PS: This is the biggest issue we are working on.)
-* [Thunderbolt 3 Post](https://www.tonymacx86.com/threads/coffeelake-laptop-thunderbolt-3-support.265692/#post-1857305)
+* [Main Post on TonyMacX86](https://www.tonymacx86.com/threads/macos-10-14-0-thinkpad-x1-extreme-hackintosh.263916/)
+* [Bluetooth Issues with BCM94360 Devices](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3) 
 * [Trackpad not working with Clover-booted Windows](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/5)
 
 
