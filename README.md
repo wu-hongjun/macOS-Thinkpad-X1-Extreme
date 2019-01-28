@@ -1,5 +1,5 @@
 # Hackintosh for Thinkpad X1 Extreme
-> This hackintosh you guys made, excited!  ——— Zemin Jiang, the man who changed China.
+> This hackintosh you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/].
 ### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 ### *Current Clover Version: 4772*
 ### *Current macOS Version: 10.14.0*
