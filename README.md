@@ -5,7 +5,14 @@
 ### *Current macOS Version: 10.14.0*
 #### Don't forget to star this project if you like it!
 
+## Update
+##### Recent
+* [20190215] Start to work on my researches in the wiki page [About Boot Issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/wiki/Unknown-Issue-for-booting-into-macOS).
+* [20190215] There is an unknown issue to boot into macOS. [Temporary Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE) Read more above. 
+* [20190120] Released [v10.14.0.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.2) according to andyy24 in [Issue#9](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/9) to fix a trackpoint issue.
 
+##### Archive
+* For earlier update logs, see [Past Update History Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Updates).
 
 ## Instructions
 ##### Pre-Install
@@ -31,14 +38,6 @@
 * [Bluetooth Issues with BCM94360 Devices](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3) 
 * [Trackpad not working with Clover-booted Windows](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/5)
 
-## Update
-##### Recent
-* [20190215] Start to work on my researches in the wiki page [About Boot Issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/wiki/Unknown-Issue-for-booting-into-macOS).
-* [20190215] There is an unknown issue to boot into macOS. [Temporary Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE) Read more above. 
-* [20190120] Released [v10.14.0.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.2) according to andyy24 in [Issue#9](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/9) to fix a trackpoint issue.
-
-##### Archive
-* For earlier update logs, see [Past Update History Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Updates).
 
 ## Specifications
 * [Hardware Specifications](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Hardware)
