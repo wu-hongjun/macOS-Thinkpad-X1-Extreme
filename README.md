@@ -19,6 +19,7 @@
 ##### Post-Install 
 * If you want to see system specs, check out [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Hardware).
 * Some might also experience [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/) between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) credit to [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/).
+* Many people are experiencing (Including me) unknown issues to boot into macOS. I released a [special edition](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE) EFI configuration to at least boot into the OS and see what we can do. Read more in the release comment.
 ##### Discussions and News
 * Here is another helpful alternative Thinkpad X1 Extreme Clover EFI configuration repository by [zysuper](https://github.com/zysuper/Thinkpad-X1-extreme-EFI). Please check out his work as well as some some issues are addressed in both of our repositories. Star his work as well!
 * Bluetooth is not working. A lot of further work needs to be done here. [Intel is embedding BT chips into PCH which does not work in macOS.](https://www.guru3d.com/news-story/intel-makes-wireless-ac-9560-a-bit-more-embedded.html) We also have a long discussion in the issues so check it out if you are interested in this issue. Link below in the Pinned Discussions.
@@ -32,6 +33,7 @@
 
 ## Update
 ##### Recent
+* [20190215] There is an unknown issue to boot into macOS. [Temporary Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE) Read more above. 
 * [20190120] Released [v10.14.0.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.2) according to andyy24 in [Issue#9](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/9) to fix a trackpoint issue.
 * [20190111] Got BCM943602CS working. Turned out I didn't stuck it in enough.
 * ~~[20190105] I still cannot get BCM943602CS on adaptor working...~~
