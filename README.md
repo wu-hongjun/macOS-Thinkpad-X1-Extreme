@@ -7,6 +7,7 @@
 
 ## Update
 ##### Recent
+* [20190225] Lenovo is issueing me yet another replacement unit. Development paused.
 * [20190224] F!ck. My laptop is not powering up...again.
 * [20190215] Start to work on my researches in the wiki page [About Boot Issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/wiki/Unknown-Issue-for-booting-into-macOS).
 * [20190215] There is an unknown issue to boot into macOS. [Temporary Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE) Read more above. 
