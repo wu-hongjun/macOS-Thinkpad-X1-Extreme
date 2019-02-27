@@ -7,6 +7,7 @@
 
 ## Update
 ##### Recent
+* [20190227] darkal presented a interesting research direction for BT. See [discussion.](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-467381308)
 * [20190225] Lenovo is issueing me yet another replacement unit. Development paused.
 * [20190224] F!ck. My laptop is not powering up...again.
 * [20190215] Start to work on my researches in the wiki page [About Boot Issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/wiki/Unknown-Issue-for-booting-into-macOS).
