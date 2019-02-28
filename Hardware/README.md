@@ -1,5 +1,5 @@
 # Thinkpad X1 Extreme Specifications
-
+* Items that is marked **bold** is add-in component that does not come with the laptop.
 ## Brief Specifications
 * Model: Thinkpad X1 Extreme 20MF000DUS
 * BIOS: LENOVO N2EET30W(1.12)
