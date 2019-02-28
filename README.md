@@ -7,7 +7,8 @@
 
 ## Update
 ##### Recent
-* [20190227] darkal presented a interesting research direction for BT. See [discussion.](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-467381308)
+* [20190228] [AaronZYHK](https://github.com/AaronZYHK) presented yet another approach to get [BT working with an USB adapter](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-468153492).
+* [20190227] [darkal](https://github.com/darkal) presented a interesting research direction to [BT working wih 9260 with a WIFI adapter.](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-467381308)
 * [20190225] Lenovo is issueing me yet another replacement unit. Development paused.
 * [20190224] F!ck. My laptop is not powering up...again.
 * [20190215] Start to work on my researches in the wiki page [About Boot Issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/wiki/Unknown-Issue-for-booting-into-macOS).
