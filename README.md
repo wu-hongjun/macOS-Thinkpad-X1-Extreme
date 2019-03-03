@@ -1,12 +1,13 @@
 # Hackintosh for Thinkpad X1 Extreme
 > This hackintosh you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).
 ### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
-### *Current Clover Version: 4772*
-### *Current macOS Version: 10.14.0*
+### *Current Clover Version: 4895*
+### *Current macOS Version: 10.14.3*
 #### Don't forget to star this project if you like it!
 
 ## Update
 ##### Recent
+* [20190303] Updated to 10.14.3 and Clover v4895.ßß
 * [20190228] [AaronZYHK](https://github.com/AaronZYHK) presented yet another approach to get [BT working with an USB adapter](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-468153492).
 * [20190227] [darkal](https://github.com/darkal) presented a interesting research direction to [BT working wih 9260 with a WIFI adapter.](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-467381308)
 * [20190225] Lenovo is issueing me yet another replacement unit. Development paused.
