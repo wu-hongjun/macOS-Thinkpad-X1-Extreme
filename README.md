@@ -8,6 +8,7 @@
 ## Update
 ##### Recent
 * [20190315] So far so good with USB BT. The only issue left is display output, which so far nothing we can do.
+* [20190314] Got appointed by UW to be a machine learning TA on pi day! Excited!
 * [20190311] Updated readme.MD regarding on an [OpenGL issue on 10.14.3](https://www.tonymacx86.com/threads/macos-10-14-0-thinkpad-x1-extreme-hackintosh.263916/post-1900369). 
 * [20190307] New [VoodooPS2 Driver](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-470353880) add in multi-touch genture support. Released in [v10.14.3.1](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.3.1).
 * [20190303] Updated to 10.14.3 and Clover v4895. 
