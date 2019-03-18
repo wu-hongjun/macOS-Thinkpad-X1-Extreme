@@ -1,18 +1,23 @@
 # Hackintosh for Thinkpad X1 Extreme-Update History
 
-## Update
+## 2019
+### Feburary Updates
 * [20190228] [AaronZYHK](https://github.com/AaronZYHK) presented yet another approach to get [BT working with an USB adapter](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-468153492).
 * [20190227] [darkal](https://github.com/darkal) presented a interesting research direction to [BT working wih 9260 with a WIFI adapter.](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-467381308)
 * [20190225] Lenovo is issueing me yet another replacement unit. Development paused.
 * [20190224] F!ck. My laptop is not powering up...again.
 * [20190215] Start to work on my researches in the wiki page [About Boot Issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/wiki/Unknown-Issue-for-booting-into-macOS).
 * [20190215] There is an unknown issue to boot into macOS. [Temporary Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE) Read more above. 
+### Janurary Updates
 * [20190120] Released [v10.14.0.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.2) according to andyy24 in [Issue#9](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/9) to fix a trackpoint issue.
 * [20190111] Got BCM943602CS working. Turned out I didn't stuck it in enough.
 * [20190105] I still cannot get BCM943602CS on adaptor working...
+## 2018
+### December Updates
 * [20181225] Happy holiday humans.
 * [20181222] I ordered ribbon cable for smartcard slot in China. Will need to design a PCB tho...
 * [20181207] My laptop is dead due to I was stupid enough to tear it down without unplug the battery.
+### November Updates
 * [20181121] Added [Driver for BRCM943602CS in WINDOWS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1).
 * [20181120] Added [Driver for DW1830 in WINDOWS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1) Also had some [Discussion on getting bluetooth working](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3).
 * [20181119] Uploaded [BOOT5.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/10.14.0/5.0-AllEnabled).
@@ -25,6 +30,7 @@
 * [20181113] My laptop showed defects and I have to send it back to Lenovo to replace a new one...ugggh.
 * [20181112] Got an eGPU but TB3 not enabled for macOS in 10.13. 
 * [20181111] Still stuck at getting iGPU working. Tried to downgrade to 10.13.
+### October Updates
 * [20181030] Uploaded BOOT4.0 which installed most KEXT into S/L/E. See ["./KernalExtentions/"](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/KernalExtentions).
 * [20181029] Uploaded [INSTALL5.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/10.14.0/INSTALL-5.0) installations. iGPU weird with injected io-reg and fakeid on intelGFX.
 * [20181028] Clover have UEFI64Driver support FileVault2. Still, make sure you get everything else working first.
