@@ -5,6 +5,7 @@
 #### *Current macOS Version: 10.14.3*
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it!
+#### I recommend read the entire readme.MD before you take any action.
 
 ## Update
 ##### Recent
