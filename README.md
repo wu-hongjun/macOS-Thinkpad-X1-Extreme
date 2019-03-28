@@ -8,6 +8,7 @@
 
 ## Update
 ##### Recent
+* [20190327] Made a [note](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037) in readme.MD about BCM94360CS2 and BCM943602CS.
 * [20190326] Glad to be indexed by [Hackintosh Laptop Index](https://github.com/daliansky/Hackintosh). 
 * [20190320] Released [v10.14.3.1.3](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.3.1.3), a stable update.
 * [20190317] darkal presented a somewhat decent [external display workaround](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) if you have a 1080P screen. 
@@ -25,6 +26,7 @@
 ## Instructions
 ##### Pre-Install
 * *FORK* the project to your own repository and clone it to your machine using Github Desktop to make changes.
+* Note: BCM94360CS2 and BCM943602CS are two DIFFERENT cards. Please be careful which you buy as others have [problem with purchasing a wrong card](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037) causing freezing and lead to ultimate not responding.
 * For windows drivers, here is the [Driver for BRCM943602BAED](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1) to get DW1830 working. Also, here is [Driver for BRCM943602CS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1) if you try to use an [adapter](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/BCMAdapter.jpg) to install the native card used on macbook. If you are using a ASUS usb wifi adapter, also make sure to download [Driver for Asus USB-AC53](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/Softwares/ASUS_USB-AC53-Nano/Realtek-A1600_Comfast%20810-ASUS_AC53.zip). These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
 ##### Clover Bootloader
 * If you want to download the EFI Clover Bootloader, you can check out the [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases).
