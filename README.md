@@ -52,6 +52,9 @@
 ## Specifications
 * [Hardware Specifications](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Hardware)
 
+## License
+* This work is issued under the [996 license](https://github.com/996icu/996.ICU/blob/master/LICENSE).
+
 ### Cheers, Errrneist.
 
 
