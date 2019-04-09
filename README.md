@@ -12,9 +12,6 @@
 ##### Recent
 * [20190409] Addressed and closed some issues that other humans had in the issues module.
 * [20190402] This work is now issued under the [996 License](https://github.com/996icu/996.ICU/blob/master/LICENSE).
-* [20190327] Made a [note](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037) in readme.MD about BCM94360CS2 and BCM943602CS.
-* [20190326] Glad to be indexed by [Hackintosh Laptop Index](https://github.com/daliansky/Hackintosh). 
-* [20190320] Released [v10.14.3.1.3](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.3.1.3), a stable update.
 
 ##### Archive
 * For earlier update logs, see [Past Update History Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Updates).
