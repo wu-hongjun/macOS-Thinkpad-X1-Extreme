@@ -2,6 +2,9 @@
 
 ## 2019
 ### March Updates
+* [20190327] Made a [note](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037) in readme.MD about BCM94360CS2 and BCM943602CS.
+* [20190326] Glad to be indexed by [Hackintosh Laptop Index](https://github.com/daliansky/Hackintosh). 
+* [20190320] Released [v10.14.3.1.3](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.3.1.3), a stable update.
 * [20190317] darkal presented a somewhat decent [external display workaround](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) if you have a 1080P screen. 
 * [20190315] So far so good with USB BT. The only issue left is display output, which so far nothing we can do.
 * [20190314] Happy pi day humans.
