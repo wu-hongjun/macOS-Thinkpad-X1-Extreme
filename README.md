@@ -14,23 +14,26 @@
 * [20190402] This work is now issued under the [996 License](https://github.com/996icu/996.ICU/blob/master/LICENSE).
 
 ##### Archive
-* For earlier update logs, see [Past Update History Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Updates).
+* [Past Update History Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Updates): For earlier update logs.
 
 ## Instructions
 ##### Pre-Install
 * *FORK* the project to your own repository and clone it to your machine using Github Desktop to make changes.
 * Note: BCM94360CS2 and BCM943602CS are two DIFFERENT cards. Please be careful which you buy as others have [problem with purchasing a wrong card](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037) causing freezing and lead to ultimate not responding.
-* For windows drivers, here is the [Driver for BRCM943602BAED](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1) to get DW1830 working. Also, here is [Driver for BRCM943602CS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1) if you try to use an [adapter](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/BCMAdapter.jpg) to install the native card used on macbook. If you are using a ASUS usb wifi adapter, also make sure to download [Driver for Asus USB-AC53](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/Softwares/ASUS_USB-AC53-Nano/Realtek-A1600_Comfast%20810-ASUS_AC53.zip). These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
+* [Driver for BRCM943602CS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1): Also, here is if you try to use an [adapter](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/BCMAdapter.jpg) to install the native card used on macbook. 
+* [Driver for BRCM943602BAED](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1): For windows drivers, here it is to get DW1830 working. 
+* [Driver for Asus USB-AC53](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/Softwares/ASUS_USB-AC53-Nano/Realtek-A1600_Comfast%20810-ASUS_AC53.zip): If you are using a ASUS usb wifi adapter, also make sure to download this. 
+* These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
 ##### Clover Bootloader
-* If you want to download the EFI Clover Bootloader, you can check out the [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases).
-* Or, if you are interested in the theme I used, check it out over here: [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism).
-* I recommend users to use [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) to configure your config.plist in order to eliminate typos.
-* If you cannot mount EFI via Clover Configurator, then here is a *[Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Aero-15W/blob/master/Mount%20EFI%20on%20macOS.MD).*
+* [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases): If you want to download the EFI Clover Bootloader .
+* [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism): If you are interested in the theme I used, check it out over here.
+* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/): I recommend users to use to configure your config.plist in order to eliminate typos.
+* [Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Aero-15W/blob/master/Mount%20EFI%20on%20macOS.MD): If you cannot mount EFI via Clover Configurator.
 ##### Post-Install 
-* If you want to see system specs, check out [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Hardware).
-* Some might also experience [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/) between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) credit to [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/).
-* Many people are experiencing unknown issues to boot into macOS. I released a [special simplified edition](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE) EFI configuration to at least boot into the OS and see what we can do. Read more in the release comment.
-* EFI for other laptop might help as a useful reference. Navigate to [Hackintosh Laptop Index](https://github.com/daliansky/Hackintosh) if you need more reference from other laptops.
+* [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Hardware): If you want to see system specs.
+* [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/): Some might also experience between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) credit to [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/).
+* [special simplified edition](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE): Many people are experiencing unknown issues to boot into macOS. I released a EFI configuration to at least boot into the OS and see what we can do. Read more in the release comment.
+* [Hackintosh Laptop Index](https://github.com/daliansky/Hackintosh): EFI for other laptop might help as a useful reference. Navigate to here if you need more reference from other laptops.
 ##### Issue Report
 * We welcome people to submit issue and report them! This will help all of us to figure out what can be done to the laptop. Please file a issue in the **Issues** module.
 * I recognize that there are a lot of Chinese speaking people participating in the discussion which is good! But if you can, please also leave an English version of your message when you post your discussion so we can have the world solve problems together. （我也发现有很多同胞积极讨论，但是如果可以的话请随手附上一份英语翻译，不会英语直接有道翻译就好，这样我们就可以和全世界一起完善这个项目啦！）
