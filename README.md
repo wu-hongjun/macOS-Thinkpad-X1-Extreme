@@ -10,7 +10,7 @@
 
 ## Update
 ##### Recent
-* [20190415] macOS 10.14.4 is NOT a safe update. Do not upgrade.
+* [20190415] macOS 10.14.4 is NOT a safe update. Will release 10.14.4 soon.
 * [20190409] Addressed and closed some issues that other humans had in the issues module.
 * [20190402] This work is now issued under the [996 License](https://github.com/996icu/996.ICU/blob/master/LICENSE).
 
