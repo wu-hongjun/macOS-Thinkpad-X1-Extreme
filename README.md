@@ -1,16 +1,18 @@
 # Hackintosh for Thinkpad X1 Extreme
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE).
 > This hackintosh you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).
-### Current Release: [10.14.3-V1.3](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
-#### *Current Clover Version: 4895*
-#### *Current macOS Version: 10.14.3*
+### Current Release: [10.14.4-V1.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+#### *Current Clover Version: 4920*
+#### *Current macOS Version: 10.14.4*
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it!
 #### I recommend read the entire readme.MD before you take any action.
 
 ## Update
 ##### Recent
-* [20190415] macOS 10.14.4 is NOT a safe update. Will release 10.14.4 soon.
+* [20190415] Had HDMI output working via USB Displaylink. See Readme.MD.
+* [20190415] Released [10.14.4-V1.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.4.1).
+* [20190414] macOS 10.14.4 is NOT a safe update. Will release 10.14.4 soon.
 * [20190409] Addressed and closed some issues that other humans had in the issues module.
 * [20190402] This work is now issued under the [996 License](https://github.com/996icu/996.ICU/blob/master/LICENSE).
 
@@ -42,7 +44,8 @@
 ## Discussions and News
 * [zysuper's Work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI): Here is another helpful **alternative Thinkpad X1 Extreme Clover EFI configuration** repository. Please check out his work as well as some some issues are addressed in both of our repositories. Star his work too!
 * **Bluetooth** is not working. A lot of further work needs to be done here. [Intel is embedding BT chips into PCH which does not work in macOS.](https://www.guru3d.com/news-story/intel-makes-wireless-ac-9560-a-bit-more-embedded.html) We also have a long discussion in the issues so check it out if you are interested in this issue. Link below in the Pinned Discussions. After research (cr. [darkal](https://github.com/darkal)) we found out that using AC9560 and a USB-AC53 Nano would somehow implement the Bluetooth feature, so currently we are moving toward that direction. We are also exploring with BT USB adapter.
-* [Apple won't work with NVIDIA to release graphics card driver for 10.14](https://www.macrumors.com/2018/11/01/nvidia-comment-on-macos-mojave-drivers/). Currently, there is nothing we can do. We also have not tweaked on Thunderbolt 3 since we don't have proper hardware to test it. However, if you just want to have a display output, a [USB3.0 to HDMI External Graphics Card](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) is a decent option. I am also doing research on DisplayLink.
+* [Apple won't work with NVIDIA to release graphics card driver for 10.14](https://www.macrumors.com/2018/11/01/nvidia-comment-on-macos-mojave-drivers/). Currently, there is nothing we can do. We also have not tweaked on Thunderbolt 3 since we don't have proper hardware to test it. 
+* Inspired by this [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) I bought a [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull) and was able to achieve 4K60P via USB3.0 and HDMI2.0. Now output issue is solved. You can download the driver [via the main website](https://www.displaylink.com/downloads/file?id=1302) or [via my repo](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/Softwares/DisplayLink/DisplayLink%20USB%20Graphics%20Software%20for%20macOS%205.1.dmg).
 * Recently, people on TonyMacX86 are having **issue with PM981**. PM981 is troublesome for Hackintosh and I am not using it for install. I'm using a Toshiba XG3. However, you can check out [zysuper's repo](https://github.com/zysuper/Thinkpad-X1-extreme-EFI/blob/master/readme.md) on ACPI files to make PM981 working.
 * People are experiencing weird **touchpad issues** when boot windows from clover. So far not much can be done, so I recommend you to just set auto boot time in clover be 2sec or -1sec, and just use F12 to switch OS.
 * For video editors who use FinalCutPro and Davenci be aware that updating to 10.14.3 might cause [**OpenGL issue**](https://www.tonymacx86.com/threads/macos-10-14-0-thinkpad-x1-extreme-hackintosh.263916/post-1900369) that makes rendering take forever. (cr. [cthetoy](https://www.tonymacx86.com/members/cthetoy.152906/)).
