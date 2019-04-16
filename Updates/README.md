@@ -1,6 +1,11 @@
 # Hackintosh for Thinkpad X1 Extreme-Update History
 
 ## 2019
+### April Updates
+* [20190415] Released [10.14.4-V1.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.4.1).
+* [20190414] macOS 10.14.4 is NOT a safe update. Will release 10.14.4 soon.
+* [20190409] Addressed and closed some issues that other humans had in the issues module.
+* [20190402] This work is now issued under the [996 License](https://github.com/996icu/996.ICU/blob/master/LICENSE).
 ### March Updates
 * [20190327] Made a [note](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037) in readme.MD about BCM94360CS2 and BCM943602CS.
 * [20190326] Glad to be indexed by [Hackintosh Laptop Index](https://github.com/daliansky/Hackintosh). 
