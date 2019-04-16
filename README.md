@@ -11,12 +11,7 @@
 ## Update
 ##### Recent
 * [20190416] Released [v10.14.4-V1.1](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.4.1.1). Fixed an issue with AppleALC.
-* [20190415] Now this hackintosh is 100% completed if we exclude Thunderbolt 3 eGPU. Cheers!! 
 * [20190415] Had [HDMI output working via USB Displaylink](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13).
-* [20190415] Released [10.14.4-V1.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.4.1).
-* [20190414] macOS 10.14.4 is NOT a safe update. Will release 10.14.4 soon.
-* [20190409] Addressed and closed some issues that other humans had in the issues module.
-* [20190402] This work is now issued under the [996 License](https://github.com/996icu/996.ICU/blob/master/LICENSE).
 
 ##### Archive
 * [Past Update History Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Updates): For earlier update logs.
