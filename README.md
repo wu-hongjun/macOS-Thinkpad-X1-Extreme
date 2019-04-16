@@ -10,6 +10,7 @@
 
 ## Update
 ##### Recent
+* [20190415] Now this hackintosh is 100% completed if we exclude Thunderbolt 3 eGPU. Cheers!! 
 * [20190415] Had [HDMI output working via USB Displaylink](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13).
 * [20190415] Released [10.14.4-V1.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.4.1).
 * [20190414] macOS 10.14.4 is NOT a safe update. Will release 10.14.4 soon.
