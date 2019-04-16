@@ -9,3 +9,7 @@ Major macOS Update. This release corresponds too ./10.14.4/1.0
 3. Had displayLink working, see main readme.MD.
 4. Updated AppleALC to 1.2.7.
 5. Updated Clover Bootloader to r4920.
+
+## 1.1
+
+Fixed a issue with AppleALC not loading.
