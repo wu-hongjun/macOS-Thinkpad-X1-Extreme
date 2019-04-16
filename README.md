@@ -1,7 +1,7 @@
 # Hackintosh for Thinkpad X1 Extreme
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE).
 > This hackintosh you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).
-### Current Release: [10.14.4-V1.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+### Current Release: [10.14.4-V1.1](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### *Current Clover Version: 4920*
 #### *Current macOS Version: 10.14.4*
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
@@ -10,6 +10,7 @@
 
 ## Update
 ##### Recent
+* [20190416] Released [v10.14.4-V1.1](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.4.1.1). Fixed an issue with AppleALC.
 * [20190415] Now this hackintosh is 100% completed if we exclude Thunderbolt 3 eGPU. Cheers!! 
 * [20190415] Had [HDMI output working via USB Displaylink](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13).
 * [20190415] Released [10.14.4-V1.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.4.1).
