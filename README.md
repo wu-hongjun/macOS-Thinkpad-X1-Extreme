@@ -23,7 +23,7 @@
 * [Windows Driver for BRCM943602BAED](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1): To get DW1830 working in Windows. 
 * [Windows Driver for Asus USB-AC53](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/Softwares/ASUS_USB-AC53-Nano/Realtek-A1600_Comfast%20810-ASUS_AC53.zip): If you are using a ASUS usb wifi adapter, also make sure to download this. 
 * These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
-* Note: BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. Please be careful which you buy as others have [problem with purchasing a wrong card](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037) causing freezing and lead to ultimate not responding.
+* [Problem with purchasing a wrong card](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. Please be careful which you buy as others have problems causing freezing and lead to ultimate not responding.
 
 ##### Clover Bootloader
 * [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases): If you want to download the EFI Clover Bootloader .
