@@ -10,7 +10,7 @@
 
 ## Update
 ##### Recent
-* [20190417] Displaylink has its own [known limitations](http://assets.displaylink.com/live/downloads/release-notes/f1303_DisplayLink+USB+Graphics+Software+for+macOS+5.1-Release+Notes.txt) (cannot rescale 4K to 1080P in 60FPS). So just use naive 4K.
+* [20190417] Displaylink has its own [known limitations](http://assets.displaylink.com/live/downloads/release-notes/f1303_DisplayLink+USB+Graphics+Software+for+macOS+5.1-Release+Notes.txt) (cannot rescale 4K to 1080P in 60FPS). So just use native 4K.
 * [20190416] Released [v10.14.4-V1.1](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.4.1.1). Fixed an issue with AppleALC.
 * [20190415] Had [HDMI output working via USB Displaylink](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13).
 
