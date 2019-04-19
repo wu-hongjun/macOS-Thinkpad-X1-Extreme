@@ -26,6 +26,7 @@
 * [Windows Driver for Asus USB-AC53](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/Softwares/ASUS_USB-AC53-Nano/Realtek-A1600_Comfast%20810-ASUS_AC53.zip): If you are using a ASUS usb wifi adapter, also make sure to download this. 
 * These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
 * [Problem with purchasing a wrong card](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. Please be careful which you buy as others have problems causing freezing and lead to ultimate not responding.
+* [Kinivo BTD-400 Bluetooth 4.0 Low Energy USB Adapter](https://www.amazon.com/Kinivo-BTD-400-Bluetooth-4-0-USB/dp/B007Q45EF4/ref=sr_1_fkmrnull_3?keywords=kinivo+bluetooth+dongle&qid=1555648213&s=gateway&sr=8-3-fkmrnull): This is the BlueTooth adapter I use. Works well with Airpods 2, but you can always use other compatible ones. Just here if you just want to buy a cheap and working BT. It's BT4.0, because it is cheap and not many BT5.0 dongle exist in the market yet.
 
 ##### Clover Bootloader
 * [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases): If you want to download the EFI Clover Bootloader .
