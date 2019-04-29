@@ -1,7 +1,7 @@
 # Hackintosh for Thinkpad X1 Extreme
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 > This hackintosh you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).
-### Current Release: [10.14.4-V1.1](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+### Current Release: [10.14.4-V1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### *Current Clover Version: 4920*
 #### *Current macOS Version: 10.14.4*
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
@@ -10,6 +10,7 @@
 
 ## Update
 ##### Recent
+* [20190429] Released an optional update [v10.14.4-V1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.4.1.2), more in description.
 * [20190428] So far so good so no updates. It just works.
 * [20190418] Oh so it turns out that you can use a USB BT adapter and use Airpods 2 as usual. Sweeeeeeeeeet.
 * [20190417] Displaylink has its own [known limitations](http://assets.displaylink.com/live/downloads/release-notes/f1303_DisplayLink+USB+Graphics+Software+for+macOS+5.1-Release+Notes.txt) (cannot rescale 4K to 1080P in 60FPS). So just use native 4K.
