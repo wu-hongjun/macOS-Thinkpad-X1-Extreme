@@ -10,6 +10,7 @@
 
 ## Update
 ##### Recent
+* [20190501] Happy labor day humans.
 * [20190430] Made a ribbon cable to connect to smartcard reader. [See Pictures](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-488218838).
 * [20190429] Released an optional update [v10.14.4-V1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.4.1.2), more in description.
 
