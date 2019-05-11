@@ -10,6 +10,7 @@
 
 ## Update
 ##### Recent
+* [20190510] [Some improvements in Bluetooth](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-491468609). Now I shall conclude this project is 100% perfect. 
 * [20190503] Solved [Bluetooth Issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11). [Pictures](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD)
 * [20190501] Happy labor day humans.
 * [20190430] Made a ribbon cable to connect to smartcard reader. [See Pictures](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-488218838).
