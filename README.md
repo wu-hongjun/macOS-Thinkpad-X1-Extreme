@@ -6,18 +6,14 @@
 #### *Current macOS Version: 10.14.4*
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it!
-#### I recommend read the entire readme.MD before you take any action.
+#### Read the ENTIRE readme.MD before you take any action.
 <img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Screen%20Shot%202019-05-14%20at%2011.42.04%20AM.png" alt="Sys Info" width="1000">
 
 ## Update
 ##### Recent
 * [20190510] [Some improvements in Bluetooth](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-491468609). Now I shall conclude this project is 100% perfect. 
-* [20190503] Solved [Bluetooth Issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11). [Pictures](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD)
-* [20190501] Happy labor day humans.
-* [20190430] Made a ribbon cable to connect to smartcard reader. [See Pictures](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-488218838).
-* [20190429] Released an optional update [v10.14.4-V1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.4.1.2), more in description.
 
-##### Archive
+##### Past Updates
 * [Past Update History Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Updates): For earlier update logs.
 
 ## Instructions
