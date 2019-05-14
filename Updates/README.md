@@ -1,7 +1,14 @@
 # Hackintosh for Thinkpad X1 Extreme-Update History
 
 ## 2019
+
+### May Updates
+* [20190503] Solved [Bluetooth Issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11). [Pictures](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD)
+* [20190501] Happy labor day humans.
+
 ### April Updates
+* [20190430] Made a ribbon cable to connect to smartcard reader. [See Pictures](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-488218838).
+* [20190429] Released an optional update [v10.14.4-V1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.4.1.2), more in description.
 * [20190428] So far so good so no updates. It just works.
 * [20190418] Oh so it turns out that you can use a USB BT adapter and use Airpods 2 as usual. Sweeeeeeeeeet.
 * [20190417] Displaylink has its own [known limitations](http://assets.displaylink.com/live/downloads/release-notes/f1303_DisplayLink+USB+Graphics+Software+for+macOS+5.1-Release+Notes.txt) (cannot rescale 4K to 1080P in 60FPS). So just use native 4K.
