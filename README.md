@@ -11,6 +11,7 @@
 
 ## Update
 ##### Recent
+* [20190520] Lenovo announced X1 Extreme 2nd Generation. This project is for the 1st generation.
 * [20190510] [Some improvements in Bluetooth](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-491468609). Now I shall conclude this project is 100% perfect. 
 
 ##### Past Updates
