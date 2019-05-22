@@ -11,6 +11,7 @@
 
 ## Update
 ##### Recent
+* [20190522] Updated some minor things in Readme.MD.
 * [20190520] Lenovo announced X1 Extreme 2nd Generation. This project is for the 1st generation.
 * [20190510] [Some improvements in Bluetooth](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-491468609). Now I shall conclude this project is 100% perfect. 
 
@@ -24,7 +25,7 @@
     * [Windows Driver for BRCM943602CS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1): If you try to use an [BCM94360CS2/BCM94360CD Card To NGFF(M.2)Key A/E Adapter For macOS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD) to install the native card used on Macbook Pro. 
     * [Windows Driver for BRCM943602BAED](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1): To get DW1830 working in Windows. 
     * [Windows Driver for Asus USB-AC53](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/Softwares/ASUS_USB-AC53-Nano/Realtek-A1600_Comfast%20810-ASUS_AC53.zip): If you are using a ASUS usb wifi adapter, also make sure to download this. 
-* These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
+    * These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
 * [Problem with BCM943602CS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. Please be careful which you buy as others have problems causing freezing and lead to ultimate not responding. I bought on on eBay for eight bucks just to try it out, I will post update once I get it. The thing is adding a 3rd antenna inside the machine doesn't have a good signal.
 * [Kinivo BTD-400 Bluetooth 4.0 Low Energy USB Adapter](https://www.amazon.com/Kinivo-BTD-400-Bluetooth-4-0-USB/dp/B007Q45EF4/ref=sr_1_fkmrnull_3?keywords=kinivo+bluetooth+dongle&qid=1555648213&s=gateway&sr=8-3-fkmrnull): This is the BlueTooth adapter I use before I got internal BT working. Read more about the internal BT [here](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD).This USB adapter works well with Airpods 2, but you can always use other compatible ones. Just here if you just want to buy a cheap and working BT for nobrainers. It's BT4.0, because it is cheap and not many BT5.0 dongle exist in the market yet.
 
