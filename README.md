@@ -13,9 +13,6 @@
 ##### Recent
 * [20190524] Due to there is no new features in 10.14.5, I will not upgrade. Please tell us how it goes if you upgrade!
 * [20190523] Let's take a moment to pay respect to our hero [Hongyu Wu](https://www.polygon.com/2016/7/1/12081430/overwatch-memorial-wu-hongyu-blizzard), heroes never die! 
-* [20190522] Updated some minor things in Readme.MD.
-* [20190520] Lenovo announced X1 Extreme 2nd Generation. This project is for the 1st generation.
-* [20190510] [Some improvements in Bluetooth](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-491468609). Now I shall conclude this project is 100% perfect. 
 
 ##### Past Updates
 * [Past Update History Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Updates): For earlier update logs.
