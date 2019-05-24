@@ -11,7 +11,7 @@
 
 ## Update
 ##### Recent
-* [20190524] Due to there is no new features in 10.14.5, I will not upgrade. Please tell us how it goes if you upgrade!
+* [20190524] Due to there is no new features in 10.14.5, I will NOT upgrade. Please tell us how it goes if you do! :)
 * [20190523] Let's take a moment to pay respect to our hero [Hongyu Wu](https://www.polygon.com/2016/7/1/12081430/overwatch-memorial-wu-hongyu-blizzard), heroes never die! 
 
 ##### Past Updates
