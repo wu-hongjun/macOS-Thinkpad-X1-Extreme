@@ -11,6 +11,7 @@
 
 ## Update
 ##### Recent
+* [20190524] Due to there is no new features in 10.14.5, I will not upgrade. Please tell me how 10.14.5 goes if you upgraded to it!
 * [20190523] Let's take a moment to pay respect to our hero [Hongyu Wu](https://www.polygon.com/2016/7/1/12081430/overwatch-memorial-wu-hongyu-blizzard), heroes never die! 
 * [20190522] Updated some minor things in Readme.MD.
 * [20190520] Lenovo announced X1 Extreme 2nd Generation. This project is for the 1st generation.
