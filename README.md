@@ -11,6 +11,7 @@
 
 ## Update
 ##### Recent
+* [20190525] Switched to BCM94360CS2, seems like there is no problem...?
 * [20190524] Due to there is no new features in 10.14.5, I will NOT upgrade. Please tell us how it goes if you do! :)
 * [20190523] Let's take a moment to pay respect to our hero [Hongyu Wu](https://www.polygon.com/2016/7/1/12081430/overwatch-memorial-wu-hongyu-blizzard), heroes never die! 
 
@@ -28,7 +29,7 @@
 * [Problem with BCM943602CS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): 
    * BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. 
    * Please be careful which you buy as others have problems causing freezing and lead to ultimate not responding. 
-   * I bought on on eBay for eight bucks just to try it out, I will post update once I get it. 
+   * However, I got one and it works fine...IDK maybe that person's machine had some mis-configuration?
    * The thing is adding a 3rd antenna inside the machine doesn't have a good signal.
 * [Kinivo BTD-400 Bluetooth 4.0 Low Energy USB Adapter](https://www.amazon.com/Kinivo-BTD-400-Bluetooth-4-0-USB/dp/B007Q45EF4/ref=sr_1_fkmrnull_3?keywords=kinivo+bluetooth+dongle&qid=1555648213&s=gateway&sr=8-3-fkmrnull): This is the BlueTooth adapter I use before I got internal BT working. Read more about the internal BT [here](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD).This USB adapter works well with Airpods 2, but you can always use other compatible ones. Just here if you just want to buy a cheap and working BT for nobrainers. It's BT4.0, because it is cheap and not many BT5.0 dongle exist in the market yet.
 
