@@ -1,6 +1,6 @@
 # Images
 ## Images for 2CS Adapter, Wireless M.2 Connector, and Insulations
-
+<img align="right" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/BCM94360CS2.jpg" alt="image1" width="1024">
 <img align="right" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/IMG_9253.jpeg" alt="image1" width="1024">
 <img align="right" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/IMG_9254.jpeg" alt="image1" width="1024">
 <img align="right" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/IMG_9269.jpeg" alt="image1" width="1024">
