@@ -30,6 +30,7 @@
     * These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
 * [Problem with BCM943602CS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): 
    * BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. 
+   * BCM94360CS2 is an ABSOLUTELY NIGHTMARE. DON'T buy.
    * Please be careful which you buy as others have problems causing freezing and lead to ultimate not responding. 
    * However, I got one and it works fine...IDK maybe that person's machine had some mis-configuration?
    * The thing is adding a 3rd antenna inside the machine doesn't have a good signal.
