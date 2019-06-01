@@ -11,6 +11,7 @@
 
 ## Update
 ##### Recent
+* [20190601] Happy children's day humans!
 * [20190531] BCM94360CS2 is probably causing my laptop's macOS AND Windows (What???) to freeze, back to 2CS.
 * [20190525] ~~Switched to BCM94360CS2, seems like there is no problem...?~~
 * [20190524] Due to there is no new features in 10.14.5, I will NOT upgrade. Please tell us how it goes if you do! :)
