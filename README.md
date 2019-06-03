@@ -1,9 +1,9 @@
 # Hackintosh for Thinkpad X1 Extreme (1st Generation)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 > This hackintosh you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).
-### Current Release: [10.14.4-V1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
-#### *Current Clover Version: 4920*
-#### *Current macOS Version: 10.14.4*
+### Current Release: [10.14.5-V1.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+#### *Current Clover Version: 4934*
+#### *Current macOS Version: 10.14.5*
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it!
 #### Read the ENTIRE readme.MD before you take any action.
@@ -11,11 +11,8 @@
 
 ## Update
 ##### Recent
+* [20190602] Added support for 10.14.5, released V1.0 for 10.14.5.
 * [20190601] Happy children's day humans!
-* [20190531] BCM94360CS2 is probably causing my laptop's macOS AND Windows (What???) to freeze, back to 2CS.
-* [20190525] ~~Switched to BCM94360CS2, seems like there is no problem...?~~
-* [20190524] Due to there is no new features in 10.14.5, I will NOT upgrade. Please tell us how it goes if you do! :)
-* [20190523] Let's take a moment to pay respect to our hero [Hongyu Wu](https://www.polygon.com/2016/7/1/12081430/overwatch-memorial-wu-hongyu-blizzard), heroes never die! 
 
 ##### Past Updates
 * [Past Update History Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Updates): For earlier update logs.
