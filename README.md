@@ -11,7 +11,7 @@
 
 ## Update
 ##### Recent
-* [20190604] It's been thirty years, but I am still a fan of Chairman Jiang.
+* [20190603] Let's welcome macOS Catalina, shall we?
 * [20190602] Added support for 10.14.5, released V1.0 for 10.14.5.
 * [20190601] Happy children's day humans!
 
