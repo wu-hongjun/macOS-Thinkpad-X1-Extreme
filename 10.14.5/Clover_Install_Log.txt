@@ -1,0 +1,49 @@
+
+Clover EFI installer log - Sun Jun  2 20:35:47 PDT 2019
+Installer version: v2.4k r4934 EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         1.0 TB     disk0
+   1:                        EFI SYSTEM                  272.6 MB   disk0s1
+   2:         Microsoft Reserved                         16.8 MB    disk0s2
+   3:       Microsoft Basic Data Windows                 1.0 TB     disk0s3
+   4:           Windows Recovery                         1.0 GB     disk0s4
+
+/dev/disk1 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         1.0 TB     disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                 Apple_APFS Container disk2         1.0 TB     disk1s2
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +1.0 TB     disk2
+                                 Physical Store disk1s2
+   1:                APFS Volume Macintosh               77.2 GB    disk2s1
+   2:                APFS Volume Preboot                 47.3 MB    disk2s2
+   3:                APFS Volume Recovery                509.8 MB   disk2s3
+   4:                APFS Volume VM                      1.1 GB     disk2s4
+
+/dev/disk3 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *4.0 GB     disk3
+   1:             Windows_FAT_32 NO NAME                 4.0 GB     disk3s1
+
+Target volume /Volumes/Macintosh on disk2 is APFS on physical store disk1s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/Macintosh/EFIROOTDIR/EFI folder to /Volumes/Macintosh/EFI-Backups/r4920/2019-06-02-20h35/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Stage 2 - Written boot6 (x64) to /Volumes/ESP/boot
+
+Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
