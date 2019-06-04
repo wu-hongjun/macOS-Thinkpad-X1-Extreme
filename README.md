@@ -11,6 +11,7 @@
 
 ## Update
 ##### Recent
+* [20190604] Thanks for [zysuper's effort](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-498715154), you can actually buy a adapter card than soldering your own. Cheers!
 * [20190603] Let's welcome macOS Catalina, shall we?
 * [20190602] Added support for 10.14.5, released V1.0 for 10.14.5.
 * [20190601] Happy children's day humans!
@@ -61,6 +62,7 @@
    * [Hackintosh Laptop Index](https://github.com/daliansky/Hackintosh): EFI for other laptop might help as a useful reference. Navigate to here if you need more reference from other laptops.
 * Bluetooth Issues:
    * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
+   * But now, it seems like you can buy a [Customized adapter card](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-498715154) thanks to zysuper's effort on taobao.com.
    * See [Pictures](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD).
    * [Intel is embedding BT chips into PCH which does not work in macOS.](https://www.guru3d.com/news-story/intel-makes-wireless-ac-9560-a-bit-more-embedded.html) 
    * We also have a long discussion in the issues so check it out if you are interested in this issue. 
