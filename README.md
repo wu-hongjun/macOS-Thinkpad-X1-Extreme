@@ -7,7 +7,7 @@
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it!
 #### Read the ENTIRE readme.MD before you take any action.
-<img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Screen%20Shot%202019-05-14%20at%2011.42.04%20AM.png" alt="Sys Info" width="1000">
+<img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sysinfo.png" alt="Sys Info" width="1000">
 
 ## Update
 ##### Recent
