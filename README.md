@@ -5,8 +5,7 @@
 #### *Current Clover Version: 4934*
 #### *Current macOS Version: 10.14.5*
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
-#### Don't forget to star this project if you like it!
-#### Read the ENTIRE readme.MD before you take any action.
+#### Don't forget to star this project if you like it! READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
 <img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sysinfo.png" alt="Sys Info" width="1000">
 
 ## Update
