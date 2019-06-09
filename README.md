@@ -31,7 +31,7 @@
    * BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. 
    * BCM94360CS2 is an ABSOLUTELY NIGHTMARE. DON'T buy.
    * Please be careful which you buy as others have problems causing freezing and lead to ultimate not responding. 
-   * However, I got one and it works fine...IDK maybe that person's machine had some mis-configuration?
+   * ~~However, I got one and it works fine...IDK maybe that person's machine had some mis-configuration?~~
    * The thing is adding a 3rd antenna inside the machine doesn't have a good signal.
 * [Kinivo BTD-400 Bluetooth 4.0 Low Energy USB Adapter](https://www.amazon.com/Kinivo-BTD-400-Bluetooth-4-0-USB/dp/B007Q45EF4/ref=sr_1_fkmrnull_3?keywords=kinivo+bluetooth+dongle&qid=1555648213&s=gateway&sr=8-3-fkmrnull): This is the BlueTooth adapter I use before I got internal BT working. Read more about the internal BT [here](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD).This USB adapter works well with Airpods 2, but you can always use other compatible ones. Just here if you just want to buy a cheap and working BT for nobrainers. It's BT4.0, because it is cheap and not many BT5.0 dongle exist in the market yet.
 
