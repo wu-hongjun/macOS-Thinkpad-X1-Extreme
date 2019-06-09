@@ -8,16 +8,16 @@
 * iGPU: Intel UHD Graphics 630 1536MB
 * ~~dGPU: NVIDIA GTX 1050TI MAX-Q 4GB GDDR5(Disabled / DDGPU.SSDT)~~
 * ~~eGPU: Thunderbolt 3: AORUS Gaming Box GeForce GTX 1080~~
-* **Wifi: BRCM943602BAED DW1830 802.11AC**
+* **Wifi: BRCM943602CS 802.11AC**
 * RAM: 32GB DDR4 2666MHZ Dual-Channel SODIMM
 * Screen: Lenovo 15' 3840x2160 FlexView Display
 * SSD1: Samsung PM981 MZVLB1T0HALR-000L7 1024GB (Windows)
 * **SSD2: Toshiba XG3 THNSN51T02DU7 1024GB (macOS)**
 * SDXC: Samsung EVO select 128GB microSDXC
 * Ethernet: Intel I219-LM Ethernet(IntelMausiEthernetController.kext)
-* ~~BlueTooth: DW1830 BRCMBT4.1(Due to M.2. connector lack USB channel)~~ 
-* WebCamera: Integrated Camera & Integrated IR Camera
-* Audio: Realtek ALC285 (VoodooHDA.kext)~~(AppleALC.kext)~~
+* BlueTooth: BRCM94360 BT4.1
+* WebCamera: Integrated Camera & ~~Integrated IR Camera~~
+* Audio: Realtek ALC285 (AppleALC.kext) ~~(VoodooHDA.kext)~~
 * Microphone: Integrated Long Range Microphone Array
 * Backlight Control: AppleIntelBacklight
 * Pen & Touch: WACOM Multi-Touch & Pen (Pen not tested)
