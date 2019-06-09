@@ -1,6 +1,6 @@
 # Hackintosh for Thinkpad X1 Extreme (1st Generation)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-> This hackintosh you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).
+> Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).
 ### Current Release: [10.14.5-V1.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### *Current Clover Version: 4934*
 #### *Current macOS Version: 10.14.5*
