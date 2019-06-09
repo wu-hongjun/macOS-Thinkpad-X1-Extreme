@@ -16,8 +16,7 @@
 * [20190602] Added support for 10.14.5, released V1.0 for 10.14.5.
 * [20190601] Happy children's day humans!
 
-##### Past Updates
-* [Past Update History Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Updates): For earlier update logs.
+##### [Update Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/Updates)
 
 ## Instructions
 ##### Pre-Install
