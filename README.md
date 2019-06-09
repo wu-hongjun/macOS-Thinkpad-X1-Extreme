@@ -44,12 +44,10 @@
 * Bluetooth issues:
    * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
    * A more in depth discussion of how to make it work is here: [Issue #11](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11)
-   * But now, it seems like you can buy a [Customized adapter card](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-498715154) thanks to zysuper's effort on taobao.com.
-   * See [Pictures](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD).
+   * But now, it seems like you can buy a [Customized adapter card](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-498715154) thanks to zysuper and wdxxfu's effort on taobao.com.
    * [Intel is embedding BT chips into PCH which does not work in macOS.](https://www.guru3d.com/news-story/intel-makes-wireless-ac-9560-a-bit-more-embedded.html) 
-   * We also have a long discussion in the issues so check it out if you are interested in this issue. 
    * You can use an USB BT adapter mentioned above, or [DIY a board](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD) to make internal BT working. 
-   * This requires some tech skills!!! You could toast your laptop if you do it wrong.
+   * This requires some tech skills!!! You could toast your laptop if you do it wrong. I am serious.
 * Time sync issues:
    * [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/): Some might also experience between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) credit to [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/).
 * Boot issues:
