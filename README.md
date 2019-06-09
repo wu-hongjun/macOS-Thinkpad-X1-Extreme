@@ -40,7 +40,7 @@
 * [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism): If you are interested in the theme I used, check it out over here.
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/): I recommend users to use to configure your config.plist in order to eliminate typos.
 * [Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Aero-15W/blob/master/Mount%20EFI%20on%20macOS.MD): If you cannot mount EFI via Clover Configurator.
-##### Post-Install ans Issues
+##### Post-Install and Issues
 * Bluetooth issues:
    * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
    * A more in depth discussion of how to make it work is here: [Issue #11](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11)
