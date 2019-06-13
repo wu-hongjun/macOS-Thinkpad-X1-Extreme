@@ -9,14 +9,13 @@
 <img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sysinfo.png" alt="Sys Info" width="1000">
 
 ## Update
-##### Recent
+##### Recent | [Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
 * [20190612] Hmmmmm so far...so good? I will be traveling during the summer, so probably won't update much.
 * [20190604] Thanks for [zysuper's effort](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-498715154), you can actually buy a adapter card than soldering your own. Cheers!
 * [20190603] Let's welcome macOS Catalina, shall we?
 * [20190602] Added support for 10.14.5, released V1.0 for 10.14.5.
 * [20190601] Happy children's day humans!
 
-##### [Update Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
 
 ## Instructions
 ##### Pre-Install
