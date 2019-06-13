@@ -1,8 +1,8 @@
 # Hackintosh for Thinkpad X1 Extreme (1st Generation)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).
-### Current Release: [10.14.5-V1.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
-#### *Current Clover Version: 4934*
+### Current Release: [10.14.5-V1.1](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+#### *Current Clover Version: 4961*
 #### *Current macOS Version: 10.14.5*
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
@@ -10,6 +10,7 @@
 
 ## Update
 ##### Recent | [Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190614] Released a minor update on clover bootloader. Version v10.14.5.1.1.
 * [20190612] Hmmmmm so far...so good? I will be traveling during the summer, so probably won't update much.
 * [20190604] Thanks for [zysuper's effort](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-498715154), you can actually buy a adapter card than soldering your own. Cheers!
 * [20190603] Let's welcome macOS Catalina, shall we?
