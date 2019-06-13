@@ -10,6 +10,7 @@
 
 ## Update
 ##### Recent
+* [20190612] Hmmmmm so far...so good? I will be traveling during the summer, so probably won't update much.
 * [20190604] Thanks for [zysuper's effort](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-498715154), you can actually buy a adapter card than soldering your own. Cheers!
 * [20190603] Let's welcome macOS Catalina, shall we?
 * [20190602] Added support for 10.14.5, released V1.0 for 10.14.5.
