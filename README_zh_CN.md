@@ -14,7 +14,7 @@
     * [Windows Driver for BRCM94360CS2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1): 如果你尝试使用 [BCM94360CS2/BCM94360CD 转 NGFF(M.2)Key A/E 转接卡](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD) 来安装原生Macbook网卡，请下载这个驱动。
     * [Windows Driver for BRCM943602BAED](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1): 这个驱动是给戴尔DW1830的。
     * [Windows Driver for Asus USB-AC53](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/Softwares/ASUS_USB-AC53-Nano/Realtek-A1600_Comfast%20810-ASUS_AC53.zip): 这个驱动是给华硕USB-AC53 USB Wifi网卡驱动使用。
-    * These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
+    * 和macOS免驱不同，在Windows下这些卡是没有默认驱动的，所以如果不事先下载好的话装完系统甚至会在Windows下无法联网。
 * [Kinivo BTD-400 Bluetooth 4.0 Low Energy USB Adapter](https://www.amazon.com/Kinivo-BTD-400-Bluetooth-4-0-USB/dp/B007Q45EF4/ref=sr_1_fkmrnull_3?keywords=kinivo+bluetooth+dongle&qid=1555648213&s=gateway&sr=8-3-fkmrnull): 这是一个我自己之前买了试了挺好用的USB蓝牙接收器。如果你想买一个便宜的USB蓝牙接收器的话，可以试试这个。我之前用Airpods 2 很兼容。
 
 ##### 汇报问题
