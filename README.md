@@ -26,8 +26,7 @@
 
 ##### Issue Report
 * We welcome people to submit issue and report them! This will help all of us to figure out what can be done to the laptop. Please file a issue in the **Issues** module.
-* I recognize that there are a lot of Chinese speaking people participating in the discussion which is good! But if you can, please also leave an English version of your message when you post your discussion so we can have the world solve problems together. 
-* 我也发现有很多同胞积极讨论，这很棒！但是如果可以的话请随手附上一份英语翻译，不会英语直接翻译器翻一下就好，这样我们就可以和全世界一起完善这个项目啦！
+* I recognize that there are a lot of Chinese speaking people participating in the discussion which is good! But if you can, please also leave an English version of your message when you post your discussion so we can have the world solve problems together.
 
 ##### Clover Bootloader
 * [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases): If you want to download the EFI Clover Bootloader .
