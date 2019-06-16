@@ -1,10 +1,10 @@
-# Thinkpad X1 Extreme 隐士 黑苹果配置文件(1st Generation)
+# Thinkpad X1 隐士一代 黑苹果
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-> 你们搞的这个黑苹果啊, excited!  ——— [改变了中国的男人](https://errrneist.github.io/elder/).
+> 你们搞的这个黑苹果啊, Excited!  ——— [那个改变了中国的男人](https://errrneist.github.io/elder/).
 ### 目前发布版本: [以首页为准](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### 开发者: [@厄尔尼斯特](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### 记得Star啊！先把这个读完再行动，不然很可能会搞爆电脑的！
-#### 以及，中文页不会经常更新，一切以英文页面为最新，仅供参考。
+#### 切记，中文页不会经常更新，一切以英文页面为最新，仅供参考！！！
 <img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sysinfo.png" alt="Sys Info" width="1000">
 
 ## 安装指示
@@ -55,7 +55,7 @@
    * 但是这款卡不支持[视网膜分辨率的4K60FPS](http://assets.displaylink.com/live/downloads/release-notes/f1303_DisplayLink+USB+Graphics+Software+for+macOS+5.1-Release+Notes.txt)，只能靠后期厂商发布更新了。
 * [系统参数](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): 如果你想看我电脑的配置可以点这个。
 * 更多黑苹果资源:
-   * [黑果小兵的配置大全](https://github.com/daliansky/Hackintosh): 如果你需要找一些别的电脑做参考，这位大佬整理出了一份非常全的笔记本配置合辑，可以去看看。
+   * [宁南的配置大全](https://github.com/daliansky/Hackintosh): 如果你需要找一些别的电脑做参考，这位[大佬](https://github.com/y010204025)整理出了一份非常全的笔记本配置合辑，可以去看看。
 
 ## 讨论与新闻
 * [zysuper的配置](https://github.com/zysuper/Thinkpad-X1-extreme-EFI): 这位老哥写了一个非常棒的**另一个相似的X1E配置**。记得帮他也Star一下噢！
@@ -64,5 +64,5 @@
 ## 许可
 * 这个项目是基于[996许可](https://github.com/996icu/996.ICU/blob/master/LICENSE)，旨在支持程序员反996运动。
 
-### 厄尔尼斯特，乙亥年五月十三
+### 厄尔尼斯特，乙亥年五月十三于西雅图
 
