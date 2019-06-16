@@ -1,81 +1,68 @@
-# Hackintosh for Thinkpad X1 Extreme (1st Generation)
+# Thinkpad X1 Extreme 隐士 黑苹果配置文件(1st Generation)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-> Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).
-### Current Release: [10.14.5-V1.1](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
-#### *Current Clover | macOS Version: 4961 | 10.14.5*
-#### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
-#### Don't forget to star this project if you like it! READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
+> 你们搞的这个黑苹果啊, excited!  ——— [改变了中国的男人](https://errrneist.github.io/elder/).
+### 目前发布版本: [以首页为准](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+#### 开发者: [@厄尔尼斯特](https://www.tonymacx86.com/members/errrneist.1550861/)
+#### 记得Star啊！先把这个读完再行动，不然很可能会搞爆电脑的！
+#### 以及，中文页不会经常更新，一切以英文页面为最新，仅供参考。
 <img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sysinfo.png" alt="Sys Info" width="1000">
 
-## Update
-##### Recent | [Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
-* [20190614] Released a minor update on clover bootloader. Version v10.14.5.1.1.
-* [20190613] Sidenote: I got a Logitech G Pro Wireless yesterday and wow, awesome. (Not advertisement)
-* [20190612] Hmmmmm so far...so good? I will be traveling during the summer, so probably won't update much.
-* [20190604] Thanks for [zysuper's effort](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-498715154), you can actually buy a adapter card than soldering your own. Cheers!
-* [20190603] Let's welcome macOS Catalina, shall we?
-* [20190602] Added support for 10.14.5, released V1.0 for 10.14.5.
-* [20190601] Happy children's day humans!
-
-
-## Instructions
-##### Pre-Install
-##### *FORK* the project to your own repository and clone it to your machine using Github Desktop to make changes.
-* Windows drivers for Wifi Adapters:
-    * [Windows Driver for BRCM94360CS2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1): If you try to use an [BCM94360CS2/BCM94360CD Card To NGFF(M.2)Key A/E Adapter For macOS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD) to install the native card used on Macbook Pro. 
-    * [Windows Driver for BRCM943602BAED](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1): To get DW1830 working in Windows. 
-    * [Windows Driver for Asus USB-AC53](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/Softwares/ASUS_USB-AC53-Nano/Realtek-A1600_Comfast%20810-ASUS_AC53.zip): If you are using a ASUS usb wifi adapter, also make sure to download this. 
+## 安装指示
+##### 安装前
+##### 你可以 *FORK* 这个仓库，方便你做关于你自己电脑的修改。
+* Wifi转接器的Windows驱动:
+    * [Windows Driver for BRCM94360CS2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1): 如果你尝试使用 [BCM94360CS2/BCM94360CD 转 NGFF(M.2)Key A/E 转接卡](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD) 来安装原生Macbook网卡，请下载这个驱动。
+    * [Windows Driver for BRCM943602BAED](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1): 这个驱动是给戴尔DW1830的。
+    * [Windows Driver for Asus USB-AC53](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/Softwares/ASUS_USB-AC53-Nano/Realtek-A1600_Comfast%20810-ASUS_AC53.zip): 这个驱动是给华硕USB-AC53 USB Wifi网卡驱动使用。
     * These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
-* [Kinivo BTD-400 Bluetooth 4.0 Low Energy USB Adapter](https://www.amazon.com/Kinivo-BTD-400-Bluetooth-4-0-USB/dp/B007Q45EF4/ref=sr_1_fkmrnull_3?keywords=kinivo+bluetooth+dongle&qid=1555648213&s=gateway&sr=8-3-fkmrnull): This is the BlueTooth adapter I use before I got internal BT working. Read more about the internal BT [here](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD).This USB adapter works well with Airpods 2, but you can always use other compatible ones. Just here if you just want to buy a cheap and working BT for nobrainers. It's BT4.0, because it is cheap and not many BT5.0 dongle exist in the market yet.
+* [Kinivo BTD-400 Bluetooth 4.0 Low Energy USB Adapter](https://www.amazon.com/Kinivo-BTD-400-Bluetooth-4-0-USB/dp/B007Q45EF4/ref=sr_1_fkmrnull_3?keywords=kinivo+bluetooth+dongle&qid=1555648213&s=gateway&sr=8-3-fkmrnull): 这是一个我自己之前买了试了挺好用的USB蓝牙接收器。如果你想买一个便宜的USB蓝牙接收器的话，可以试试这个。我之前用Airpods 2 很兼容。
 
-##### Issue Report
-* We welcome people to submit issue and report them! This will help all of us to figure out what can be done to the laptop. Please file a issue in the **Issues** module.
-* I recognize that there are a lot of Chinese speaking people participating in the discussion which is good! But if you can, please also leave an English version of your message when you post your discussion so we can have the world solve problems together. 
+##### 汇报问题
+* 请将一切您的问题和新发现告诉我们！ 在 **Issues** 模块里写下您的新发现。
 * 我也发现有很多同胞积极讨论，这很棒！但是如果可以的话请随手附上一份英语翻译，不会英语直接翻译器翻一下就好，这样我们就可以和全世界一起完善这个项目啦！
 
-##### Clover Bootloader
-* [Configuration Release](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases): If you want to download the EFI Clover Bootloader .
-* [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism): If you are interested in the theme I used, check it out over here.
-* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/): I recommend users to use to configure your config.plist in order to eliminate typos.
-* [Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
-##### Post-Install and Issues
-* Wifi issues:
-    * [Problem with BCM94360CS2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): 
-       * BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. 
-       * BCM94360CS2 is an ABSOLUTELY NIGHTMARE. DON'T buy.
-* Bluetooth issues:
-   * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
-   * A more in depth discussion of how to make it work is here: [Issue #11](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11)
-   * But now, it seems like you can buy a [Customized adapter card](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-498715154) thanks to zysuper and wdxxfu's effort on taobao.com.
-   * [Intel is embedding BT chips into PCH which does not work in macOS.](https://www.guru3d.com/news-story/intel-makes-wireless-ac-9560-a-bit-more-embedded.html) 
-   * You can use an USB BT adapter mentioned above, or [DIY a board](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD) to make internal BT working. 
-   * This requires some tech skills!!! You could toast your laptop if you do it wrong. I am serious.
-* Time sync issues:
-   * [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/): Some might also experience between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) credit to [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/).
-* Boot issues:
-   * [Special Simplified Edition](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE): Many people are experiencing unknown issues to boot into macOS. 
-   * I released a EFI configuration to at least boot into the OS and see what we can do. Read more in the release comment. (It is for 10.14.3 idk if it works in 10.14.4 or newer).
-* Touchpad issues:
-    * People are experiencing weird **touchpad issues** when boot windows from clover. So far not much can be done, so I recommend you to just set auto boot time in clover be 2sec or -1sec, and just use F12 to switch OS.
-* OpenGL issues:
-    * For video editors who use FinalCutPro and Davenci be aware that updating to 10.14.3 might cause [**OpenGL issue**](https://www.tonymacx86.com/threads/macos-10-14-0-thinkpad-x1-extreme-hackintosh.263916/post-1900369) that makes rendering take forever. (cr. [cthetoy](https://www.tonymacx86.com/members/cthetoy.152906/)).
-* PM981 issues:
-    * Recently, people on TonyMacX86 are having **issue with PM981**. PM981 is troublesome for Hackintosh and I am not using it for install. I'm using a Toshiba XG3. However, you can check out [zysuper's repo](https://github.com/zysuper/Thinkpad-X1-extreme-EFI/blob/master/readme.md) on ACPI files to make PM981 working.
-* External Display issues: 
-   * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull): Inspired by this [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) I bought an adapter and was able to achieve 4K60P via USB3.0 and HDMI2.0. Now output issue is solved. You can download the driver [via their website](https://www.displaylink.com/downloads/macos). 
-   * Relative question: [Will the one with USB-C plug work?](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/20) Short answer, I don't know. You can buy one and try if you want to.
-   * However, it has its own limitations of [not being able to scale 4K into 1080P with 60FPS](http://assets.displaylink.com/live/downloads/release-notes/f1303_DisplayLink+USB+Graphics+Software+for+macOS+5.1-Release+Notes.txt). This is a known issue and we can only hope future update fix this.
-* [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
-* More Hackintosh EFI Resource:
-   * [Hackintosh Laptop Index](https://github.com/daliansky/Hackintosh): EFI for other laptop might help as a useful reference. Navigate to here if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
+##### Clover启动器
+* [我的配置文件](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases): 如果你想试试我自己用的配置文件，可以下载这个。
+* [Minimalism-极简主题](https://github.com/Errrneist/Hackintosh-Theme-Minimalism): 这是我自用的极简主题。
+* [Clover Configurator-启动器配置器](https://mackie100projects.altervista.org/download-clover-configurator/): 这个工具可以超级无敌十分方便地管理和配置你的config.plist文件。
+* [用终端挂载EFI目录](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): 如果Clover Configurator不好用，可以试试用终端挂载EFI目录。
+##### 安装后和已知问题
+* Wifi问题:
+    * [BCM94360CS2兼容性问题](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): 
+       * BCM94360CS2和BCM943602CS是两张**不同的**卡！ 
+       * BCM94360CS2简直是噩梦，千万不要买。
+* 蓝牙问题:
+   * **蓝牙**已经被搞定了！我们成功使用一根排线接入智能卡插槽解决了USB频道的问题。
+   * 如果你想进一步阅读关于这个问题的更深细节，可以看看这个: [Issue #11](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11)
+   * 现在你可以在淘宝上购买到wdxxfu定制的[转接卡](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-498715154)了！感谢zysuper和wdxxfu做出的努力！
+   * [这是一条关于英特尔将PCH芯片集成进CPU的新闻，解释了蓝牙问题的起因。](https://www.guru3d.com/news-story/intel-makes-wireless-ac-9560-a-bit-more-embedded.html) 
+   * 你可以买一块定制板，或者像我自己一开始一样[自己焊](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD)来搞定蓝牙。
+   * 不会焊别自己弄啊！很可能烧了你主板的！我不是开玩笑！
+* 时间不同步问题:
+   * [时间不同步问题](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/): Windows和macOS切换时经常导致Windows时间不准，这里有一个[修复的方法](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0)，作者是 [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/)。
+* 引导问题:
+   * [极简特别版EFI配置文件](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE): 好像很多人都莫名其妙的不能引导。
+   * 我做了一个超级精简的仅用于引导的EFI配置文件，至少能让大家进系统，这个是给10.14.3写的，不知道更高的系统还好不好使。
+* 触摸板问题:
+    * 好多人通过Clover引导Windows都遇到了奇怪的**触摸板问题**。具体原因未知，但是也不是大问题，我推荐你在config里把auto boot设成2s或者-1s然后直接用F12切换硬盘来切换系统。
+* OpenGL问题:
+    * 如果您使用FinalCutPro或者Davenci，有可能在10.14.3（或更高）遇见[**OpenGL崩溃或者冻结**](https://www.tonymacx86.com/threads/macos-10-14-0-thinkpad-x1-extreme-hackintosh.263916/post-1900369)，或是渲染极慢。 (cr. [cthetoy](https://www.tonymacx86.com/members/cthetoy.152906/)).
+* PM981问题:
+    * 最近好多人都说**PM981**不认或者不好使。PM981一直都对黑苹果不怎么兼容，所以我自己用的是东芝XG3.但好像[zysuper](https://github.com/zysuper/Thinkpad-X1-extreme-EFI/blob/master/readme.md)搞定了，你可以去看看他的ACPI。
+* 外接显示器问题: 
+   * [Plugable USB3-6950-HDMI外界显示卡](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull): 有人提出了这个[问题](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13)，我就去买了个USB外接显卡（真的有这种东西啊原来）而且还能做到4K 60FPS！！！你可以去他们的官网[下载驱动](https://www.displaylink.com/downloads/macos)。
+   * 相关问题: [USB-C接口的6950好使吗？](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/20) 简而言之，我也不知道，理论上应该没问题，但是我没买，所以咱也不敢说。
+   * 但是这款卡不支持[视网膜分辨率的4K60FPS](http://assets.displaylink.com/live/downloads/release-notes/f1303_DisplayLink+USB+Graphics+Software+for+macOS+5.1-Release+Notes.txt)，只能靠后期厂商发布更新了。
+* [系统参数](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): 如果你想看我电脑的配置可以点这个。
+* 更多黑苹果资源:
+   * [黑果小兵的配置大全](https://github.com/daliansky/Hackintosh): 如果你需要找一些别的电脑做参考，这位大佬整理出了一份非常全的笔记本配置合辑，可以去看看。
 
-## Discussions and News
-* [zysuper's Work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI): Here is another helpful **alternative Thinkpad X1 Extreme Clover EFI configuration** repository. Please check out his work as well as some some issues are addressed in both of our repositories. Star his work too!
-* [Apple won't work with NVIDIA to release graphics card driver for 10.14](https://www.macrumors.com/2018/11/01/nvidia-comment-on-macos-mojave-drivers/). Currently, there is nothing we can do. We also have not tweaked on Thunderbolt 3 since we don't have proper hardware to test it. 
+## 讨论与新闻
+* [zysuper的配置](https://github.com/zysuper/Thinkpad-X1-extreme-EFI): 这位老哥写了一个非常棒的**另一个相似的X1E配置**。记得帮他也Star一下噢！
+* [苹果并未与英伟达在10.14中合作发布N卡的驱动](https://www.macrumors.com/2018/11/01/nvidia-comment-on-macos-mojave-drivers/)。目前，只能等了，我的eGPU是英伟达的，所以也没办法测试eGPU了，有人有AMD的eGPU可以帮忙测试一下然后告诉我们！
 
-## License
-* This work is issued under the [996 license](https://github.com/996icu/996.ICU/blob/master/LICENSE).
+## 许可
+* 这个项目是基于[996许可](https://github.com/996icu/996.ICU/blob/master/LICENSE)，旨在支持程序员反996运动。
 
-### Cheers, Errrneist.
-
+### 厄尔尼斯特，乙亥年五月十三
 
