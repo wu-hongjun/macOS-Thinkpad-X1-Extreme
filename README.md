@@ -10,6 +10,7 @@
 
 ## Update
 ##### Recent | [Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190615] Wrote a [Chinese Readme.MD](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/README_zh_CN.md), to help my CHinese friends!
 * [20190614] Released a minor update on clover bootloader. Version v10.14.5.1.1.
 * [20190613] Sidenote: I got a Logitech G Pro Wireless yesterday and wow, awesome. (Not advertisement)
 * [20190612] Hmmmmm so far...so good? I will be traveling during the summer, so probably won't update much.
