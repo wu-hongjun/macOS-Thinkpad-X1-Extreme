@@ -71,5 +71,7 @@
 * This work is issued under the [996 license](https://github.com/996icu/996.ICU/blob/master/LICENSE).
 
 ### Cheers, Errrneist.
+
+## Preview
 <img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sysinfo.png" alt="Sys Info" width="1000">
 
