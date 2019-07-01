@@ -1,8 +1,8 @@
 # Hackintosh for Thinkpad X1 Extreme (1st Generation)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
-### Current Release: [10.14.5-V1.1](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
-#### *Current Clover | macOS | BIOS Version: 4961 | 10.14.5 | 1.21*
+### Current Release: [10.14.5-V1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+#### *Current Clover | macOS | BIOS Version: 4972 | 10.14.5 | 1.21*
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
 > 英语并非你的首选语言？[中文版文档](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/README_zh_CN.md)
@@ -11,10 +11,9 @@
 
 ## Update
 ##### Recent | [Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190701] Updated many extensions and released v10.13.5.1.2.
 * [20190628] Studying abroad in Greece. Not gonna update so much. Will try Catalina if I got time.
 * [20190615] Wrote a [Chinese Readme.MD](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/README_zh_CN.md), to help my Chinese friends!
-* [20190614] Released a minor update on clover bootloader. Version v10.14.5.1.1.
-* [20190613] Sidenote: I got a Logitech G Pro Wireless yesterday and wow, awesome. (Not advertisement)
 
 ## Instructions
 ##### Pre-Install
