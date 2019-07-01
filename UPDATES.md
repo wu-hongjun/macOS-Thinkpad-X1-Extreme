@@ -3,6 +3,8 @@
 ## 2019
 
 ### June Updates
+* [20190614] Released a minor update on clover bootloader. Version v10.14.5.1.1.
+* [20190613] Sidenote: I got a Logitech G Pro Wireless yesterday and wow, awesome. (Not advertisement)
 * [20190612] Hmmmmm so far...so good? I will be traveling during the summer, so probably won't update much.
 * [20190604] Thanks for [zysuper's effort](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-498715154), you can actually buy a adapter card than soldering your own. Cheers!
 * [20190603] Let's welcome macOS Catalina, shall we?
