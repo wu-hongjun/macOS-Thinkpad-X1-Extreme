@@ -13,6 +13,7 @@
 
 ## Update
 ##### Recent | [Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190710] Added badges for the versions. Yayyyyyy!!!
 * [20190706] Achieved initial Catalina support :) Released v10.15.0.1.0.
 * [20190703] Fixed an issue for AppleALC not working properly, released v10.14.5.1.3.
 * [20190702] It seems like there is a Lenovo implementation of DL6950 ext display. [Issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-507499718)
