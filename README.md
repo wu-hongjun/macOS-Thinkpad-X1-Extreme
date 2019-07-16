@@ -13,6 +13,7 @@
 
 ## Update
 ##### Recent | [Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190717] So far so good, hadn’t encounter any bug in Catalina, which is very good for the first beta.
 * [20190715] Do NOT upgrade Clover to 4988 or higher. It doesn't quite work. (Blackscreen after bootload)
 * [20190710] Added badges for the versions. Yayyyyyy!!!
 * [20190706] Achieved initial Catalina support :) Released v10.15.0.1.0.
