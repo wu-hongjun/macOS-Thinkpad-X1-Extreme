@@ -12,7 +12,7 @@
 <img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sysinfo.png" alt="Sys Info" width="1000">
 
 ## Update
-##### Recent | [Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md
+##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
 * [20190719] Just updated to Public Beta 3 and v10.15.0.1.0 still works for PB3.
 * [20190717] So far so good, hadn’t encounter any bug in Catalina, which is very good for the first beta.
 * [20190715] Do NOT upgrade Clover to 4988 or higher. It doesn't quite work. (Blackscreen after bootload)
