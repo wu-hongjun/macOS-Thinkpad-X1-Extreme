@@ -2,6 +2,15 @@
 
 ## 2019
 ### July Updates
+* [20190721] Released an incremental update v10.15.0.1.1, attempting to fix the sleep and hybernation issue.
+* [20190720] Unknown issue of significant battery drain (40% in 8 Hours) during sleep in Catalina.
+* [20190719] Just updated to Public Beta 3 and v10.15.0.1.0 still works for PB3.
+* [20190717] So far so good, hadn’t encounter any bug in Catalina, which is very good for the first beta.
+* [20190715] Do NOT upgrade Clover to 4988 or higher. It doesn't quite work. (Blackscreen after bootload)
+* [20190710] Added badges for the versions. Yayyyyyy!!!
+* [20190706] Achieved initial Catalina support :) Released v10.15.0.1.0.
+* [20190703] Fixed an issue for AppleALC not working properly, released v10.14.5.1.3.
+* [20190702] It seems like there is a Lenovo implementation of DL6950 ext display. [Issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-507499718)
 * [20190701] Updated many extensions and released v10.14.5.1.2.
 
 ### June Updates
