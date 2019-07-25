@@ -99,5 +99,9 @@
 ## License
 * This work is issued under the [996 license](https://github.com/996icu/996.ICU/blob/master/LICENSE).
 
+## Sponsor
+* Donating to this project is OPTIONAL. However, if you would like to buy me a coffee, you can do that via WeChatPay.
+<img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sponsor.jpg" alt="Sys Info" width="300">
+
 ### Cheers, Errrneist.
 
