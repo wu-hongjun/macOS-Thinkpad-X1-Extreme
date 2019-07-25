@@ -74,10 +74,23 @@
    * To test it out on your own, you need VoodooI2C.kext and VoodooI2CCHID.kext, and in theory it would just work.
 * Camera Issues:
    * There is an [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) that macOS would use the integrated IR camera to make video calls which does not quite work.
-   * This is fixed in v10.15.0.1.2, credit to [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), and [coleXJ](https://github.com/ColeXJ).
+   * This is fixed in v10.15.0.1.2, credit to [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), and [ColeXJ](https://github.com/ColeXJ).
 * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
 * More Hackintosh EFI Resource:
    * Hackintosh Laptop Index: EFI for other laptop might help as a useful reference. Navigate to [here](https://github.com/daliansky/Hackintosh) (cr. [daliansky](https://github.com/daliansky)) if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
+
+## Other Contributors
+* [Rehabman](https://github.com/RehabMan)
+* [Acidanthera](https://github.com/acidanthera)
+* [zysuper](https://github.com/zysuper)
+* [darkal](https://github.com/darkal)
+* [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/)
+* [cthetoy](https://www.tonymacx86.com/members/cthetoy.152906/)
+* [jamesxxx1997](https://www.tonymacx86.com/members/jamesxxx1997.2184482/)
+* [flymin](https://github.com/flymin)
+* [kk1987](https://github.com/kk1987)
+* [ColeXJ](https://github.com/ColeXJ)
+* [daliansky](https://github.com/daliansky)
 
 ## Discussions and News
 * [zysuper's Work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI): Here is another helpful **alternative Thinkpad X1 Extreme Clover EFI configuration** repository. Please check out his work as well as some some issues are addressed in both of our repositories. Star his work too!
