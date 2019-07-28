@@ -80,17 +80,20 @@
    * Hackintosh Laptop Index: EFI for other laptop might help as a useful reference. Navigate to [here](https://github.com/daliansky/Hackintosh) (cr. [daliansky](https://github.com/daliansky)) if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
 
 ## Other Contributors
-* [Rehabman](https://github.com/RehabMan)
-* [Acidanthera](https://github.com/acidanthera)
-* [zysuper](https://github.com/zysuper)
-* [darkal](https://github.com/darkal)
-* [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/)
-* [cthetoy](https://www.tonymacx86.com/members/cthetoy.152906/)
-* [jamesxxx1997](https://www.tonymacx86.com/members/jamesxxx1997.2184482/)
-* [flymin](https://github.com/flymin)
-* [kk1987](https://github.com/kk1987)
-* [ColeXJ](https://github.com/ColeXJ)
-* [daliansky](https://github.com/daliansky)
+| Name | Contributions |
+| --- | --- |
+| [Rehabman](https://github.com/RehabMan) | Many kernel extensions and guides. |
+| [Acidanthera](https://github.com/acidanthera) | Lilu.kext and WhateverGreen.kext. |
+| [zysuper](https://github.com/zysuper) | Original development and M.2 Adapter order. |
+| [darkal](https://github.com/darkal) | USB external display via DisplayLink issues and minor debugging. |
+| [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/) | Time sync issue solution. |
+| [cthetoy](https://www.tonymacx86.com/members/cthetoy.152906/) | OpenGL issue. |
+| [jamesxxx1997](https://www.tonymacx86.com/members/jamesxxx1997.2184482/) | Touchscreen and Multi-touch gesture. |
+| [alexandred](https://github.com/alexandred) | Voodool2C.kext and its satellites. |
+| [flymin](https://github.com/flymin) | IR Camera ACPI patching. |
+| [kk1987](https://github.com/kk1987) | IR Camera ACPI patching methods. |
+| [ColeXJ](https://github.com/ColeXJ) | IR Camera issue. |
+| [daliansky](https://github.com/daliansky) | Hackintosh index maintainer. |
 
 ## Discussions and News
 * [zysuper's Work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI): Here is another helpful **alternative Thinkpad X1 Extreme Clover EFI configuration** repository. Please check out his work as well as some some issues are addressed in both of our repositories. Star his work too!
