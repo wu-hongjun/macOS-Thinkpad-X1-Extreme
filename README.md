@@ -14,6 +14,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190729] I was looking at [this post](http://bbs.pcbeta.com/viewthread-1823918-1-1.html) for updating to clover 5XXX and sleep issue...potentially to solve battery drain.
 * [20190728] Added a guide to customize the "About This Mac" page.
 * [20190725] Updated readme.MD with touchscreen and displaylink issues based on a [discussion](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1986487).
 * [20190724] Updated BIOS to 1.23, no major issue or changes.
