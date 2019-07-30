@@ -1,27 +1,24 @@
 # Hackintosh for Thinkpad X1 Extreme
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-[![BIOS](https://img.shields.io/badge/BIOS-1.21-brightgreen.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![BIOS](https://img.shields.io/badge/BIOS-1.23-brightgreen.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![Clover](https://img.shields.io/badge/Clover-4972-green.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![macOS](https://img.shields.io/badge/macOS-10.15.0-orange.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
-### Current Release: [10.15.0-V1.1](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+### Current Release: [10.15.0-V1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
-#### Don't forget to star this project if you like it! READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
+#### Don't forget to star this project if you like it! 
+#### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
 > 英语并非你的首选语言？[中文版文档](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/README_zh_CN.md)
 
 <img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sysinfo.png" alt="Sys Info" width="1000">
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
-* [20190721] Released an incremental update v10.15.0.1.1, attempting to fix the sleep and hybernation issue.
-* [20190720] Unknown issue of significant battery drain (40% in 8 Hours) during sleep in Catalina.
-* [20190719] Just updated to Public Beta 3 and v10.15.0.1.0 still works for PB3.
-* [20190717] So far so good, hadn’t encounter any bug in Catalina, which is very good for the first beta.
-* [20190715] Do NOT upgrade Clover to 4988 or higher. It doesn't quite work. (Blackscreen after bootload)
-* [20190710] Added badges for the versions. Yayyyyyy!!!
-* [20190706] Achieved initial Catalina support :) Released v10.15.0.1.0.
-* [20190703] Fixed an issue for AppleALC not working properly, released v10.14.5.1.3.
-* [20190702] It seems like there is a Lenovo implementation of DL6950 ext display. [Issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-507499718)
+* [20190729] I was looking at [this post](http://bbs.pcbeta.com/viewthread-1823918-1-1.html) for updating to clover 5XXX and sleep issue to solve battery drain...
+* [20190728] Added a guide to customize the "About This Mac" page.
+* [20190725] Updated readme.MD with touchscreen and displaylink issues based on a [discussion](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1986487).
+* [20190724] Updated BIOS to 1.23, no major issue or changes.
+* [20190723] Released [v10.15.0.1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.15.0.1.2) that disabled the integrated IR camera. Merged change in [Issue#33](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099)
 
 ## Instructions
 ##### Pre-Install
@@ -43,19 +40,23 @@
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/): I recommend users to use to configure your config.plist in order to eliminate typos.
 * [Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
 ##### Post-Install and Issues
+* Customize "About this Mac":
+   * [How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
 * Wifi issues:
     * [Problem with BCM94360CS2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): 
        * BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. 
        * BCM94360CS2 is an ABSOLUTELY NIGHTMARE. DON'T buy.
 * Bluetooth issues:
    * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
-   * A more in depth discussion of how to make it work is here: [Issue #11](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11)
+   * A more in depth discussion of how to make it work is here: 
+      * [Episode 1: Issue #3](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-471815481)
+      * [Episode 2: Issue #11](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11)
    * But now, it seems like you can buy a [Customized adapter card](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-498715154) thanks to zysuper and wdxxfu's effort on taobao.com.
    * [Intel is embedding BT chips into PCH which does not work in macOS.](https://www.guru3d.com/news-story/intel-makes-wireless-ac-9560-a-bit-more-embedded.html) 
    * You can use an USB BT adapter mentioned above, or [DIY a board](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD) to make internal BT working. 
    * This requires some tech skills!!! You could toast your laptop if you do it wrong. I am serious.
 * Time sync issues:
-   * [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/): Some might also experience between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) credit to [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/).
+   * [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/): Some might also experience between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) (cr. [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/)).
 * Boot issues:
    * [Special Simplified Edition](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE): Many people are experiencing unknown issues to boot into macOS. 
    * I released a EFI configuration to at least boot into the OS and see what we can do. Read more in the release comment. (It is for 10.14.3 idk if it works in 10.14.4 or newer).
@@ -66,13 +67,43 @@
 * PM981 issues:
     * Recently, people on TonyMacX86 are having **issue with PM981**. PM981 is troublesome for Hackintosh and I am not using it for install. I'm using a Toshiba XG3. However, you can check out [zysuper's repo](https://github.com/zysuper/Thinkpad-X1-extreme-EFI/blob/master/readme.md) on ACPI files to make PM981 working.
 * External Display issues: 
+   * IMPORTANT! I HEARD (Haven't confirm by myself) that for now in Catalina there is limited displaylink support (Although they did published their newest 5.1.1 driver for Catalina beta). Be careful on updateing to Catalina if you need to use displaylink. More info from [DisplayLink's Support on Catalina](https://support.displaylink.com/knowledgebase/articles/1916602-macos-catalina-10-15-beta).
    * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull): Inspired by this [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) I bought an adapter and was able to achieve 4K60P via USB3.0 and HDMI2.0. Now output issue is solved. You can download the driver [via their website](https://www.displaylink.com/downloads/macos). 
    * Relative question: [Will the one with USB-C plug work?](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/20) Short answer, I don't know. You can buy one and try if you want to.
-   * Alternative [Lenovo USB Dock](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-507499718), a dock by Lenovo and I suppose it might work as well, but I am not sure as it has not ben tested. (cr. darkal)
+   * Alternative [Lenovo USB Dock](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-507499718), a dock by Lenovo and I suppose it might work as well, but I am not sure as it has not ben tested. (cr. [darkal](https://github.com/darkal))
    * However, it has its own limitations of [not being able to scale 4K into 1080P with 60FPS](http://assets.displaylink.com/live/downloads/release-notes/f1303_DisplayLink+USB+Graphics+Software+for+macOS+5.1-Release+Notes.txt). This is a known issue and we can only hope future update fix this.
+* Touchscreen and Gesture Issues (VoodooI2C.kext):
+   * A interesting [discussion](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1986487) with [jamesxxx1997](https://www.tonymacx86.com/members/jamesxxx1997.2184482/) implies that (At least on 10.14) you can use [VoodooI2C.kext](https://github.com/alexandred/VoodooI2C) to achieve touch screen and touchpad gesture support.
+   * However, it was not working on 10.15 based on my tests.
+   * I suspect that it is a Catalina compatiability issue, because 10.15 lose touchscreen support even if it was supported in 10.14.
+   * The author of VoodooI2C hasn't been updating the repo since WWDC2019, so I suspect so far there is no Catalina support.
+   * To test it out on your own, you need VoodooI2C.kext and VoodooI2CCHID.kext, and in theory it would just work.
+   * A more through guide is here: [Guide(Chinese)](http://bbs.pcbeta.com/viewthread-1824033-1-2.html), but currently, I'm very busy, so I might do it some time in the future. If you have time, try on your own and tell us how it goes!
+* Camera Issues:
+   * There is an [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) that macOS would use the integrated IR camera to make video calls which does not quite work.
+   * This is fixed in v10.15.0.1.2, credit to [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), and [ColeXJ](https://github.com/ColeXJ).
 * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
 * More Hackintosh EFI Resource:
-   * [Hackintosh Laptop Index](https://github.com/daliansky/Hackintosh): EFI for other laptop might help as a useful reference. Navigate to here if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
+   * Hackintosh Laptop Index: EFI for other laptop might help as a useful reference. Navigate to [here](https://github.com/daliansky/Hackintosh) (cr. [daliansky](https://github.com/daliansky)) if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
+
+## Other Contributors
+* CAUTION: There is no order in the ranking of names. This list may not be complete! Sorry for any inconvience.
+
+| Name | Contributions |
+| --- | --- |
+| [Rehabman](https://github.com/RehabMan) | Many kernel extensions and guides. |
+| [Acidanthera](https://github.com/acidanthera) | Lilu.kext and WhateverGreen.kext. |
+| [zysuper](https://github.com/zysuper) | Original development and M.2 Adapter order. |
+| [darkal](https://github.com/darkal) | USB external display via DisplayLink issues and minor debugging. |
+| [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/) | Time sync issue solution. |
+| [cthetoy](https://www.tonymacx86.com/members/cthetoy.152906/) | OpenGL issue. |
+| [jamesxxx1997](https://www.tonymacx86.com/members/jamesxxx1997.2184482/) | Touchscreen and Multi-touch gesture. |
+| [alexandred](https://github.com/alexandred) | Voodool2C.kext and its satellites. |
+| [flymin](https://github.com/flymin) | IR Camera ACPI patching. |
+| [kk1987](https://github.com/kk1987) | IR Camera ACPI patching methods. |
+| [ColeXJ](https://github.com/ColeXJ) | IR Camera issue. |
+| [daliansky](https://github.com/daliansky) | Hackintosh index maintainer. |
+| [Joaquim Barbosa](https://www.idownloadblog.com/author/joebarbosa/) | Guide to customize "About this Mac". |
 
 ## Discussions and News
 * [zysuper's Work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI): Here is another helpful **alternative Thinkpad X1 Extreme Clover EFI configuration** repository. Please check out his work as well as some some issues are addressed in both of our repositories. Star his work too!
@@ -80,6 +111,12 @@
 
 ## License
 * This work is issued under the [996 license](https://github.com/996icu/996.ICU/blob/master/LICENSE).
+
+## Donate
+* Donating to this project is OPTIONAL. 
+* However, if you would like to buy me a coffee, you can do that using QR codes (WechatPay or Venmo).
+<img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/wechatpay.jpg" alt="wechatpay" width="300">
+<img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/venmo.jpg" alt="venmo" width="300">
 
 ### Cheers, Errrneist.
 

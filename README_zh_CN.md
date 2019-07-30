@@ -64,5 +64,11 @@
 ## 许可
 * 这个项目是基于[996许可](https://github.com/996icu/996.ICU/blob/master/LICENSE)，旨在支持程序员反996运动。
 
+## 捐助
+* 捐助这个开源的项目完全取决于您的个人意愿。
+* 但是如果您想给我买杯咖啡的话，可以扫描下面的微信支付或Venmo二维码，谢啦！
+<img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/wechatpay.jpg" alt="wechatpay" width="300">
+<img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/venmo.jpg" alt="venmo" width="300">
+
 ### 厄尔尼斯特，二零一九年六月十五于西雅图
 
