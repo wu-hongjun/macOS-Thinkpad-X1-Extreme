@@ -14,6 +14,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190731] Added "Memory Issue" section for systems that has 64GB memory.
 * [20190729] I was looking at [this post](http://bbs.pcbeta.com/viewthread-1823918-1-1.html) for updating to clover 5XXX and sleep issue to solve battery drain...
 * [20190728] Added a guide to customize the "About This Mac" page.
 * [20190725] Updated readme.MD with touchscreen and displaylink issues based on a [discussion](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1986487).
@@ -46,6 +47,13 @@
     * [Problem with BCM94360CS2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): 
        * BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. 
        * BCM94360CS2 is an ABSOLUTELY NIGHTMARE. DON'T buy.
+* Memory Issues:
+   * Normally, your memory on your machine should just work. [Issue#34](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/34#issuecomment-516447421) However, with machines that has 64G of memory, you might need some workaround.
+   * Presented by [oreziam](https://github.com/oreziam), he gave a brief description of his solution in the above issue. 
+      * Note that I do not know, and cannot help you with this issue since I have 32G of memory. You should contact oreziam if you have questions.
+      * In order to make this work, you need to inject info of the system memory, but with one more sockets than usual.
+      * That means you need to inject 4 channels and 5 sockets for memory info, 16G * 5.
+      * When you boot into the system, it would detect 64G correctly.
 * Bluetooth issues:
    * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
    * A more in depth discussion of how to make it work is here: 
@@ -104,6 +112,7 @@
 | [ColeXJ](https://github.com/ColeXJ) | IR Camera issue. |
 | [daliansky](https://github.com/daliansky) | Hackintosh index maintainer. |
 | [Joaquim Barbosa](https://www.idownloadblog.com/author/joebarbosa/) | Guide to customize "About this Mac". |
+| [oreziam](https://github.com/oreziam) | Solution for memory that exceeds 64G. |
 
 ## Discussions and News
 * [zysuper's Work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI): Here is another helpful **alternative Thinkpad X1 Extreme Clover EFI configuration** repository. Please check out his work as well as some some issues are addressed in both of our repositories. Star his work too!
