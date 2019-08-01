@@ -8,16 +8,13 @@
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
-> 英语并非你的首选语言？[中文版文档](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/README_zh_CN.md)
+> 英语并非你的首选语言？[中文版文档（非最新）](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/README_zh_CN.md)
 
 <img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sysinfo.png" alt="Sys Info" width="1000">
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
-* [20190728] Added a guide to customize the "About This Mac" page.
-* [20190725] Updated readme.MD with touchscreen and displaylink issues based on a [discussion](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1986487).
-* [20190724] Updated BIOS to 1.23, no major issue or changes.
-* [20190723] Released [v10.15.0.1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.15.0.1.2) that disabled the integrated IR camera. Merged change in [Issue#33](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099)
+* [20190801] Added "Fan Issues" for situations when fans don't turn on under load.
 
 ## Instructions
 ##### Pre-Install
@@ -45,13 +42,25 @@
     * [Problem with BCM94360CS2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): 
        * BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. 
        * BCM94360CS2 is an ABSOLUTELY NIGHTMARE. DON'T buy.
+* Memory Issues:
+   * Normally, your memory on your machine should just work. [Issue#34](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/34#issuecomment-516447421) However, with machines that has 64G of memory, you might need some workaround.
+   * Presented by [oreziam](https://github.com/oreziam), he gave a brief description of his solution in the above issue. 
+      * Note that I do not know, and cannot help you with this issue since I have 32G of memory. You should contact oreziam if you have questions.
+      * In order to make this work, you need to inject info of the system memory, but with one more sockets than usual.
+      * That means you need to inject 4 channels and 5 sockets for memory info, 16G * 5.
+      * When you boot into the system, it would detect 64G correctly.
 * Bluetooth issues:
    * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
-   * A more in depth discussion of how to make it work is here: [Issue #11](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11)
+   * A more in depth discussion of how to make it work is here: 
+      * [Episode 1: Issue #3](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-471815481)
+      * [Episode 2: Issue #11](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11)
    * But now, it seems like you can buy a [Customized adapter card](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11#issuecomment-498715154) thanks to zysuper and wdxxfu's effort on taobao.com.
    * [Intel is embedding BT chips into PCH which does not work in macOS.](https://www.guru3d.com/news-story/intel-makes-wireless-ac-9560-a-bit-more-embedded.html) 
    * You can use an USB BT adapter mentioned above, or [DIY a board](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD) to make internal BT working. 
    * This requires some tech skills!!! You could toast your laptop if you do it wrong. I am serious.
+* Fan Issues:
+   * Some people experienced fan issues that the fan does not turn on during load. [Issue #32](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/32)
+   * This can be solved by applying a BIOS update.
 * Time sync issues:
    * [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/): Some might also experience between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) (cr. [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/)).
 * Boot issues:
@@ -75,6 +84,7 @@
    * I suspect that it is a Catalina compatiability issue, because 10.15 lose touchscreen support even if it was supported in 10.14.
    * The author of VoodooI2C hasn't been updating the repo since WWDC2019, so I suspect so far there is no Catalina support.
    * To test it out on your own, you need VoodooI2C.kext and VoodooI2CCHID.kext, and in theory it would just work.
+   * A more through guide is here: [Guide(Chinese)](http://bbs.pcbeta.com/viewthread-1824033-1-2.html), but currently, I'm very busy, so I might do it some time in the future. If you have time, try on your own and tell us how it goes!
 * Camera Issues:
    * There is an [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) that macOS would use the integrated IR camera to make video calls which does not quite work.
    * This is fixed in v10.15.0.1.2, credit to [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), and [ColeXJ](https://github.com/ColeXJ).
@@ -100,6 +110,7 @@
 | [ColeXJ](https://github.com/ColeXJ) | IR Camera issue. |
 | [daliansky](https://github.com/daliansky) | Hackintosh index maintainer. |
 | [Joaquim Barbosa](https://www.idownloadblog.com/author/joebarbosa/) | Guide to customize "About this Mac". |
+| [oreziam](https://github.com/oreziam) | Solution for memory that exceeds 64G. |
 
 ## Discussions and News
 * [zysuper's Work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI): Here is another helpful **alternative Thinkpad X1 Extreme Clover EFI configuration** repository. Please check out his work as well as some some issues are addressed in both of our repositories. Star his work too!
