@@ -4,7 +4,7 @@
 [![Clover](https://img.shields.io/badge/Clover-4972-green.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![macOS](https://img.shields.io/badge/macOS-10.15.0-orange.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
-### Current Release: [10.15.0-V1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+### Current Release: [10.15.0-V1.3](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
@@ -14,6 +14,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190805] Uppdated AppleALC.kext, improved stability, released v10.15.0.1.3.
 * [20190802] Updated to macOS 10.15.0 PB4, and v10.15.0.1.2 still works.
 * [20190801] Added "Fan Issues" for situations when fans don't turn on under load.
 
@@ -119,7 +120,7 @@
 | [daliansky](https://github.com/daliansky) | Hackintosh index maintainer. |
 | [Joaquim Barbosa](https://www.idownloadblog.com/author/joebarbosa/) | Guide to customize "About this Mac". |
 | [oreziam](https://github.com/oreziam) | Solution for memory that exceeds 64G. |
-| [xuzhao9](https://github.com/xuzhao9) | i7-8750H Config |
+| [xuzhao9](https://github.com/xuzhao9) | i7-8750H Config & AppleALC layout-id=21 |
 
 ## Discussions and News
 * [zysuper's Work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI): Here is another helpful **alternative Thinkpad X1 Extreme Clover EFI configuration** repository. Please check out his work as well as some some issues are addressed in both of our repositories. Star his work too!
