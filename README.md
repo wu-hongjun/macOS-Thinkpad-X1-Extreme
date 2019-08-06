@@ -4,7 +4,8 @@
 [![Clover](https://img.shields.io/badge/Clover-4972-green.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![macOS](https://img.shields.io/badge/macOS-10.15.0-orange.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
-### Current Release: [10.15.0-V1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+### Stable Release: [10.15.0-V1.3](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+### Beta Release: [10.15.0-V2.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
@@ -14,6 +15,8 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190806] Released v10.15.0.2.0 beta, moving away from FakeSMC to VirtualSMC.
+* [20190805] Updated AppleALC.kext, improved stability, released v10.15.0.1.3.
 * [20190802] Updated to macOS 10.15.0 PB4, and v10.15.0.1.2 still works.
 * [20190801] Added "Fan Issues" for situations when fans don't turn on under load.
 
@@ -92,10 +95,11 @@
 * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
 * Other people's boot configuration:
 
-| Name | CPU | Link |
-| --- | --- | --- |
-| zysuper | i7-8850H | [Link](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) | 
-| xuzhao9 | i7-8750H | [Link](https://github.com/xuzhao9/ThinkPad-X1E-Hackintosh) |
+| Name | CPU | Model | Link |
+| --- | --- | --- | --- |
+| zysuper | i7-8850H | X1E | [Link](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) | 
+| xuzhao9 | i7-8750H | X1E | [Link](https://github.com/xuzhao9/ThinkPad-X1E-Hackintosh) |
+| darkal | i7-8750H | X1E | [Link](https://github.com/darkal/Hackintosh-Thinkpad-X1-Extreme) |
 
 * More Hackintosh EFI Resource:
    * Hackintosh Laptop Index: EFI for other laptop might help as a useful reference. Navigate to [here](https://github.com/daliansky/Hackintosh) (cr. [daliansky](https://github.com/daliansky)) if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
@@ -119,7 +123,7 @@
 | [daliansky](https://github.com/daliansky) | Hackintosh index maintainer. |
 | [Joaquim Barbosa](https://www.idownloadblog.com/author/joebarbosa/) | Guide to customize "About this Mac". |
 | [oreziam](https://github.com/oreziam) | Solution for memory that exceeds 64G. |
-| [xuzhao9](https://github.com/xuzhao9) | i7-8750H Config |
+| [xuzhao9](https://github.com/xuzhao9) | i7-8750H Config & AppleALC layout-id=21 |
 
 ## Discussions and News
 * [zysuper's Work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI): Here is another helpful **alternative Thinkpad X1 Extreme Clover EFI configuration** repository. Please check out his work as well as some some issues are addressed in both of our repositories. Star his work too!
