@@ -93,10 +93,10 @@
 * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
 * Other people's boot configuration:
 
-| Name | CPU | Link |
-| --- | --- | --- |
-| zysuper | i7-8850H | [Link](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) | 
-| xuzhao9 | i7-8750H | [Link](https://github.com/xuzhao9/ThinkPad-X1E-Hackintosh) |
+| Name | CPU | Model | Link |
+| --- | --- | --- | --- |
+| zysuper | i7-8850H | X1E | [Link](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) | 
+| xuzhao9 | i7-8750H | X1E | [Link](https://github.com/xuzhao9/ThinkPad-X1E-Hackintosh) |
 
 * More Hackintosh EFI Resource:
    * Hackintosh Laptop Index: EFI for other laptop might help as a useful reference. Navigate to [here](https://github.com/daliansky/Hackintosh) (cr. [daliansky](https://github.com/daliansky)) if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
