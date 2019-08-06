@@ -15,6 +15,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190806] Released v10.15.0.2.0 beta, moving away from FakeSMC to VirtualSMC.
 * [20190805] Updated AppleALC.kext, improved stability, released v10.15.0.1.3.
 * [20190802] Updated to macOS 10.15.0 PB4, and v10.15.0.1.2 still works.
 * [20190801] Added "Fan Issues" for situations when fans don't turn on under load.
