@@ -4,7 +4,7 @@
 [![Clover](https://img.shields.io/badge/Clover-5033-yellowgreen.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![macOS](https://img.shields.io/badge/macOS-10.15.0-orange.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
-### Current Release: [10.15.0-V2.1](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+### Current Release: [10.15.0-V3.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
@@ -14,6 +14,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190808] Deprecated V2, released V3.0. VirtualSMC sucks...
 * [20190806] Released v10.15.0.2.0 beta, moving away from FakeSMC to VirtualSMC.
 * [20190805] Updated AppleALC.kext, improved stability, released v10.15.0.1.3.
 * [20190802] Updated to macOS 10.15.0 PB4, and v10.15.0.1.2 still works.
