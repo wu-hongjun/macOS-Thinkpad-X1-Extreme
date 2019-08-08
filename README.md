@@ -53,6 +53,13 @@
       * In order to make this work, you need to inject info of the system memory, but with one more sockets than usual.
       * That means you need to inject 4 channels and 5 sockets for memory info, 16G * 5.
       * When you boot into the system, it would detect 64G correctly.
+* Sound issues:
+   * If your AppleALC.kext does not load using (for example, V3.0), then read the following passage.
+      * V3.0 and many versions in the previous releases uses a special AppleALC.kext with alcid=7.
+      * However, if this does not work with you, you should try the following:
+         * Download the newest AppleALC.kext from github.
+         * Delete the old AppleALC and replace it with the new one.
+         * Change boot argument alcid=7 to alcid=21.
 * Bluetooth issues:
    * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
    * A more in depth discussion of how to make it work is here: 
