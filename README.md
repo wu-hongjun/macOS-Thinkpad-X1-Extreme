@@ -1,24 +1,24 @@
 # Hackintosh for Thinkpad X1 Extreme
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![BIOS](https://img.shields.io/badge/BIOS-1.23-brightgreen.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-[![Clover](https://img.shields.io/badge/Clover-4972-green.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![Clover](https://img.shields.io/badge/Clover-5033-yellowgreen.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![macOS](https://img.shields.io/badge/macOS-10.15.0-orange.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
-### Current Release: [10.15.0-V1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+### Current Release: [10.15.0-V3.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
-> 英语并非你的首选语言？[中文版文档](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/README_zh_CN.md)
+> 英语并非你的首选语言？[中文版文档（非最新）](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/README_zh_CN.md)
 
 <img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sysinfo.png" alt="Sys Info" width="1000">
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
-* [20190729] I was looking at [this post](http://bbs.pcbeta.com/viewthread-1823918-1-1.html) for updating to clover 5XXX and sleep issue to solve battery drain...
-* [20190728] Added a guide to customize the "About This Mac" page.
-* [20190725] Updated readme.MD with touchscreen and displaylink issues based on a [discussion](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1986487).
-* [20190724] Updated BIOS to 1.23, no major issue or changes.
-* [20190723] Released [v10.15.0.1.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.15.0.1.2) that disabled the integrated IR camera. Merged change in [Issue#33](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099)
+* [20190808] Deprecated V2, released V3.0. VirtualSMC sucks...
+* [20190806] Released v10.15.0.2.0 beta, moving away from FakeSMC to VirtualSMC.
+* [20190805] Updated AppleALC.kext, improved stability, released v10.15.0.1.3.
+* [20190802] Updated to macOS 10.15.0 PB4, and v10.15.0.1.2 still works.
+* [20190801] Added "Fan Issues" for situations when fans don't turn on under load.
 
 ## Instructions
 ##### Pre-Install
@@ -46,6 +46,20 @@
     * [Problem with BCM94360CS2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): 
        * BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. 
        * BCM94360CS2 is an ABSOLUTELY NIGHTMARE. DON'T buy.
+* Memory Issues:
+   * Normally, your memory on your machine should just work. [Issue#34](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/34#issuecomment-516447421) However, with machines that has 64G of memory, you might need some workaround.
+   * Presented by [oreziam](https://github.com/oreziam), he gave a brief description of his solution in the above issue. 
+      * Note that I do not know, and cannot help you with this issue since I have 32G of memory. You should contact oreziam if you have questions.
+      * In order to make this work, you need to inject info of the system memory, but with one more sockets than usual.
+      * That means you need to inject 4 channels and 5 sockets for memory info, 16G * 5.
+      * When you boot into the system, it would detect 64G correctly.
+* Sound issues:
+   * If your AppleALC.kext does not load using (for example, V3.0), then read the following passage.
+      * V3.0 and many versions in the previous releases uses a special AppleALC.kext with alcid=7.
+      * However, if this does not work with you, you should try the following:
+         * Download the newest AppleALC.kext from github.
+         * Delete the old AppleALC and replace it with the new one.
+         * Change boot argument alcid=7 to alcid=21.
 * Bluetooth issues:
    * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
    * A more in depth discussion of how to make it work is here: 
@@ -55,6 +69,9 @@
    * [Intel is embedding BT chips into PCH which does not work in macOS.](https://www.guru3d.com/news-story/intel-makes-wireless-ac-9560-a-bit-more-embedded.html) 
    * You can use an USB BT adapter mentioned above, or [DIY a board](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD) to make internal BT working. 
    * This requires some tech skills!!! You could toast your laptop if you do it wrong. I am serious.
+* Fan Issues:
+   * Some people experienced fan issues that the fan does not turn on during load. [Issue #32](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/32)
+   * This can be solved by applying a BIOS update (1.17 -> 1.23).
 * Time sync issues:
    * [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/): Some might also experience between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) (cr. [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/)).
 * Boot issues:
@@ -83,6 +100,14 @@
    * There is an [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) that macOS would use the integrated IR camera to make video calls which does not quite work.
    * This is fixed in v10.15.0.1.2, credit to [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), and [ColeXJ](https://github.com/ColeXJ).
 * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
+* Other people's boot configuration:
+
+| Name | CPU | Model | Link |
+| --- | --- | --- | --- |
+| zysuper | i7-8850H | X1E | [Link](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) | 
+| xuzhao9 | i7-8750H | X1E | [Link](https://github.com/xuzhao9/ThinkPad-X1E-Hackintosh) |
+| darkal | i7-8750H | X1E | [Link](https://github.com/darkal/Hackintosh-Thinkpad-X1-Extreme) |
+
 * More Hackintosh EFI Resource:
    * Hackintosh Laptop Index: EFI for other laptop might help as a useful reference. Navigate to [here](https://github.com/daliansky/Hackintosh) (cr. [daliansky](https://github.com/daliansky)) if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
 
@@ -104,6 +129,8 @@
 | [ColeXJ](https://github.com/ColeXJ) | IR Camera issue. |
 | [daliansky](https://github.com/daliansky) | Hackintosh index maintainer. |
 | [Joaquim Barbosa](https://www.idownloadblog.com/author/joebarbosa/) | Guide to customize "About this Mac". |
+| [oreziam](https://github.com/oreziam) | Solution for memory that exceeds 64G. |
+| [xuzhao9](https://github.com/xuzhao9) | i7-8750H Config & AppleALC layout-id=21 |
 
 ## Discussions and News
 * [zysuper's Work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI): Here is another helpful **alternative Thinkpad X1 Extreme Clover EFI configuration** repository. Please check out his work as well as some some issues are addressed in both of our repositories. Star his work too!
