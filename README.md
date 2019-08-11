@@ -58,6 +58,6 @@ I will make effort to try every release and make modification if encounter with 
 - [zysuper's Hackintosh](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) 
 - [Errrneist's Hackintosh](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme)
 - [xuzhao9's Hackintosh](https://github.com/xuzhao9/ThinkPad-X1E-Hackintosh)
-  - we have very similiar hardware config, but his DSDT table won't work on me. You can try it out if there is some problems with my version. 
+  - we have very similiar hardware configs, but his DSDT table won't work on mine. You can try it out if there are some problems with my version. 
 - [RehabMan's DSDT patches](https://github.com/RehabMan/Laptop-DSDT-Patch)
 - [Telegram Hackintosh Group](https://t.me/joinchat/FSuP2UI4ALt1uIVmQ5E6lg)
