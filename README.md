@@ -2,8 +2,8 @@
 
 ## ATTENTION
 
-- ‼️ Thanks to [darkal](https://github.com/darkal) and his [config](https://github.com/darkal/Hackintosh-Thinkpad-X1-Extreme), battery drain in hybernation has been solved. See 
-  - I added my AppleALC and CPUFriend (to enable better turble boost). 
+- ‼️ Thanks to [darkal](https://github.com/darkal) and his [config](https://github.com/darkal/Hackintosh-Thinkpad-X1-Extreme), battery drain in hibernation has been solved. See [Release 10.14.6 v1.0](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme/releases/tag/10.14.6.1.0)
+  - I added my AppleALC and CPUFriend (to enable better turbo boost). 
   - Report from Activity Monitor told me that battery can support  4~5 hours' using 
 - This repo basically is a fork repo of [Errrneist's repo](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme), except for some little change to compatible with my machine, which has different hardwares.
 
@@ -60,6 +60,8 @@ I will make effort to try every release and make modification if encounter with 
 
 - [zysuper's Hackintosh](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) 
 - [Errrneist's Hackintosh](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme)
+- [darkal's Hackintosh](https://github.com/darkal/Hackintosh-Thinkpad-X1-Extreme)
+  - same 8750H version, works fine on mine. See [Release 10.14.6 v1.0](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme/releases/tag/10.14.6.1.0)
 - [xuzhao9's Hackintosh](https://github.com/xuzhao9/ThinkPad-X1E-Hackintosh)
   - we have very similiar hardware configs, but his DSDT table won't work on mine. You can try it out if there are some problems with my version. 
 - [RehabMan's DSDT patches](https://github.com/RehabMan/Laptop-DSDT-Patch)
