@@ -14,6 +14,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190817] Happy birthday for the man who changed China! 
 * [20190808] Deprecated V2, released V3.0. VirtualSMC sucks...
 * [20190806] Released v10.15.0.2.0 beta, moving away from FakeSMC to VirtualSMC.
 * [20190805] Updated AppleALC.kext, improved stability, released v10.15.0.1.3.
@@ -107,6 +108,8 @@
 | zysuper | i7-8850H | X1E | [Link](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) | 
 | xuzhao9 | i7-8750H | X1E | [Link](https://github.com/xuzhao9/ThinkPad-X1E-Hackintosh) |
 | darkal | i7-8750H | X1E | [Link](https://github.com/darkal/Hackintosh-Thinkpad-X1-Extreme) |
+| ergonyc | i7-8850H | X1E | [Link](https://github.com/ergonyc/BlackMac-ThinkPad-X1E) |
+| flymin | i7-8750H | X1E | [Link](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme) |
 
 * More Hackintosh EFI Resource:
    * Hackintosh Laptop Index: EFI for other laptop might help as a useful reference. Navigate to [here](https://github.com/daliansky/Hackintosh) (cr. [daliansky](https://github.com/daliansky)) if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
