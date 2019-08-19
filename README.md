@@ -14,6 +14,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190820] Updated to 10.15.0 PB5. Still works.
 * [20190817] Happy birthday for the man who changed China! 
 * [20190808] Deprecated V2, released V3.0. VirtualSMC sucks...
 * [20190806] Released v10.15.0.2.0 beta, moving away from FakeSMC to VirtualSMC.
