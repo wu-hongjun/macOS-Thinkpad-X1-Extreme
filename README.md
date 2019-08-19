@@ -2,9 +2,10 @@
 
 ## ATTENTION
 
-- ‼️ Thanks to [darkal](https://github.com/darkal) and his [config](https://github.com/darkal/Hackintosh-Thinkpad-X1-Extreme), battery drain in hibernation has been solved. See [Release 10.14.6 v1.0](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.6.1.0)
+- ‼️ Thanks to [darkal](https://github.com/darkal) and his [config](https://github.com/darkal/Hackintosh-Thinkpad-X1-Extreme), battery drain in hibernation has been solved.
   - I added my AppleALC and CPUFriend (to enable better turbo boost). 
-  - Report from Activity Monitor told me that battery can support  4~5 hours' using 
+  - Report from Activity Monitor told me that battery can support  4~5 hours' using
+  - [2019.08.19] I made my own DSDT patch, which is a little different. See [Release 10.14.6 v1.1](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.6.1.1) 
 - This repo basically is a fork repo of [Errrneist's repo](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme), except for some little change to compatible with my machine, which has different hardwares.
 
 I will make effort to try every release and make modification if encounter with problems.
@@ -44,9 +45,19 @@ I will make effort to try every release and make modification if encounter with 
 - Thunderbolt 3
 - HDMI output to external display
 
+### Known Issue
+
+- [Fixed] For releases prior to commit [#f1fc8ce](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme/commit/f1fc8ce9e9c6eed0708d520e2a6d5e2b6abba95e), I used a auto-reload script to make audio card available everytime I log in. However, this may cause a Kernal Panic when wake up from sleep. Layout 31 do not need this.
+
 ## Add-ons
 
-## kext modifications
+### DSDT patch
+
+- Battery level display (directly use RehabMan/thinkpad x230i patch)
+- Keyboard function keys, volume and screen brightness (DSDT EC _Q14, _Q15 patch)
+- Audio Layout (change any one of the patches and change layout id to 31, this may remain rudimentary with alcid=31 in conflg.plist)
+
+### kext modifications
 
 - Customized AppleALC.kext
 
@@ -56,7 +67,7 @@ I will make effort to try every release and make modification if encounter with 
 
   kexts above will cause about 5min boot lag for machines have no I2C devices
 
-# Acknowledgements
+## Acknowledgements
 
 - [zysuper's Hackintosh](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) 
 - [Errrneist's Hackintosh](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme)
