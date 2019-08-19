@@ -108,7 +108,7 @@
 | zysuper | i7-8850H | X1E | [Link](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) | 
 | xuzhao9 | i7-8750H | X1E | [Link](https://github.com/xuzhao9/ThinkPad-X1E-Hackintosh) |
 | darkal | i7-8750H | X1E | [Link](https://github.com/darkal/Hackintosh-Thinkpad-X1-Extreme) |
-| ergonyc | ? | X1E | [Link](https://github.com/ergonyc/BlackMac-ThinkPad-X1E) |
+| ergonyc | i7-8850H | X1E | [Link](https://github.com/ergonyc/BlackMac-ThinkPad-X1E) |
 | flymin | i7-8750H | X1E | [Link](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme) |
 
 * More Hackintosh EFI Resource:
