@@ -1,6 +1,12 @@
 # Hackintosh for Thinkpad X1 Extreme-Update History
 
 ## 2019
+### August Updates
+* [20190808] Deprecated V2, released V3.0. VirtualSMC sucks...
+* [20190806] Released v10.15.0.2.0 beta, moving away from FakeSMC to VirtualSMC.
+* [20190805] Updated AppleALC.kext, improved stability, released v10.15.0.1.3.
+* [20190802] Updated to macOS 10.15.0 PB4, and v10.15.0.1.2 still works.
+* [20190801] Added "Fan Issues" for situations when fans don't turn on under load.
 ### July Updates
 * [20190731] Added "Memory Issue" section for systems that has 64GB memory.
 * [20190729] I was looking at [this post](http://bbs.pcbeta.com/viewthread-1823918-1-1.html) for updating to clover 5XXX and sleep issue to solve battery drain...
