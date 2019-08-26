@@ -101,6 +101,8 @@
 * Camera Issues:
    * There is an [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) that macOS would use the integrated IR camera to make video calls which does not quite work.
    * This is fixed in v10.15.0.1.2, credit to [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), and [ColeXJ](https://github.com/ColeXJ).
+* eGPU:
+    * desmomarco999 worked it out, but I have not test it. [Link](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309)
 * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
 * Other people's boot configuration:
 
