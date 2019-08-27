@@ -62,6 +62,11 @@
          * Download the newest AppleALC.kext from github.
          * Delete the old AppleALC and replace it with the new one.
          * Change boot argument alcid=7 to alcid=21.
+* Tuxera NTFS issues:
+   * Tuxera NTFS 2018 on macOS Catalina would cause reboot after login.
+   * Solution:
+      * Keep rebooting until you can get into the system somehow.
+      * I used Appcleaner to uninstall Tuxera, ans it is effective. So I would recommend that.
 * Bluetooth issues:
    * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
    * A more in depth discussion of how to make it work is here: 
