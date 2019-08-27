@@ -48,6 +48,7 @@
     * [Problem with BCM94360CS2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): 
        * BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. 
        * BCM94360CS2 is an ABSOLUTELY NIGHTMARE. DON'T buy.
+       * If you are confused: The card with 3 antennas is good, with 2 antennas is bad.
 * Memory Issues:
    * Normally, your memory on your machine should just work. [Issue#34](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/34#issuecomment-516447421) However, with machines that has 64G of memory, you might need some workaround.
    * Presented by [oreziam](https://github.com/oreziam), he gave a brief description of his solution in the above issue. 
