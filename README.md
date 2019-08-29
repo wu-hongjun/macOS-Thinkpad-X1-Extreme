@@ -17,7 +17,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
-* [20190829] Directly upgrade to PB6 is fine. However, be careful as this might clear your desktop's files...
+* [20190829] Directly upgrade to PB6 is fine. ~~However, be careful as this might clear your desktop's files...~~
 * [20190820] Updated to 10.15.0 PB5. Still works.
 * [20190817] Happy birthday for the man who changed China! 
 
