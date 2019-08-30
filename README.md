@@ -1,5 +1,7 @@
 # Flymin's Hackintosh profile on Thinkpad X1E
 
+[![LICENSE](https://img.shields.io/badge/LICENSE-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) ![MacOS-10.14.6](https://img.shields.io/badge/MacOS-10.14.6-orange) ![BIOS:1.23](https://img.shields.io/badge/BIOS-1.23-brightgreen) ![CLOVER:5045](https://img.shields.io/badge/CLOVER-5045-yellow)
+
 ## ATTENTION
 
 - ‼️ Thanks to [darkal](https://github.com/darkal) and his [config](https://github.com/darkal/Hackintosh-Thinkpad-X1-Extreme), battery drain in hibernation has been solved.
