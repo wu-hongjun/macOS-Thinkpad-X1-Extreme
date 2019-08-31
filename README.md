@@ -1,8 +1,10 @@
 # Hackintosh for Thinkpad X1 Extreme
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-[![BIOS](https://img.shields.io/badge/BIOS-1.23-brightgreen.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-[![Clover](https://img.shields.io/badge/Clover-5033-yellowgreen.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![macOS](https://img.shields.io/badge/macOS-10.15.0-orange.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![Clover](https://img.shields.io/badge/Clover-5033-yellowgreen.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![BIOS](https://img.shields.io/badge/BIOS-N2EET41W%201.23%20-brightgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![MODEL](https://img.shields.io/badge/Model-20MF000DUS-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
 ### Current Release: [10.15.0-V3.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
