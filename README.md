@@ -1,12 +1,12 @@
 # Hackintosh for Thinkpad X1 Extreme
 [![macOS](https://img.shields.io/badge/macOS-10.15.0-orange.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-[![Clover](https://img.shields.io/badge/Clover-5033-yellowgreen.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![Clover](https://img.shields.io/badge/Clover-5058-yellowgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![BIOS](https://img.shields.io/badge/BIOS-N2EET41W%201.23%20-brightgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![MODEL](https://img.shields.io/badge/Model-20MF000DUS-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
-### Current Release: [10.15.0-V3.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+### Current Release: [10.15.0-V3.1](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
@@ -19,6 +19,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190902] Updated Clover to v5058, released a minor update v10.15.0.3.1.
 * [20190829] Directly upgrade to PB6 is fine. ~~However, be careful as this might clear your desktop's files...~~
 * [20190820] Updated to 10.15.0 PB5. Still works.
 * [20190817] Happy birthday for the man who changed China! 
