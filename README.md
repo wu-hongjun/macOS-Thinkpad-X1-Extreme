@@ -1,7 +1,7 @@
 # Hackintosh for Thinkpad X1 Extreme
 [![macOS](https://img.shields.io/badge/macOS-10.15.0-orange.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![Clover](https://img.shields.io/badge/Clover-5058-yellowgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-[![BIOS](https://img.shields.io/badge/BIOS-N2EET41W%201.23%20-brightgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![BIOS](https://img.shields.io/badge/BIOS-1.24-brightgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![MODEL](https://img.shields.io/badge/Model-20MF000DUS-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
@@ -19,6 +19,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190906] Updated BIOS to 1.24. System behaves stable.
 * [20190902] Updated Clover to v5058, released a minor update v10.15.0.3.1.
 * [20190829] Directly upgrade to PB6 is fine. ~~However, be careful as this might clear your desktop's files...~~
 * [20190820] Updated to 10.15.0 PB5. Still works.
