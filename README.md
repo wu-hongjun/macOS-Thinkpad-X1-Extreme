@@ -1,6 +1,6 @@
 # Hackintosh for Thinkpad X1 Extreme
 [![macOS](https://img.shields.io/badge/macOS-10.15.0-orange.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-[![Clover](https://img.shields.io/badge/Clover-5058-yellowgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![Clover](https://img.shields.io/badge/Clover-5070-yellowgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![BIOS](https://img.shields.io/badge/BIOS-1.24-brightgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![MODEL](https://img.shields.io/badge/Model-20MF000DUS-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
