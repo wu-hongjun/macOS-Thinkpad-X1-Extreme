@@ -1,36 +1,36 @@
 
-Clover EFI installer log - Mon Sep  2 12:28:25 CEST 2019
-Installer version: v2.5k r5058 EFI bootloader
+Clover EFI installer log - Tue Sep 10 12:48:46 CEST 2019
+Installer version: v2.5k r5070 EFI bootloader
 ======================================================
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *1.0 TB     disk0
-   1:                        EFI EFI                     209.7 MB   disk0s1
-   2:                 Apple_APFS Container disk2         1.0 TB     disk0s2
+   1:                        EFI SYSTEM                  272.6 MB   disk0s1
+   2:         Microsoft Reserved                         16.8 MB    disk0s2
+   3:       Microsoft Basic Data Windows                 1.0 TB     disk0s3
+   4:           Windows Recovery                         1.0 GB     disk0s4
 
 /dev/disk1 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *1.0 TB     disk1
-   1:                        EFI SYSTEM                  272.6 MB   disk1s1
-   2:         Microsoft Reserved                         16.8 MB    disk1s2
-   3:       Microsoft Basic Data Windows                 1.0 TB     disk1s3
-   4:           Windows Recovery                         1.0 GB     disk1s4
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                 Apple_APFS Container disk2         1.0 TB     disk1s2
 
 /dev/disk2 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +1.0 TB     disk2
-                                 Physical Store disk0s2
-   1:                APFS Volume Macintosh - Data        595.0 GB   disk2s1
+                                 Physical Store disk1s2
+   1:                APFS Volume Macintosh - Data        605.1 GB   disk2s1
    2:                APFS Volume Preboot                 80.4 MB    disk2s2
    3:                APFS Volume Recovery                527.6 MB   disk2s3
    4:                APFS Volume VM                      1.1 GB     disk2s4
    5:                APFS Volume Macintosh               10.6 GB    disk2s5
 
-Target volume /Volumes/Macintosh on disk2 is APFS on physical store disk0s2
+Target volume /Volumes/Macintosh on disk2 is APFS on physical store disk1s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Macintosh/EFIROOTDIR/EFI folder to /Volumes/Macintosh/EFI-Backups/r5033/2019-09-02-12h28/EFI
+Backing up /Volumes/Macintosh/EFIROOTDIR/EFI folder to /Volumes/Macintosh/EFI-Backups/r5058/2019-09-10-12h48/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
