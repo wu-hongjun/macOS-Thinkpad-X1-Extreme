@@ -35,7 +35,7 @@ I will make effort to try every release and make modification if encounter with 
 - Sleep, wakeup, hibernation
 - Brightness, function keys for brightness control, NightShift
 - Intel Ethernet LAN (mini RJ45) and WIFI
-- Touchpad ~~and TrackPoint~~
+- Touchpad and TrackPoint
 - Audio, function keys for volume control, headphone jack
 - USB 3.1 ports, USB-C ports (only can be connected to USB 3.0 devices)
 
@@ -69,6 +69,10 @@ I will make effort to try every release and make modification if encounter with 
 - Deleted VoodooI2C*.kext
 
   kexts above will cause about 5min boot lag for machines have no I2C devices
+  
+- [2019.9.10] Use [acidanthera](https://github.com/acidanthera?type=source)'s version of [VoodooPS2](https://github.com/acidanthera/VoodooPS2)
+
+  This is the first version that makes trick point, gesture and button on the track pad all usable. Thanks to [wdde](https://github.com/wdde) in [this issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/40#issuecomment-529308480).
 
 ## Acknowledgements
 
