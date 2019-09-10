@@ -6,7 +6,7 @@
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
-### Current Release: [10.15.0-V3.1](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+### Current Release: [10.15.0-V3.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
@@ -19,6 +19,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20190910] Released v10.15.0.3.2 based on discussion in issue [#40](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/40). Significantly improved touchpad performance.
 * [20190906] Updated BIOS to 1.24. System behaves stable.
 * [20190902] Updated Clover to v5058, released a minor update v10.15.0.3.1.
 * [20190829] Directly upgrade to PB6 is fine. ~~However, be careful as this might clear your desktop's files...~~
