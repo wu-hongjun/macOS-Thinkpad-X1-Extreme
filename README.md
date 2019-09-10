@@ -72,7 +72,7 @@ I will make effort to try every release and make modification if encounter with 
   
 - [2019.9.10] Use [acidanthera](https://github.com/acidanthera?type=source)'s version of [VoodooPS2](https://github.com/acidanthera/VoodooPS2)
 
-  This is the first version that makes trick point, gesture and button on the track pad all usable. Thanks to [wdde](https://github.com/wdde) in [this issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/40#issuecomment-529308480).
+  This is the first version that makes trick point, gesture and buttons on the track pad all usable. Thanks to [wdde](https://github.com/wdde) in [this issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/40#issuecomment-529308480).
 
 ## Acknowledgements
 
