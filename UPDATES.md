@@ -1,7 +1,12 @@
 # Hackintosh for Thinkpad X1 Extreme-Update History
 
 ## 2019
+### September Updates
+* [20190902] Updated Clover to v5058, released a minor update v10.15.0.3.1.
 ### August Updates
+* [20190829] Directly upgrade to PB6 is fine. ~~However, be careful as this might clear your desktop's files...~~
+* [20190820] Updated to 10.15.0 PB5. Still works.
+* [20190817] Happy birthday for the man who changed China! 
 * [20190808] Deprecated V2, released V3.0. VirtualSMC sucks...
 * [20190806] Released v10.15.0.2.0 beta, moving away from FakeSMC to VirtualSMC.
 * [20190805] Updated AppleALC.kext, improved stability, released v10.15.0.1.3.
