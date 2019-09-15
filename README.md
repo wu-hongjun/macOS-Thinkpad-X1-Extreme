@@ -116,6 +116,14 @@
    * This is fixed in v10.15.0.1.2, credit to [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), and [ColeXJ](https://github.com/ColeXJ).
 * eGPU Issues:
     * desmomarco999 worked it out, but I have not test it. [Link](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309)
+* Undervolting:
+   * By undervolting the computer, the fan is MUCH quieter and more pleasant to use.
+   * I am using an app called [volta](https://volta.garymathews.com). 
+      * You can also google for undervolting using script which I hasn't tried so do it in your own risk.
+      * Unfortunately intel does not have a XTU software for macOS.
+   * It is not free, but it is cheap. Just two cups of coffee gives you a much better experience.
+      * You can download a "try version" and try it out on your laptop. 
+      * I didn't get money for advertising this it just works.
 * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
 * Other people's boot configuration:
 
