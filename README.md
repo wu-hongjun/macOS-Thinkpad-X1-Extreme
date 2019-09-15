@@ -46,34 +46,34 @@
 * [Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
 
 ## Post-Install | Issues | Resources 
-#### (READ THIS BEFORE YOU POST PLZZZZZ)
-* Customize "About this Mac":
+### (READ THIS BEFORE YOU POST PLZZZZZ)
+#### Customize "About this Mac":
    * [How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
-* Wifi issues:
+#### Wifi:
     * [Problem with BCM94360CS2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): 
        * BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. 
        * BCM94360CS2 is an ABSOLUTELY NIGHTMARE. DON'T buy.
        * If you are confused: The card with 3 antennas is good, with 2 antennas is bad.
-* Memory Issues:
+#### Memory:
    * Normally, your memory on your machine should just work. [Issue#34](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/34#issuecomment-516447421) However, with machines that has 64G of memory, you might need some workaround.
    * Presented by [oreziam](https://github.com/oreziam), he gave a brief description of his solution in the above issue. 
       * Note that I do not know, and cannot help you with this issue since I have 32G of memory. You should contact oreziam if you have questions.
       * In order to make this work, you need to inject info of the system memory, but with one more sockets than usual.
       * That means you need to inject 4 channels and 5 sockets for memory info, 16G * 5.
       * When you boot into the system, it would detect 64G correctly.
-* Sound issues:
+#### Sound:
    * If your AppleALC.kext does not load using (for example, V3.0), then read the following passage.
       * V3.0 and many versions in the previous releases uses a special AppleALC.kext with alcid=7.
       * However, if this does not work with you, you should try the following:
          * Download the newest AppleALC.kext from github.
          * Delete the old AppleALC and replace it with the new one.
          * Change boot argument alcid=7 to alcid=21.
-* Tuxera NTFS issues:
+#### NTFS & Tuxera NTFS:
    * Tuxera NTFS 2018 on macOS Catalina would cause reboot after login.
    * Solution:
       * Keep rebooting until you can get into the system somehow.
       * I used Appcleaner to uninstall Tuxera, ans it is effective. So I would recommend that.
-* Bluetooth issues:
+#### Bluetooth:
    * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
    * A more in depth discussion of how to make it work is here: 
       * [Episode 1: Issue #3](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-471815481)
@@ -82,43 +82,45 @@
    * [Intel is embedding BT chips into PCH which does not work in macOS.](https://www.guru3d.com/news-story/intel-makes-wireless-ac-9560-a-bit-more-embedded.html) 
    * You can use an USB BT adapter mentioned above, or [DIY a board](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD) to make internal BT working. 
    * This requires some tech skills!!! You could toast your laptop if you do it wrong. I am serious.
-* Fan Issues:
+#### Fan:
    * Some people experienced fan issues that the fan does not turn on during load. [Issue #32](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/32)
    * This can be solved by applying a BIOS update (1.17 -> 1.23).
-* Time sync issues:
+#### Time Sync:
    * [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/): Some might also experience between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) (cr. [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/)).
-* Boot issues:
+#### Boot:
    * [Special Simplified Edition](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE): Many people are experiencing unknown issues to boot into macOS. 
    * I released a EFI configuration to at least boot into the OS and see what we can do. Read more in the release comment. (It is for 10.14.3 idk if it works in 10.14.4 or newer).
-* Touchpad in WINDOWS issues:
+#### Touchpad in WINDOWS:
     * People are experiencing weird **touchpad issues** when boot windows from CLOVER. So far not much can be done, so I recommend you to just set auto boot time in clover be 2sec or -1sec, and just use F12 to switch OS.
-* OpenGL issues:
+#### OpenGL:
     * For video editors who use FinalCutPro and Davenci be aware that updating to 10.14.3 might cause [**OpenGL issue**](https://www.tonymacx86.com/threads/macos-10-14-0-thinkpad-x1-extreme-hackintosh.263916/post-1900369) that makes rendering take forever. (cr. [cthetoy](https://www.tonymacx86.com/members/cthetoy.152906/)).
-* PM981 issues:
+#### PM981:
     * Recently, people on TonyMacX86 are having **issue with PM981**. PM981 is troublesome for Hackintosh and I am not using it for install. I'm using a Toshiba XG3. However, you can check out [zysuper's repo](https://github.com/zysuper/Thinkpad-X1-extreme-EFI/blob/master/readme.md) on ACPI files to make PM981 working.
-* External Display issues: 
-   * [DisplayLink's Support on Catalina](https://support.displaylink.com/knowledgebase/articles/1916602-macos-catalina-10-15-beta).
-   * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull): Inspired by this [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) I bought an adapter and was able to achieve 4K60P via USB3.0 and HDMI2.0. Now output issue is solved. You can download the driver [via their website](https://www.displaylink.com/downloads/macos). 
-   * Relative question: [Will the one with USB-C plug work?](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/20) Short answer, I don't know. You can buy one and try if you want to.
+#### External Display: 
+   * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull): Inspired by this [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) I bought an adapter and was able to achieve 4K60P via USB3.0 and HDMI2.0. Now output issue is solved. You can download the driver here: 
+   * [General Driver](https://www.displaylink.com/downloads/macos). 
+   * [DisplayLink's Support for Catalina](https://support.displaylink.com/knowledgebase/articles/1916602-macos-catalina-10-15-beta).
+   * Relative question: 
+      * [Will the one with USB-C plug work?](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/20) Short answer, I don't know. You can buy one and try if you want to.
    * Alternative [Lenovo USB Dock](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-507499718), a dock by Lenovo and I suppose it might work as well, but I am not sure as it has not ben tested. (cr. [darkal](https://github.com/darkal))
    * However, it has its own limitations of [not being able to scale 4K into 1080P with 60FPS](http://assets.displaylink.com/live/downloads/release-notes/f1303_DisplayLink+USB+Graphics+Software+for+macOS+5.1-Release+Notes.txt). This is a known issue and we can only hope future update fix this.
-* Touchscreen and Gesture Issues:
+#### Touchscreen and Gesture:
    * Turns out Acidanthera's VoodooPS2Controller.kext is good enough for enabling multigesture and touchscreen.
       * No need for VoodooI2C.kext!
       * This change is merged in the 10.15.0.3.2 release.
-   * (DEPRECATED)Touchscreen and Gesture Issues (VoodooI2C.kext):
+#### (DEPRECATED) VoodooI2C.kext:
       * A interesting [discussion](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1986487) with [jamesxxx1997](https://www.tonymacx86.com/members/jamesxxx1997.2184482/) implies that (At least on 10.14) you can use [VoodooI2C.kext](https://github.com/alexandred/VoodooI2C) to achieve touch screen and touchpad gesture support.
       * However, it was not working on 10.15 based on my tests.
       * I suspect that it is a Catalina compatiability issue, because 10.15 lose touchscreen support even if it was supported in 10.14.
       * The author of VoodooI2C hasn't been updating the repo since WWDC2019, so I suspect so far there is no Catalina support.
       * To test it out on your own, you need VoodooI2C.kext and VoodooI2CCHID.kext, and in theory it would just work.
       * A more through guide is here: [Guide(Chinese)](http://bbs.pcbeta.com/viewthread-1824033-1-2.html), but currently, I'm very busy, so I might do it some time in the future. If you have time, try on your own and tell us how it goes!
-* Camera Issues:
+#### Camera:
    * There is an [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) that macOS would use the integrated IR camera to make video calls which does not quite work.
    * This is fixed in v10.15.0.1.2, credit to [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), and [ColeXJ](https://github.com/ColeXJ).
-* eGPU Issues:
+#### eGPU:
     * desmomarco999 worked it out, but I have not test it. [Link](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309)
-* Undervolting:
+#### Undervolting:
    * By undervolting the computer, the fan is MUCH quieter and more pleasant to use.
    * I am using an app called [volta](https://volta.garymathews.com). 
       * You can also google for undervolting using script which I hasn't tried so do it in your own risk.
@@ -126,8 +128,9 @@
    * It is not free, but it is cheap. Just two cups of coffee gives you a much better experience.
       * You can download a "try version" and try it out on your laptop. 
       * I didn't get money for advertising this it just works.
-* [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
-* Other people's boot configuration:
+#### System Report:
+   * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
+#### Other people's boot configuration:
 
 | Name | CPU | Model | Link |
 | --- | --- | --- | --- |
@@ -137,7 +140,7 @@
 | ergonyc | i7-8850H | X1E | [Link](https://github.com/ergonyc/BlackMac-ThinkPad-X1E) |
 | flymin | i7-8750H | X1E | [Link](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme) |
 
-* More Hackintosh EFI Resource:
+#### More Hackintosh EFI Resource:
    * Hackintosh Laptop Index: EFI for other laptop might help as a useful reference. Navigate to [here](https://github.com/daliansky/Hackintosh) (cr. [daliansky](https://github.com/daliansky)) if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
 
 ## Other Contributors
