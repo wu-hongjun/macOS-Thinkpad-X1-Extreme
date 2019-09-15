@@ -15,7 +15,7 @@
 <img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sysinfo.png" alt="Sys Info" width="1000">
 
 ## Announcements
-* [20190826] Currently abroad in Switzerland for a research program at CERN so I'm not that avaliable for development. However, there should be only one issue for the battery drain problem and to my knowledge, you only need to patch your own dsdt. Everything else should just work, I use it everyday as my daily driver and I have not encounter any problems.
+* [20190826] Currently abroad in Switzerland for a research program at CERN so I'm not that avaliable for development. However, there should be only one issue for the battery drain problem and to my knowledge, you only need to patch your own dsdt. Everything else should just work, I use it everyday as my daily driver and I have not encounter any problems. [Read more.](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/36)
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
@@ -73,6 +73,11 @@
    * Solution:
       * Keep rebooting until you can get into the system somehow.
       * I used Appcleaner to uninstall Tuxera, ans it is effective. So I would recommend that.
+#### Battery:
+   * There is an [bibernation battery drain issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/36) of battery draining and the machine does not fully hibernate when I want it to, for example, closing the lid. (It also makes a little bit of heat, not too much as fully turned on), approximately 5% per hour. You can read more in the link above.
+   * To my knowledge, you only need to patch your own DSDT, and since this problem hasn't bothering me much and I am busy, fixing this issue has not been implemented.
+      * Even if it is implemented, since everyone have different DSDT, it probably won't work for you anyway.
+      * If you are curious, I am using zysuper's DSDT (Which might be the reason that caused this issue) since it just works on my laptop and I don't need to spend extra time in my busy life to make my own. ~~Netflix and chill is much more fun.~~
 #### Bluetooth:
    * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
    * A more in depth discussion of how to make it work is here: 
