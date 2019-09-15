@@ -98,8 +98,8 @@
    * Recently, people on TonyMacX86 are having **issue with PM981**. PM981 is troublesome for Hackintosh and I am not using it for install. I'm using a Toshiba XG3. However, you can check out [zysuper's repo](https://github.com/zysuper/Thinkpad-X1-extreme-EFI/blob/master/readme.md) on ACPI files to make PM981 working.
 #### External Display: 
    * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull): Inspired by this [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) I bought an adapter and was able to achieve 4K60P via USB3.0 and HDMI2.0. Now output issue is solved. You can download the driver here: 
-   * [General Driver](https://www.displaylink.com/downloads/macos). 
-   * [DisplayLink's Support for Catalina](https://support.displaylink.com/knowledgebase/articles/1916602-macos-catalina-10-15-beta).
+      * [General Driver](https://www.displaylink.com/downloads/macos). 
+      * [DisplayLink's Support for Catalina](https://support.displaylink.com/knowledgebase/articles/1916602-macos-catalina-10-15-beta).
    * Relative question: 
       * [Will the one with USB-C plug work?](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/20) Short answer, I don't know. You can buy one and try if you want to.
    * Alternative [Lenovo USB Dock](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-507499718), a dock by Lenovo and I suppose it might work as well, but I am not sure as it has not ben tested. (cr. [darkal](https://github.com/darkal))
