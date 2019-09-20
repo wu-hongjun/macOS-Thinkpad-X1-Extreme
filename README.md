@@ -118,6 +118,7 @@
             * As long as the menu bar is in the internal screen and use the external 4k display as secondary, 4k60 works.
          * Use the two screens as one display (Recommended):
             * Also, another way is by clicking the [Mirror Displays] checkbox and leave the laptop screen on, and that will also work with 4k60. I find this most useful! And a much better experience.
+            * Animation might lag a bit (Especially launchpad) but by looking at the mouse pointer move speed the display is running at 4K60. 
 #### Touchscreen and Gesture:
    * Turns out Acidanthera's VoodooPS2Controller.kext is good enough for enabling multigesture and touchscreen.
       * No need for VoodooI2C.kext!
