@@ -110,6 +110,14 @@
       * [Will the one with USB-C plug work?](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/20) Short answer, I don't know. You can buy one and try if you want to.
    * Alternative [Lenovo USB Dock](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-507499718), a dock by Lenovo and I suppose it might work as well, but I am not sure as it has not ben tested. (cr. [darkal](https://github.com/darkal))
    * However, it has its own limitations of [not being able to scale 4K into 1080P with 60FPS](http://assets.displaylink.com/live/downloads/release-notes/f1303_DisplayLink+USB+Graphics+Software+for+macOS+5.1-Release+Notes.txt). This is a known issue and we can only hope future update fix this.
+      * New discovery (20190920):
+         * There is actually one way to have the external display to do 4K60 with scaling. Here's how:
+         * Use the two screens as separate displays:
+            * One, make sure that both display is on (so the laptop screen is flipped up and open)
+            * Two, make sure that the laptop is the main display (aka the dock is in the laptop's screen), and if you go to System Preference -> Display Preferences -> Arrangement you can see that the menu bar is in the laptop's internal screen. 
+            * As long as the menu bar is in the internal screen and use the external 4k display as secondary, 4k60 works.
+         * Use the two screens as one display (Recommended):
+            * Also, another way is by clicking the [Mirror Displays] checkbox and leave the laptop screen on, and that will also work with 4k60. I find this most useful! And a much better experience.
 #### Touchscreen and Gesture:
    * Turns out Acidanthera's VoodooPS2Controller.kext is good enough for enabling multigesture and touchscreen.
       * No need for VoodooI2C.kext!
