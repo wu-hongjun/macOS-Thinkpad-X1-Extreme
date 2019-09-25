@@ -5,6 +5,8 @@
 [![MODEL](https://img.shields.io/badge/Model-20MF000DUS-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
+<img align="right" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/catcritter.png" alt="Critter" width="100">
+
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
 ### Current Release: [10.15.0-V3.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
@@ -12,7 +14,7 @@
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
 > 英语并非你的首选语言？[中文版文档（非最新）](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/README_zh_CN.md)
 
-<img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sysinfo.png" alt="Sys Info" width="1000">
+
 
 ## Announcements
 * [20190826] Currently abroad in Switzerland for a research program at CERN so I'm not that avaliable for development. However, there should be only one issue for the battery drain problem and to my knowledge, you only need to patch your own dsdt. Everything else should just work, I use it everyday as my daily driver and I have not encounter any problems. [Read more.](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/36)
