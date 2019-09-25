@@ -14,18 +14,12 @@
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
 > 英语并非你的首选语言？[中文版文档（非最新）](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/README_zh_CN.md)
 
-
-
-## Announcements
-* [20190826] Currently abroad in Switzerland for a research program at CERN so I'm not that avaliable for development. However, there should be only one issue for the battery drain problem and to my knowledge, you only need to patch your own dsdt. Everything else should just work, I use it everyday as my daily driver and I have not encounter any problems. [Read more.](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/36)
-
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
 * [20190920] Bypassed the external 4K60 scaling limit. Instruction down below.
 * [20190913] Direct upgrade to PB7 is fine. Happy mid-autumn festival everyone! 
 * [20190910] Released v10.15.0.3.2 based on discussion in issue [#40](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/40). Significantly improved touchpad performance.
 * [20190906] Updated BIOS to 1.24. System behaves stable.
-
 
 ## Instructions
 ### Please read the [Post-Install | Issues | Resources] section. It is long but really, really helpful.
