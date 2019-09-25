@@ -5,7 +5,7 @@
 [![MODEL](https://img.shields.io/badge/Model-20MF000DUS-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
-<img align="right" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/catcritter.png" alt="Critter" width="100">
+<img align="right" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/catcritter.png" alt="Critter" width="250">
 
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
 ### Current Release: [10.15.0-V3.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
