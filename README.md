@@ -131,7 +131,9 @@
    * There is an [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) that macOS would use the integrated IR camera to make video calls which does not quite work.
    * This is fixed in v10.15.0.1.2, credit to [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), and [ColeXJ](https://github.com/ColeXJ).
 #### eGPU:
-   * desmomarco999 worked it out, but I have not test it. [Link](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309)
+   * desmomarco999 worked it out, but so far I haven't got any luck to get it working. 
+      * [His approach to enable TB3 on XPS 13](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309)
+      * [My result on X1E](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-2009747)
 #### Undervolting:
    * By undervolting the computer, the fan is MUCH quieter and more pleasant to use.
    * I am using an app called [volta](https://volta.garymathews.com). 
