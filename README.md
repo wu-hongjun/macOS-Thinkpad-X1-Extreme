@@ -145,6 +145,15 @@
    * It is not free, but it is cheap. Just two cups of coffee gives you a much better experience.
       * You can download a "try version" and try it out on your laptop. 
       * I didn't get money for advertising this it just works.
+      
+#### Replace Thermal Paste
+   * Recently I replaced my X1E's thermal paste and by doing so it gained significant performance.
+      * About 5-7 degrees cooler. Now the fan doesn't even turn on under normal daily use.
+   * I used Thermal Grizzly Kryonaut Thermal Grease Paste. (Note: I have no business relationship with them)
+      * But if Thermal Grizzly sees this send me your advertising money plzzzzzzzzz
+   * WARNING: It is possible for you to toast your machine if you replace your thermal paste! 
+      * If you are not sure how good your craftmanship is, give it to a 3rd party repair shop.
+      
 #### System Report:
    * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
 #### Other people's boot configuration:
