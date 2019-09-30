@@ -123,12 +123,13 @@
       * This change is merged in the 10.15.0.3.2 release.
    * I was requested to make a video on how it works on the touch screen, link below.
       * https://youtu.be/mZ7sTGxccuc
-#### VoodooI2C.kext (NOT USED):
+#### VoodooI2C.kext:
+   * NOTE: I used to say VoodooI2C is not working and unuseful, I was wrong. It works to enable gesture on the touch display.
    * A interesting [discussion](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1986487) with [jamesxxx1997](https://www.tonymacx86.com/members/jamesxxx1997.2184482/) implies that (At least on 10.14) you can use [VoodooI2C.kext](https://github.com/alexandred/VoodooI2C) to achieve touch screen and touchpad gesture support.
-      * However, it was not working on 10.15 based on my tests.
-      * I suspect that it is a Catalina compatiability issue, because 10.15 lose touchscreen support even if it was supported in 10.14.
-      * The author of VoodooI2C hasn't been updating the repo since WWDC2019, so I suspect so far there is no Catalina support.
-      * To test it out on your own, you need VoodooI2C.kext and VoodooI2CCHID.kext, and in theory it would just work.
+      * ~~However, it was not working on 10.15 based on my tests.~~
+      * ~~I suspect that it is a Catalina compatiability issue, because 10.15 lose touchscreen support even if it was supported in 10.14.~~
+      * ~~The author of VoodooI2C hasn't been updating the repo since WWDC2019, so I suspect so far there is no Catalina support.~~
+      * ~~To test it out on your own, you need VoodooI2C.kext and VoodooI2CCHID.kext, and in theory it would just work.~~
       * A more through guide is here: [Guide(Chinese)](http://bbs.pcbeta.com/viewthread-1824033-1-2.html), but currently, I'm very busy, so I might do it some time in the future. If you have time, try on your own and tell us how it goes!
 #### Camera:
    * There is an [issue](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) that macOS would use the integrated IR camera to make video calls which does not quite work.
