@@ -137,6 +137,7 @@
    * desmomarco999 worked it out, but so far I haven't got any luck to get it working. 
       * [His approach to enable TB3 on XPS 13](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309)
       * [My result on X1E](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-2009567)
+      * Here's his [full guide](https://www.tonymacx86.com/threads/guide-how-to-use-egpu-with-any-laptop-equipped-with-thunderbolt-3.283179/) if anyone would also like to tackle this difficult problem.
 #### Undervolting:
    * By undervolting the computer, the fan is MUCH quieter and more pleasant to use.
    * I am using an app called [volta](https://volta.garymathews.com). 
