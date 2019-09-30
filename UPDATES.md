@@ -2,6 +2,9 @@
 
 ## 2019
 ### September Updates
+* [20190913] Direct upgrade to PB7 is fine. Happy mid-autumn festival everyone! 
+* [20190910] Released v10.15.0.3.2 based on discussion in issue [#40](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/40). Significantly improved touchpad performance.
+* [20190906] Updated BIOS to 1.24. System behaves stable.
 * [20190902] Updated Clover to v5058, released a minor update v10.15.0.3.1.
 ### August Updates
 * [20190829] Directly upgrade to PB6 is fine. ~~However, be careful as this might clear your desktop's files...~~
