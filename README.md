@@ -123,7 +123,7 @@
       * This change is merged in the 10.15.0.3.2 release.
    * I was requested to make a video on how it works on the touch screen, link below.
       * https://youtu.be/mZ7sTGxccuc
-#### (DEPRECATED) VoodooI2C.kext:
+#### VoodooI2C.kext (NOT USED):
    * A interesting [discussion](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1986487) with [jamesxxx1997](https://www.tonymacx86.com/members/jamesxxx1997.2184482/) implies that (At least on 10.14) you can use [VoodooI2C.kext](https://github.com/alexandred/VoodooI2C) to achieve touch screen and touchpad gesture support.
       * However, it was not working on 10.15 based on my tests.
       * I suspect that it is a Catalina compatiability issue, because 10.15 lose touchscreen support even if it was supported in 10.14.
