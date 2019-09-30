@@ -8,7 +8,7 @@
 <img align="right" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/catcritter.png" alt="Critter" width="250">
 
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
-### Current Release: [10.15.0-V3.2](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+### Current Release: [10.15.0-V3.3](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
@@ -16,11 +16,11 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20191001] Happy 70th birthday to China! Also to my dear dad :)
+* [20190930] Released minor update v10.15.0.3.3, not mandatory.
 * [20190928] Direct upgrade to PB8 is fine. Nothing special needed.
 * [20190920] Bypassed the external 4K60 scaling limit. Instruction down below.
-* [20190913] Direct upgrade to PB7 is fine. Happy mid-autumn festival everyone! 
-* [20190910] Released v10.15.0.3.2 based on discussion in issue [#40](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/40). Significantly improved touchpad performance.
-* [20190906] Updated BIOS to 1.24. System behaves stable.
+
 
 ## Instructions
 ### Please read the [Post-Install | Issues | Resources] section. It is long but really, really helpful.
