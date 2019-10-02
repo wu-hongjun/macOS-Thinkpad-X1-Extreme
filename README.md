@@ -23,7 +23,8 @@
 
 
 ## Instructions
-### Please read the `Post-Install | Issues | Resources` section. It is long but really, really helpful.
+### Please read the `Post-Install | Issues | Resources` section. 
+### It is long but really, really helpful.
 ##### Pre-Install
 ##### *FORK* the project to your own repository and clone it to your machine using Github Desktop to make changes.
 * Windows drivers for Wifi Adapters:
