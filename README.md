@@ -23,7 +23,7 @@
 
 
 ## Instructions
-### Please read the [Post-Install | Issues | Resources] section. It is long but really, really helpful.
+### Please read the `Post-Install | Issues | Resources` section. It is long but really, really helpful.
 ##### Pre-Install
 ##### *FORK* the project to your own repository and clone it to your machine using Github Desktop to make changes.
 * Windows drivers for Wifi Adapters:
@@ -43,7 +43,7 @@
 * [Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
 
 ## Post-Install | Issues | Resources 
-### (READ THIS BEFORE YOU POST PLZZZZZ)
+> READ THIS BEFORE YOU POST PLZZZZZ
 #### Customize "About this Mac":
    * [How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
 #### Wifi:
