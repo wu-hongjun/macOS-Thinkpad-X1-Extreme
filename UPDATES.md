@@ -2,6 +2,9 @@
 
 ## 2019
 ### September Updates
+* [20190930] Released minor update v10.15.0.3.3, not mandatory.
+* [20190928] Direct upgrade to PB8 is fine. Nothing special needed.
+* [20190920] Bypassed the external 4K60 scaling limit. Instruction down below.
 * [20190913] Direct upgrade to PB7 is fine. Happy mid-autumn festival everyone! 
 * [20190910] Released v10.15.0.3.2 based on discussion in issue [#40](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/40). Significantly improved touchpad performance.
 * [20190906] Updated BIOS to 1.24. System behaves stable.
