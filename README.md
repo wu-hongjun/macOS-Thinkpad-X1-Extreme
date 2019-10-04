@@ -16,10 +16,8 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20191003] Stable direct upgrade to PB10.
 * [20191001] Happy 70th birthday to China! Also to my dear dad :)
-* [20190930] Released minor update v10.15.0.3.3, not mandatory.
-* [20190928] Direct upgrade to PB8 is fine. Nothing special needed.
-* [20190920] Bypassed the external 4K60 scaling limit. Instruction down below.
 
 
 ## Instructions
