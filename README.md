@@ -16,6 +16,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20191008] Welcome to Catalina everyone! It's been quite a while for Catalina to get ready.
 * [20191003] Stable direct upgrade to PB10.
 * [20191001] Happy 70th birthday to China! Also to my dear dad :)
 
