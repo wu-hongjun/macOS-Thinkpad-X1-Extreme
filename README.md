@@ -1,6 +1,13 @@
 # Flymin's Hackintosh profile on Thinkpad X1E
 
-[![LICENSE](https://img.shields.io/badge/LICENSE-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) ![MacOS-10.14.6](https://img.shields.io/badge/MacOS-10.14.6-orange) ![BIOS:1.23](https://img.shields.io/badge/BIOS-1.23-brightgreen) ![CLOVER:5045](https://img.shields.io/badge/CLOVER-5045-yellow)
+[![LICENSE](https://img.shields.io/badge/LICENSE-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) ![MacOS-10.15](https://img.shields.io/badge/MacOS-10.15-orange) ![BIOS:1.24](https://img.shields.io/badge/BIOS-1.24-brightgreen) ![CLOVER:5070](https://img.shields.io/badge/CLOVER-5070-yellow)
+
+## Update
+
+##### Recent | [Changelog Archive](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+
+- [20191009] **:tada:** Welcome for Catalina, after Software Update from System Preferences, everything works fine. Make new [Release for 10.15 v1.0](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.15.1.0).
+- [20191007] BIOS, PS2Controller and clover updates
 
 ## ATTENTION
 
@@ -22,12 +29,12 @@ I will make effort to try every release and make modification if encounter with 
 - Graphics: Intel UHD Graphics 630
 - Wireless: Broadcom BCM943602CS
 - Sound card: Realtek ALC285
-- BIOS: v1.23
-- OS: OS X Mojave 10.14.6
+- BIOS: v1.24
+- OS: OS X Catalina 10.15
 
 ## Result
 
-<img align="middle" src="IMG/system config.png" alt="Overview" />
+<img align="middle" src="IMG/catalina.png" alt="Overview" />
 
 ### What works
 

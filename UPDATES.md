@@ -1,7 +1,29 @@
 # Hackintosh for Thinkpad X1 Extreme-Update History
 
 ## 2019
+
+### October Updates
+
+- [20191009] **:tada:** Welcome for Catalina, after Software Update from System Preferences, everything works fine. Make new [Release for 10.15 v1.0](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.15.1.0).
+- [20191007] BIOS, PS2Controller and clover updates
+
+### September Updates
+
+- [20190910] change VoodooPS2 to acidanthera's version, [Release for 10.14.6 v1.2](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.6.1.2)
+
+### August Updates
+
+- [20190828] ALCPlugFix for headphone plug issue
+- [20190819] [Release for 10.14.6 v1.1](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.6.1.1)
+- [20190815] [Release for 10.14.6 v1.0](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.6.1.0)
+- [20190811] [Adjusted release 10.15.0-3.0](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.15.0.3.0.0)
+
+> In original Repo
+
+---
+
 ### July Updates
+
 * [20190731] Added "Memory Issue" section for systems that has 64GB memory.
 * [20190729] I was looking at [this post](http://bbs.pcbeta.com/viewthread-1823918-1-1.html) for updating to clover 5XXX and sleep issue to solve battery drain...
 * [20190728] Added a guide to customize the "About This Mac" page.
