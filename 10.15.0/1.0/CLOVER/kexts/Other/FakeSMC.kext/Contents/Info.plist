@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17G65</string>
+	<string>16G29</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>6.26-357-gceb835ea.1800</string>
+	<string>6.26.1440</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,7 +25,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1800</string>
+	<string>1440</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -33,9 +33,9 @@
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>12D75</string>
+	<string>16E185</string>
 	<key>DTSDKName</key>
-	<string>macosx10.8</string>
+	<string>macosx10.12</string>
 	<key>DTXcode</key>
 	<string>0833</string>
 	<key>DTXcodeBuild</key>
@@ -76,23 +76,6 @@
 						<string>ch8*</string>
 					</array>
 				</dict>
-				<key>ExceptionKeys</key>
-				<dict>
-					<key>CLKH</key>
-					<integer>1</integer>
-					<key>CLKT</key>
-					<integer>1</integer>
-					<key>MSDW</key>
-					<integer>1</integer>
-					<key>NATJ</key>
-					<integer>1</integer>
-					<key>NATi</key>
-					<integer>1</integer>
-					<key>NTOK</key>
-					<integer>1</integer>
-					<key>WKTP</key>
-					<integer>0</integer>
-				</dict>
 				<key>Keys</key>
 				<dict>
 					<key>$Adr</key>
@@ -107,34 +90,6 @@
 						<string>ui8</string>
 						<data>
 						AQ==
-						</data>
-					</array>
-					<key>ACID</key>
-					<array>
-						<string>ch8*</string>
-						<data>
-						hfwETdgSevQ=
-						</data>
-					</array>
-					<key>ALI0</key>
-					<array>
-						<string>{ali</string>
-						<data>
-						BwECAA==
-						</data>
-					</array>
-					<key>ALRV</key>
-					<array>
-						<string>ui16</string>
-						<data>
-						AAE=
-						</data>
-					</array>
-					<key>ALV0</key>
-					<array>
-						<string>{alv</string>
-						<data>
-						ARAGdQEgALYO4A==
 						</data>
 					</array>
 					<key>FNum</key>
@@ -156,13 +111,6 @@
 						<string>{rev</string>
 						<data>
 						AQQKAAY=
-						</data>
-					</array>
-					<key>MSLD</key>
-					<array>
-						<string>ui8 </string>
-						<data>
-						AA==
 						</data>
 					</array>
 					<key>MSSD</key>
@@ -207,13 +155,6 @@
 						<string>{rev</string>
 						<data>
 						ATAPAAAD
-						</data>
-					</array>
-					<key>RMde</key>
-					<array>
-						<string>char</string>
-						<data>
-						QQ==
 						</data>
 					</array>
 					<key>RVBF</key>
@@ -271,10 +212,6 @@
 			<string>AppleACPIPlatformExpert</string>
 			<key>IOResourceMatch</key>
 			<string>FakeSMCKeyStore</string>
-			<key>RM,Build</key>
-			<string>Release-rehabman</string>
-			<key>RM,Version</key>
-			<string>FakeSMC 1800</string>
 		</dict>
 		<key>FakeSMCKeyStore</key>
 		<dict>
@@ -313,7 +250,5 @@
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Root</string>
-	<key>Source Code</key>
-	<string>"https://github.com/RehabMan/OS-X-FakeSMC-kozlek.git"</string>
 </dict>
 </plist>

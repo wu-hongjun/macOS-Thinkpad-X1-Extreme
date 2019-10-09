@@ -282,7 +282,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-lilubetaall -cdfon uia_exclude=HS14,HS05,HS06,USR1,USR2 alcid=7</string>
+		<string>-lilubetaall -cdfon uia_exclude=HS14,HS05,HS06,USR1,USR2 alcid=31</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
