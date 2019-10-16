@@ -67,8 +67,10 @@
          * Download the newest AppleALC.kext from github.
          * Delete the old AppleALC and replace it with the new one.
          * Change boot argument alcid=7 to alcid=21.
-#### NTFS & Tuxera NTFS:
-   * Tuxera NTFS 2018 on macOS Catalina would cause reboot after login.
+#### 32 Bit Program:
+   * 32 bit program is no longer supported in macOS 10.15.0 Catalina.
+   * Using 32 bit programs on macOS Catalina would cause reboot shortly after login.
+   * Most common killer programs: Tuxera NTFS 2018 and Steam.
    * Solution:
       * Keep rebooting until you can get into the system somehow.
       * I used Appcleaner to uninstall Tuxera, ans it is effective. So I would recommend that.
