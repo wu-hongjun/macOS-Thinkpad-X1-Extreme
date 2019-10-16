@@ -163,7 +163,7 @@
 #### System Report:
    * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
 #### Other Configurations:
-| Name | CPU | Model | Link |
+| Owner | CPU | Model | Link |
 | --- | --- | --- | --- |
 | zysuper | i7-8850H | X1E | [Link](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) | 
 | xuzhao9 | i7-8750H | X1E | [Link](https://github.com/xuzhao9/ThinkPad-X1E-Hackintosh) |
