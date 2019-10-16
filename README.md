@@ -64,6 +64,7 @@
 #### Sound:
    * If your AppleALC.kext does not load using (for example, V3.0), then read the following passage.
       * V3.0 and many versions in the previous releases uses a special AppleALC.kext with alcid=7.
+      * Note: In many cases, a simple restart will reload AppleALC and your audio will come back to normal.
       * However, if this does not work with you, you should try the following:
          * Download the newest AppleALC.kext from github.
          * Delete the old AppleALC and replace it with the new one.
