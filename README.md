@@ -55,7 +55,7 @@
        * BCM94360CS2 is an ABSOLUTELY NIGHTMARE. DON'T buy.
        * If you are confused: The card with 3 antennas is good, with 2 antennas is bad.
 #### Memory:
-   * Normally, your memory on your machine should just work. [Issue #34](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/34#issuecomment-516447421) However, with machines that has 64G of memory, you might need some workaround.
+   * Normally, your memory on your machine should just work. However, with machines that has 64G of memory, you might need some workaround.([Issue #34](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/34#issuecomment-516447421))
    * Presented by [oreziam](https://github.com/oreziam), he gave a brief description of his solution in the above issue. 
       * Note that I do not know, and cannot help you with this issue since I have 32G of memory. You should contact oreziam if you have questions.
       * In order to make this work, you need to inject info of the system memory, but with one more sockets than usual.
@@ -76,10 +76,10 @@
       * Keep rebooting until you can get into the system somehow.
       * I used Appcleaner to uninstall Tuxera, ans it is effective. So I would recommend that.
 #### Battery:
-   * There is an [bibernation battery drain issue (Issue #36)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/36) of battery draining and the machine does not fully hibernate when I want it to, for example, closing the lid. (It also makes a little bit of heat, not too much as fully turned on), approximately 5% per hour. You can read more in the link above.
+   * There is an [Hibernation battery drain issue (Issue #36)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/36) of battery draining and the machine does not fully hibernate when I want it to, for example, closing the lid. (It also makes a little bit of heat, not too much as fully turned on), approximately 5% per hour. You can read more in the link above.
    * To my knowledge, you only need to patch your own DSDT, and since this problem hasn't bothering me much and I am busy, fixing this issue has not been implemented.
       * Even if it is implemented, since everyone have different DSDT, it probably won't work for you anyway.
-      * If you are curious, I am using zysuper's DSDT (Which might be the reason that caused this issue) since it just works on my laptop and I don't need to spend extra time in my busy life to make my own. ~~Netflix and chill is much more fun.~~
+      * If you are curious, I am using zysuper's DSDT (Which might be the reason that caused this issue) since it just works on my laptop and I don't need to spend extra time in my busy life to make my own. ~~Netflix and chill is much more fun...or Panopto and chill?~~
 #### Bluetooth:
    * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
       * A more in depth discussion of how to make it work is here: 
@@ -92,7 +92,7 @@
    * If you don't want to go through these effort:
       * [Kinivo BTD-400 Bluetooth 4.0 Low Energy USB Adapter](https://www.amazon.com/Kinivo-BTD-400-Bluetooth-4-0-USB/dp/B007Q45EF4/ref=sr_1_fkmrnull_3?keywords=kinivo+bluetooth+dongle&qid=1555648213&s=gateway&sr=8-3-fkmrnull): This is the BlueTooth adapter I use before I got internal BT working. Read more about the internal BT [here](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/Readme.MD).This USB adapter works well with Airpods 2, but you can always use other compatible ones. Just here if you just want to buy a cheap and working BT for nobrainers. It's BT4.0, because it is cheap and not many BT5.0 dongle exist in the market yet.
 #### Fan:
-   * Some people experienced fan issues that the fan does not turn on during load. [Issue #32](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/32)
+   * Some people experienced fan issues that the fan does not turn on during load. ([Issue #32](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/32))
    * This can be solved by applying a BIOS update (1.17 -> 1.23).
 #### Time Sync:
    * [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/): Some might also experience between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) (cr. [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/)).
