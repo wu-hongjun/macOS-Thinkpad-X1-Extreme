@@ -153,6 +153,8 @@
       * About 5-7 degrees cooler. Now the fan doesn't even turn on under normal daily use.
    * I used Thermal Grizzly Kryonaut Thermal Grease Paste. (Note: I have no business relationship with them)
       * But if Thermal Grizzly sees this send me your advertising money plzzzzzzzzz
+   * This is the teardown and repasting guide I used when I repasted my machine.
+      * [Lenovo X1 Extreme Disassembly Repaste, TechTubers, 2019.](https://www.youtube.com/watch?v=_iWLfo2t4_U)
    * WARNING: It is possible for you to toast your machine if you replace your thermal paste! 
       * If you are not sure how good your craftmanship is, give it to a 3rd party repair shop.
       
@@ -191,6 +193,7 @@
 | [Joaquim Barbosa](https://www.idownloadblog.com/author/joebarbosa/) | Guide to customize "About this Mac". |
 | [oreziam](https://github.com/oreziam) | Solution for memory that exceeds 64G. |
 | [xuzhao9](https://github.com/xuzhao9) | i7-8750H Config & AppleALC layout-id=21 |
+| [Techtubers](https://www.youtube.com/channel/UC3vslADykSTKyYQ316zJOGQ) | Teardown and repaste guide. |
 
 ## Discussions and News
 * [zysuper's Work](https://github.com/zysuper/Thinkpad-X1-extreme-EFI): Here is another helpful **alternative Thinkpad X1 Extreme Clover EFI configuration** repository. Please check out his work as well as some some issues are addressed in both of our repositories. Star his work too!
