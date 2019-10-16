@@ -16,7 +16,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
-* [20191015] It looks like PB10(19A582a) is the GM and I cannot get updates so it is newest. My machine works normal...
+* [20191015] It looks like PB10(19A582a) is GM Seed and it is newest. My machine works normal on GM...
 * [20191010] ~~Looks like the final version of Catalina has some problems...? I will stay on PB10 for a while :P~~
 * [20191008] Welcome to Catalina everyone! It's been quite a while for Catalina to get ready.
 * [20191003] Stable direct upgrade to PB10.
