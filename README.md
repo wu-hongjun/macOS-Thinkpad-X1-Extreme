@@ -16,6 +16,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20191017] Solved eGPU. See "eGPU" section below. Now X1E is fully complete with everything supported. Yea!
 * [20191016] Added "32 bit program" and "repasting guide" section in the resource section. Read them.
 * [20191015] It looks like PB10(19A582a) is GM Seed and it is newest. My machine works normal on GM...
 * [20191010] ~~Looks like the final version of Catalina has some problems...? I will stay on PB10 for a while :P~~
