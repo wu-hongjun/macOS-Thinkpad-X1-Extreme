@@ -137,10 +137,15 @@
    * [Issue #33](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) discussed about that macOS would use the integrated IR camera to make video calls which does not quite work.
    * This is fixed in v10.15.0.1.2, credit to [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), and [ColeXJ](https://github.com/ColeXJ).
 #### eGPU:
-   * desmomarco999 worked it out, but so far I haven't got any luck to get it working. 
+   * I finally solved eGPU. It is running smooth as hell using a RX570.
+      * All you need to do in BIOS is 
+         * 1. Enable Thunderbolt 3 support for Linux
+         * 2. Disable iGPU so switch Display from "Hybrid" to "Discrete".
+      * Then plug in your AMD eGPU, boot my EFI as usual, no extra steps.
+   * desmomarco999 worked it out, but I used a different way. 
       * [His approach to enable TB3 on XPS 13](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309)
-      * [My result on X1E](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-2009567)
-      * Here's his [full guide](https://www.tonymacx86.com/threads/guide-how-to-use-egpu-with-any-laptop-equipped-with-thunderbolt-3.283179/) if anyone would also like to tackle this difficult problem.
+      * Here's his [full guide](https://www.tonymacx86.com/threads/guide-how-to-use-egpu-with-any-laptop-equipped-with-thunderbolt-3.283179/).
+     
 #### Undervolting:
    * By undervolting the computer, the fan is MUCH quieter and more pleasant to use.
    * I am using an app called [volta](https://volta.garymathews.com). 
