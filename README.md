@@ -74,6 +74,7 @@
    * 32 bit program is no longer supported in macOS 10.15.0 Catalina.
    * Using 32 bit programs on macOS Catalina would cause reboot shortly after login.
    * Most common killer programs: Tuxera NTFS 2018 and Steam.
+      * Tuxera NTFS 2019 still does the same thing. Hmmmmm.
    * Solution:
       * Keep rebooting until you can get into the system somehow.
       * I used Appcleaner to uninstall Tuxera, ans it is effective. So I would recommend that.
@@ -144,6 +145,7 @@
          * 1. Enable Thunderbolt 3 support for Linux
          * 2. Disable iGPU so switch Display from "Hybrid" to "Discrete".
       * Then plug in your AMD eGPU, boot my EFI as usual, no extra steps.
+      * If you are having problems, try boot in verbose mode (-v).
    * desmomarco999 worked it out, but I used a different way. 
       * [His approach to enable TB3 on XPS 13](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309)
       * Here's his [full guide](https://www.tonymacx86.com/threads/guide-how-to-use-egpu-with-any-laptop-equipped-with-thunderbolt-3.283179/).
