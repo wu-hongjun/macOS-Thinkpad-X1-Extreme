@@ -138,7 +138,8 @@
    * [Issue #33](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) discussed about that macOS would use the integrated IR camera to make video calls which does not quite work.
    * This is fixed in v10.15.0.1.2, credit to [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), and [ColeXJ](https://github.com/ColeXJ).
 #### eGPU:
-   * I finally solved eGPU. It is running smooth as hell using a RX570.
+   * I finally solved eGPU. It is running smooth as hell using a RX570 in a Razer Core X. 
+      * [Pictures of my setup and eGPU](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/IMG/eGPU)
       * All you need to do in BIOS is 
          * 1. Enable Thunderbolt 3 support for Linux
          * 2. Disable iGPU so switch Display from "Hybrid" to "Discrete".
