@@ -74,7 +74,7 @@
    * 32 bit program is no longer supported in macOS 10.15.0 Catalina.
    * Using 32 bit programs on macOS Catalina would cause reboot shortly after login.
    * Most common killer programs: Tuxera NTFS 2018 and Steam.
-      * Tuxera NTFS 2019 still does the same thing. Hmmmmm.
+      * Tuxera NTFS 2019 still does the same thing. Hmmmmm. Be careful you have been warned.
    * Solution:
       * Keep rebooting until you can get into the system somehow.
       * I used Appcleaner to uninstall Tuxera, ans it is effective. So I would recommend that.
@@ -146,9 +146,14 @@
          * 2. Disable iGPU so switch Display from "Hybrid" to "Discrete".
       * Then plug in your AMD eGPU, boot my EFI as usual, no extra steps.
       * If you are having problems, try boot in verbose mode (-v).
-   * desmomarco999 worked it out, but I used a different way. 
-      * [His approach to enable TB3 on XPS 13](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309)
-      * Here's his [full guide](https://www.tonymacx86.com/threads/guide-how-to-use-egpu-with-any-laptop-equipped-with-thunderbolt-3.283179/).
+   * Now that I disabled my iGPU, what do I do when I don't use an eGPU?
+      * Well, you enable iGPU in BIOS when you need it. Disable it again in BIOS when you need eGPU.
+      * Or you kinda just don't use it on the go (Or until one day Apple work themselves out with NVIDIA then 1050Ti will work).
+      * It is a trade off for eGPU, but it is something you can easily tolerate. I don't think it is a big deal.
+      * What if I am in emergency and I want to use it on the go?
+         * Well, you can. Just boot macOS normally. You will only have a 3MB since your NVIDIA card now serves as a basic display controller and 1024x768 resolution, but everything else than the graphics card should work. Use that to tackle your macOS emergencies. Shouldn't be a big deal.
+   * Thanks for desmomarco999's guide, he worked it out on his XPS 13, but I used a different way. 
+      * For sole appreciation, here is [his approach to enable TB3 on XPS 13](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309), and here's his [full guide](https://www.tonymacx86.com/threads/guide-how-to-use-egpu-with-any-laptop-equipped-with-thunderbolt-3.283179/).
      
 #### Undervolting:
    * By undervolting the computer, the fan is MUCH quieter and more pleasant to use.
