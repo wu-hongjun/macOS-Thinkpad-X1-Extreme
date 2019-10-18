@@ -26,7 +26,7 @@
 
 
 ## Instructions
-### Please read the `Post-Install | Issues | Resources` section. 
+### Please read the `Post-Install` section. 
 ### It is long but really, really helpful.
 ##### Pre-Install
 ##### *FORK* the project to your own repository and clone it to your machine using Github Desktop to make changes.
@@ -46,8 +46,7 @@
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/): I recommend users to use to configure your config.plist in order to eliminate typos.
 * [Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
 
-## Post-Install | Issues | Resources 
-> READ THIS BEFORE YOU POST PLZZZZZ
+## Post-Install
 #### Customize "About this Mac":
    * [How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
 #### Wifi:
