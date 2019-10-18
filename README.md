@@ -141,9 +141,9 @@
 #### eGPU:
    * I finally solved eGPU. It is running smooth as hell using a RX570 in a Razer Core X. 
       * [Pictures of my setup and eGPU](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/IMG/eGPU)
-      * All you need to do in BIOS is 
-         * 1. Enable Thunderbolt 3 support for Linux
-         * 2. Disable iGPU so switch Display from "Hybrid" to "Discrete".
+      * All you need to do in BIOS is:
+         1. Enable Thunderbolt 3 support for Linux
+         2. Disable iGPU so switch Display from "Hybrid" to "Discrete".
       * Then plug in your AMD eGPU, boot my EFI as usual, no extra steps.
       * If you are having problems, try boot in verbose mode (-v).
    * Now that I disabled my iGPU, what do I do when I don't use an eGPU?
