@@ -172,8 +172,10 @@
    * WARNING: It is possible for you to toast your machine if you replace your thermal paste! 
       * If you are not sure how good your craftmanship is, give it to a 3rd party repair shop.
       
-#### System Report:
+#### About This Machine:
    * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
+   * [IORegistry](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/docs/X1E-IORegistry.ioreg): For researchers who want to see my IORegistry, updated 20191018, EFI version v10.15.0.3.3.
+   
 #### Other Configurations:
 | Owner | CPU | Model | Link |
 | --- | --- | --- | --- |
