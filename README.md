@@ -43,7 +43,7 @@
 ## Post-Install
 #### Customize "About this Mac":
    * [How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
-#### Wifi:
+#### Wifi & Wireless Card Adaptors:
    * [Problem with BCM94360CS2 (Issue #15)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/15#issuecomment-477450037): 
        * BCM94360CS2 and BCM943602CS are two **DIFFERENT** cards. 
        * BCM94360CS2 is an ABSOLUTELY NIGHTMARE. DON'T buy.
@@ -55,7 +55,7 @@
       * In order to make this work, you need to inject info of the system memory, but with one more sockets than usual.
       * That means you need to inject 4 channels and 5 sockets for memory info, 16G * 5.
       * When you boot into the system, it would detect 64G correctly.
-#### Sound:
+#### Sound & AppleALC:
    * If your AppleALC.kext does not load using (for example, V3.0), then read the following passage.
       * V3.0 and many versions in the previous releases uses a special AppleALC.kext with alcid=7.
       * Note: In many cases, a simple restart will reload AppleALC and your audio will come back to normal.
@@ -63,7 +63,7 @@
          * Download the newest AppleALC.kext from github.
          * Delete the old AppleALC and replace it with the new one.
          * Change boot argument alcid=7 to alcid=21.
-#### 32 Bit Program:
+#### 32 Bit Program Incompatibilities:
    * 32 bit program is no longer supported in macOS 10.15.0 Catalina.
    * Using 32 bit programs on macOS Catalina would cause reboot shortly after login.
    * Most common killer programs: Tuxera NTFS 2018 and Steam.
@@ -77,7 +77,7 @@
       * Even if it is implemented, since everyone have different DSDT, it probably won't work for you anyway.
       * If you are curious, I am using zysuper's DSDT (Which might be the reason that caused this issue) since it just works on my laptop and I don't need to spend extra time in my busy life to make my own. ~~Netflix and chill is much more fun...or Panopto and chill?~~
 #### Bluetooth:
-   * **Bluetooth** is SOLVED (fxxk, finally) using a ribbon cable connecting to Smartcard slot. 
+   * Bluetooth is SOLVED (fxxk, finally) using a ribbon cable connecting to Smartcard slot. 
       * A more in depth discussion of how to make it work is here: 
          * [Episode 1: Issue #3](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-471815481)
          * [Episode 2: Issue #11](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11)
@@ -90,18 +90,43 @@
 #### Fan:
    * Some people experienced fan issues that the fan does not turn on during load. ([Issue #32](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/32))
    * This can be solved by applying a BIOS update (1.17 -> 1.23).
-#### Time Sync:
+#### Time Sync Between Windows and macOS:
    * [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/): Some might also experience between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) (cr. [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/)).
 #### Boot:
    * [Special Simplified Edition](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE): Many people are experiencing unknown issues to boot into macOS. 
    * I released a EFI configuration to at least boot into the OS and see what we can do. Read more in the release comment. (It is for 10.14.3 idk if it works in 10.14.4 or newer).
-#### Touchpad in WINDOWS:
-   * People are experiencing weird **touchpad issues** when boot windows from CLOVER. So far not much can be done, so I recommend you to just set auto boot time in clover be 2sec or -1sec, and just use F12 to switch OS.
+#### Touchpad, Touchscreen and Multi-Gesture:
+   * Turns out Acidanthera's VoodooPS2Controller.kext is good enough for enabling multigesture and touchscreen.
+      * No need for VoodooI2C.kext! (Change merged in the 10.15.0.3.2 release)
+   * I was requested to make a video on how it works on the touch screen, link below.
+      * [Touch screen gesture implementation on X1E, Errrneist, 2019.](https://youtu.be/mZ7sTGxccuc)
+   * Touchpad in WINDOWS:
+      * People are experiencing weird **touchpad issues** when boot windows from CLOVER. So far not much can be done, so I recommend you to just set auto boot time in clover be 2sec or -1sec, and just use F12 to switch OS.
+   * VoodooI2C.kext:
+      * NOTE: I used to say VoodooI2C is not working and unuseful, I was wrong. It works to enable gesture on the touch display.
+      * A interesting [discussion](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1986487) with [jamesxxx1997](https://www.tonymacx86.com/members/jamesxxx1997.2184482/) implies that (At least on 10.14) you can use [VoodooI2C.kext](https://github.com/alexandred/VoodooI2C) to achieve touch screen and touchpad gesture support.
+         * Optional Reading: A more through guide for VoodooI2C is here: [Guide(Chinese)](http://bbs.pcbeta.com/viewthread-1824033-1-2.html).
 #### OpenGL:
    * For video editors who use FinalCutPro and Davenci be aware that updating to 10.14.3 might cause [**OpenGL issue**](https://www.tonymacx86.com/threads/macos-10-14-0-thinkpad-x1-extreme-hackintosh.263916/post-1900369) that makes rendering take forever. (cr. [cthetoy](https://www.tonymacx86.com/members/cthetoy.152906/)).
-#### PM981:
+#### Samsung PM981 SSD:
    * Recently, people on TonyMacX86 are having **issue with PM981**. PM981 is troublesome for Hackintosh and I am not using it for install. I'm using a Toshiba XG3. However, you can check out [zysuper's repo](https://github.com/zysuper/Thinkpad-X1-extreme-EFI/blob/master/readme.md) on ACPI files to make PM981 working.
-#### External Display: 
+#### External Graphics Processing Unit (eGPU):
+   * I finally solved eGPU. It is running smooth as hell using a RX570 in a Razer Core X. 
+      * [Pictures of my setup and eGPU](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/IMG/eGPU)
+      * All you need to do in BIOS is:
+         1. Enable Thunderbolt 3 support for Linux
+         2. Disable iGPU so switch Display from "Hybrid" to "Discrete".
+      * Then plug in your AMD eGPU, boot my EFI as usual, no extra steps.
+      * If you are having problems, try boot in verbose mode (-v).
+   * Now that I disabled my iGPU, what do I do when I don't use an eGPU?
+      * Well, you enable iGPU in BIOS when you need it. Disable it again in BIOS when you need eGPU.
+      * Or you kinda just don't use it on the go (Or until one day Apple work themselves out with NVIDIA then 1050Ti will work).
+      * It is a trade off for eGPU, but it is something you can easily tolerate. I don't think it is a big deal.
+      * What if I am in emergency and I want to use it on the go?
+         * Well, you can. Just boot macOS normally. You will only have a 3MB since your NVIDIA card now serves as a basic display controller and 1024x768 resolution, but everything else than the graphics card should work. Use that to tackle your macOS emergencies. Shouldn't be a big deal.
+   * Thanks for desmomarco999's guide, he worked it out on his XPS 13, but I used a different way. 
+      * For sole appreciation, here is [his approach to enable TB3 on XPS 13](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309), and here's his [full guide](https://www.tonymacx86.com/threads/guide-how-to-use-egpu-with-any-laptop-equipped-with-thunderbolt-3.283179/).
+#### External Display Output (NOT eGPU): 
    * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull): Inspired by [Issue #13](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) I bought an adapter and was able to achieve 4K60P via USB3.0 and HDMI2.0. Now output issue is solved. You can download the driver here: 
       * [General Driver](https://www.displaylink.com/downloads/macos). 
       * [DisplayLink's Support for Catalina](https://support.displaylink.com/knowledgebase/articles/1916602-macos-catalina-10-15-beta).
@@ -118,36 +143,9 @@
          * Use the two screens as one display (Recommended):
             * Also, another way is by clicking the [Mirror Displays] checkbox and leave the laptop screen on, and that will also work with 4k60. I find this most useful! And a much better experience.
             * Animation might lag a bit (Especially launchpad) but by looking at the mouse pointer move speed the display is running at 4K60. 
-#### Touchscreen and Gesture:
-   * Turns out Acidanthera's VoodooPS2Controller.kext is good enough for enabling multigesture and touchscreen.
-      * No need for VoodooI2C.kext!
-      * This change is merged in the 10.15.0.3.2 release.
-   * I was requested to make a video on how it works on the touch screen, link below.
-      * [Touch screen gesture implementation on X1E, Errrneist, 2019.](https://youtu.be/mZ7sTGxccuc)
-#### VoodooI2C.kext:
-   * NOTE: I used to say VoodooI2C is not working and unuseful, I was wrong. It works to enable gesture on the touch display.
-   * A interesting [discussion](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1986487) with [jamesxxx1997](https://www.tonymacx86.com/members/jamesxxx1997.2184482/) implies that (At least on 10.14) you can use [VoodooI2C.kext](https://github.com/alexandred/VoodooI2C) to achieve touch screen and touchpad gesture support.
-      * A more through guide is here: [Guide(Chinese)](http://bbs.pcbeta.com/viewthread-1824033-1-2.html), but currently, I'm very busy, so I might do it some time in the future. If you have time, try on your own and tell us how it goes!
 #### Camera:
    * [Issue #33](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) discussed about that macOS would use the integrated IR camera to make video calls which does not quite work.
    * This is fixed in v10.15.0.1.2, credit to [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), and [ColeXJ](https://github.com/ColeXJ).
-#### eGPU:
-   * I finally solved eGPU. It is running smooth as hell using a RX570 in a Razer Core X. 
-      * [Pictures of my setup and eGPU](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/IMG/eGPU)
-      * All you need to do in BIOS is:
-         1. Enable Thunderbolt 3 support for Linux
-         2. Disable iGPU so switch Display from "Hybrid" to "Discrete".
-      * Then plug in your AMD eGPU, boot my EFI as usual, no extra steps.
-      * If you are having problems, try boot in verbose mode (-v).
-   * Now that I disabled my iGPU, what do I do when I don't use an eGPU?
-      * Well, you enable iGPU in BIOS when you need it. Disable it again in BIOS when you need eGPU.
-      * Or you kinda just don't use it on the go (Or until one day Apple work themselves out with NVIDIA then 1050Ti will work).
-      * It is a trade off for eGPU, but it is something you can easily tolerate. I don't think it is a big deal.
-      * What if I am in emergency and I want to use it on the go?
-         * Well, you can. Just boot macOS normally. You will only have a 3MB since your NVIDIA card now serves as a basic display controller and 1024x768 resolution, but everything else than the graphics card should work. Use that to tackle your macOS emergencies. Shouldn't be a big deal.
-   * Thanks for desmomarco999's guide, he worked it out on his XPS 13, but I used a different way. 
-      * For sole appreciation, here is [his approach to enable TB3 on XPS 13](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309), and here's his [full guide](https://www.tonymacx86.com/threads/guide-how-to-use-egpu-with-any-laptop-equipped-with-thunderbolt-3.283179/).
-     
 #### Undervolting:
    * By undervolting the computer, the fan is MUCH quieter and more pleasant to use.
    * I am using an app called [volta](https://volta.garymathews.com). 
@@ -156,7 +154,6 @@
    * It is not free, but it is cheap. Just two cups of coffee gives you a much better experience.
       * You can download a "trial version" and try it out on your laptop. 
       * I didn't get money for advertising this...it just works. 
-      
 #### Replace Thermal Paste:
    * Recently I replaced my X1E's thermal paste and by doing so it gained significant performance.
       * About 5-7 degrees cooler. Now the fan doesn't even turn on under normal daily use.
@@ -166,7 +163,6 @@
       * [Lenovo X1 Extreme Disassembly Repaste, TechTubers, 2019.](https://www.youtube.com/watch?v=_iWLfo2t4_U)
    * WARNING: It is possible for you to toast your machine if you replace your thermal paste! 
       * If you are not sure how good your craftmanship is, give it to a 3rd party repair shop.
-      
 #### About This Machine:
    * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
    * [IORegistry](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/docs/X1E-IORegistry.ioreg): For researchers who want to see my IORegistry, updated 20191018, EFI version v10.15.0.3.3.
@@ -184,7 +180,7 @@
    * Hackintosh Laptop Index: EFI for other laptop might help as a useful reference. Navigate to [here](https://github.com/daliansky/Hackintosh) (cr. [daliansky](https://github.com/daliansky)) if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
 
 ## Other Contributors
-* CAUTION: There is no order in the ranking of names. This list may not be complete! Sorry for any inconvience.
+* Note: There is no order in the ranking of names. This list may not be complete! Feel free to let me know. Sorry for any inconvience.
 
 | Name | Contributions |
 | --- | --- |
