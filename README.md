@@ -77,7 +77,7 @@
       * Even if it is implemented, since everyone have different DSDT, it probably won't work for you anyway.
       * If you are curious, I am using zysuper's DSDT (Which might be the reason that caused this issue) since it just works on my laptop and I don't need to spend extra time in my busy life to make my own. ~~Netflix and chill is much more fun...or Panopto and chill?~~
 #### Bluetooth:
-   * **Bluetooth** is SOLVED using a ribbon cable connecting to Smartcard slot. 
+   * **Bluetooth** is SOLVED (fxxk, finally) using a ribbon cable connecting to Smartcard slot. 
       * A more in depth discussion of how to make it work is here: 
          * [Episode 1: Issue #3](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/3#issuecomment-471815481)
          * [Episode 2: Issue #11](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/11)
