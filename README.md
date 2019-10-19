@@ -108,6 +108,7 @@
          * Optional Reading: A more through guide for VoodooI2C is here: [Guide(Chinese)](http://bbs.pcbeta.com/viewthread-1824033-1-2.html).
 #### OpenGL:
    * For video editors who use FinalCutPro and Davenci be aware that updating to 10.14.3 might cause [**OpenGL issue**](https://www.tonymacx86.com/threads/macos-10-14-0-thinkpad-x1-extreme-hackintosh.263916/post-1900369) that makes rendering take forever. (cr. [cthetoy](https://www.tonymacx86.com/members/cthetoy.152906/)).
+   * However, with macOS 10.15 going all in with Metal 2 I do not suspect this will be an issue from now on. Programs using OpenGL will soon switch to Metal on macOS Catalina.
 #### Samsung PM981 SSD:
    * Recently, people on TonyMacX86 are having **issue with PM981**. PM981 is troublesome for Hackintosh and I am not using it for install. I'm using a Toshiba XG3. However, you can check out [zysuper's repo](https://github.com/zysuper/Thinkpad-X1-extreme-EFI/blob/master/readme.md) on ACPI files to make PM981 working.
 #### External Graphics Processing Unit (eGPU):
