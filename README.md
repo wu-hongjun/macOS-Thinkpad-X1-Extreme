@@ -170,11 +170,12 @@
 #### Other Configurations:
 | Owner | CPU | Model | Link |
 | --- | --- | --- | --- |
-| zysuper | i7-8850H | X1E | [Link](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) | 
-| xuzhao9 | i7-8750H | X1E | [Link](https://github.com/xuzhao9/ThinkPad-X1E-Hackintosh) |
-| darkal | i7-8750H | X1E | [Link](https://github.com/darkal/Hackintosh-Thinkpad-X1-Extreme) |
-| ergonyc | i7-8850H | X1E | [Link](https://github.com/ergonyc/BlackMac-ThinkPad-X1E) |
-| flymin | i7-8750H | X1E | [Link](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme) |
+| zysuper | i7-8850H | X1EG1 | [Link](https://github.com/zysuper/Thinkpad-X1-extreme-EFI) | 
+| xuzhao9 | i7-8750H | X1EG1 | [Link](https://github.com/xuzhao9/ThinkPad-X1E-Hackintosh) |
+| darkal | i7-8750H | X1EG1 | [Link](https://github.com/darkal/Hackintosh-Thinkpad-X1-Extreme) |
+| ergonyc | i7-8850H | X1EG1 | [Link](https://github.com/ergonyc/BlackMac-ThinkPad-X1E) |
+| flymin | i7-8750H | X1EG1 | [Link](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme) |
+| denerworator | i7-9750H | X1EG2 | [Link](https://github.com/denerworator/Muzi-X1-carbon-extreme-Gen-2) |
 
 #### More Hackintosh EFI Resource:
    * Hackintosh Laptop Index: EFI for other laptop might help as a useful reference. Navigate to [here](https://github.com/daliansky/Hackintosh) (cr. [daliansky](https://github.com/daliansky)) if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
