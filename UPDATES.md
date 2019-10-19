@@ -1,6 +1,11 @@
 # Hackintosh for Thinkpad X1 Extreme-Update History
 
 ## 2019
+### October Updates
+* [20191010] ~~Looks like the final version of Catalina has some problems...? I will stay on PB10 for a while :P~~
+* [20191008] Welcome to Catalina everyone! It's been quite a while for Catalina to get ready.
+* [20191003] Stable direct upgrade to PB10.
+* [20191001] Happy 70th birthday to China! Also to my dear dad :)
 ### September Updates
 * [20190930] Released minor update v10.15.0.3.3, not mandatory.
 * [20190928] Direct upgrade to PB8 is fine. Nothing special needed.
