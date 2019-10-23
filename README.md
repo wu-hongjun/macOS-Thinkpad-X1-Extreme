@@ -127,13 +127,12 @@
          * Well, you can. Just boot macOS normally. You will only have a 3MB since your NVIDIA card now serves as a basic display controller and 1024x768 resolution, but everything else than the graphics card should work. Use that to tackle your macOS emergencies. Shouldn't be a big deal.
    * Thanks for desmomarco999's guide, he worked it out on his XPS 13, but I used a different way. 
       * For sole appreciation, here is [his approach to enable TB3 on XPS 13](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309), and here's his [full guide](https://www.tonymacx86.com/threads/guide-how-to-use-egpu-with-any-laptop-equipped-with-thunderbolt-3.283179/).
-#### External Display Output (NOT eGPU): 
+#### USB External DisplayLink Output (NOT eGPU): 
    * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull): Inspired by [Issue #13](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) I bought an adapter and was able to achieve 4K60P via USB3.0 and HDMI2.0. Now output issue is solved. You can download the driver here: 
-      * [General Driver](https://www.displaylink.com/downloads/macos). 
-      * [DisplayLink's Support for Catalina](https://support.displaylink.com/knowledgebase/articles/1916602-macos-catalina-10-15-beta).
+      * [DisplayLink Driver](https://www.displaylink.com/downloads/macos). 
    * Relative question: 
-      * [Will the one with USB-C plug work? (Issue #20)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/20) Short answer, I don't know. You can buy one and try if you want to.
-   * Alternative [Lenovo USB Dock (Issue #13)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-507499718), a dock by Lenovo and I suppose it might work as well, but I am not sure as it has not ben tested. (cr. [darkal](https://github.com/darkal))
+      * [Will USB3-6950-USBC with USB-C plug work? (Issue #20)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/20) Short answer, I don't know. You can buy one and try if you want to, although I don't see why it won't work so it might just work fine.
+   * Alternative [Lenovo USB Dock (Issue #13)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-507499718), a dock by Lenovo and I believe darkal tested it. (cr. [darkal](https://github.com/darkal))
    * However, it has its own limitations of [not being able to scale 4K into 1080P with 60FPS](http://assets.displaylink.com/live/downloads/release-notes/f1303_DisplayLink+USB+Graphics+Software+for+macOS+5.1-Release+Notes.txt). This is a known issue and we can only hope future update fix this.
       * New discovery (20190920):
          * There is actually one way to have the external display to do 4K60 with scaling. Here's how:
