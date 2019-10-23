@@ -1,4 +1,4 @@
-# Hackintosh for Thinkpad X1 Extreme
+# Hackintosh for Thinkpad X1 Extreme Gen I
 [![macOS](https://img.shields.io/badge/macOS-10.15.0-orange.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![Clover](https://img.shields.io/badge/Clover-5070-yellowgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![BIOS](https://img.shields.io/badge/BIOS-1.24-brightgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
