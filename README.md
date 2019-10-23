@@ -49,7 +49,7 @@
        * BCM94360CS2 is an ABSOLUTELY NIGHTMARE. DON'T buy.
        * If you are confused: The card with 3 antennas is good, with 2 antennas is bad.
 #### Memory:
-   * Normally, your memory on your machine should just work. However, with machines that has 64G of memory, you might need some workaround.([Issue #34](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/34#issuecomment-516447421))
+   * Normally, your memory on your machine should just work. However, with machines that has 64G of memory (ughhhh you rich people!!), you might need some workaround.([Issue #34](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/34#issuecomment-516447421))
    * Presented by [oreziam](https://github.com/oreziam), he gave a brief description of his solution in the above issue. 
       * Note that I do not know, and cannot help you with this issue since I have 32G of memory. You should contact oreziam if you have questions.
       * In order to make this work, you need to inject info of the system memory, but with one more sockets than usual.
