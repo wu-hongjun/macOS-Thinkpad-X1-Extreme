@@ -127,7 +127,7 @@
          * Well, you can. Just boot macOS normally. You will only have a 3MB since your NVIDIA card now serves as a basic display controller and 1024x768 resolution, but everything else than the graphics card should work. Use that to tackle your macOS emergencies. Shouldn't be a big deal.
    * Thanks for desmomarco999's guide, he worked it out on his XPS 13, but I used a different way. 
       * For sole appreciation, here is [his approach to enable TB3 on XPS 13](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309), and here's his [full guide](https://www.tonymacx86.com/threads/guide-how-to-use-egpu-with-any-laptop-equipped-with-thunderbolt-3.283179/).
-#### USB dongle that has display output:
+#### USB Dongle with Display (HDMI/DP) Output (NOT eGPU):
    * Long story short, it won't work. If it works, let me know.
    * Why? Because all X1E display output is hard wired to the NVIDIA GPU. You can confirm this by going into NVIDIA controler panel in Windows and see PhysX, and you can see all display output is wired to the NVIDIA card, while the eDP in screen display is wired to the iGPU. 
    * Therefore, since NVIDIA card won't work, also Optimus won't work, USB dongle display output just won't work because the output is not wired to the iGPU. Not to mention you disabled dGPU in SSDT.
