@@ -1,5 +1,5 @@
 # Hackintosh for Thinkpad X1 Extreme Gen I
-[![macOS](https://img.shields.io/badge/macOS-10.15.0-orange.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![macOS](https://img.shields.io/badge/macOS-10.15.1-orange)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![Clover](https://img.shields.io/badge/Clover-5070-yellowgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![BIOS](https://img.shields.io/badge/BIOS-1.24-brightgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![MODEL](https://img.shields.io/badge/Model-20MF000DUS-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
@@ -16,6 +16,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20191029] Direct upgrade to macOS 10.15.1 is supported. Nothing to note.
 * [20191017] Solved eGPU. See "eGPU" section below. Now X1E is fully complete with everything supported. Yea!
 * [20191016] Added "32 bit program" and "repasting guide" section in the resource section. Read them.
 * [20191015] It looks like PB10(19A582a) is GM Seed and it is newest. My machine works normal on GM...
