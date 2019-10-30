@@ -132,6 +132,7 @@
    * Long story short, it won't work. If it works, let me know.
    * Why? Because all X1E display output is hard wired to the NVIDIA GPU. You can confirm this by going into NVIDIA controler panel in Windows and see PhysX, and you can see all display output is wired to the NVIDIA card, while the eDP in screen display is wired to the iGPU. 
    * Therefore, since NVIDIA card won't work, also Optimus won't work, USB dongle display output just won't work because the output is not wired to the iGPU. Not to mention you disabled dGPU in SSDT.
+   * Note this also applies to any USB-C to DP/HDMI/DVI cables. These also does not work since they are essentially a dongle mentioned above.
 #### USB External DisplayLink Output (NOT eGPU): 
    * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull): Inspired by [Issue #13](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) I bought an adapter and was able to achieve 4K60P via USB3.0 and HDMI2.0. Now output issue is solved. You can download the driver here: 
       * [DisplayLink Driver](https://www.displaylink.com/downloads/macos). 
