@@ -8,7 +8,7 @@
 <img align="right" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/catcritter.png" alt="Critter" width="250">
 
 > Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
-### Current Release: [10.15.0-V3.3](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+### Current Release: [10.15.1-V3.4](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
@@ -16,7 +16,7 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
-* [20191029] Direct upgrade to macOS 10.15.1 is supported. Nothing to note.
+* [20191029] Direct upgrade to macOS 10.15.1 is supported. Nothing to note. V3.4 is pretty the same as V3.3.
 * [20191017] Solved eGPU. See "eGPU" section below. Now X1E is fully complete with everything supported. Yea!
 * [20191016] Added "32 bit program" and "repasting guide" section in the resource section. Read them.
 * [20191015] It looks like PB10(19A582a) is GM Seed and it is newest. My machine works normal on GM...
