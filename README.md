@@ -91,7 +91,8 @@
 #### Fan:
    * Some people experienced fan issues that the fan does not turn on during load. ([Issue #32](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/32))
    * This can be solved by applying a BIOS update (1.17 -> 1.23).
-#### Time Sync Between Windows and macOS:
+#### Windows:
+   * Let me emphasize it again, do not boot Windows using Clover! It will cause weird problems.
    * [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/): Some might also experience between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) (cr. [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/)).
 #### Boot:
    * [Special Simplified Edition](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE): Many people are experiencing unknown issues to boot into macOS. 
