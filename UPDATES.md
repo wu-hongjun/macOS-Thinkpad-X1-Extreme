@@ -2,6 +2,10 @@
 
 ## 2019
 ### October Updates
+* [20191029] Direct upgrade to macOS 10.15.1 is supported. Nothing to note. V3.4 is pretty much the same as V3.3.
+* [20191017] Solved eGPU. See "eGPU" section below. Now X1E is fully complete with everything supported. Yea!
+* [20191016] Added "32 bit program" and "repasting guide" section in the resource section. Read them.
+* [20191015] It looks like PB10(19A582a) is GM Seed and it is newest. My machine works normal on GM...
 * [20191010] ~~Looks like the final version of Catalina has some problems...? I will stay on PB10 for a while :P~~
 * [20191008] Welcome to Catalina everyone! It's been quite a while for Catalina to get ready.
 * [20191003] Stable direct upgrade to PB10.
