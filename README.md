@@ -16,10 +16,8 @@
 
 ## Update
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
-* [20191029] Direct upgrade to macOS 10.15.1 is supported. Nothing to note. V3.4 is pretty much the same as V3.3.
-* [20191017] Solved eGPU. See "eGPU" section below. Now X1E is fully complete with everything supported. Yea!
-* [20191016] Added "32 bit program" and "repasting guide" section in the resource section. Read them.
-* [20191015] It looks like PB10(19A582a) is GM Seed and it is newest. My machine works normal on GM...
+* [20191101] I guess I shall call this perfect and focus on other things in my life. It's been a fun year.
+* [20191030] Happy one year birthday to my X1E!
 
 ## Instructions
 ### Please read the `Post-Install` section. It is long, but really, really helpful.
