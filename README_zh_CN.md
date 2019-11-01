@@ -4,7 +4,7 @@
 ### 目前发布版本: [以首页为准](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### 开发者: [@厄尔尼斯特](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### 记得Star啊！先把这个读完再行动，不然很可能会搞爆电脑的！
-#### 切记，中文页不会经常更新，一切以英文页面为最新，仅供参考！！！
+#### 切记，中文页不会经常更新因为懒（此页面更新于二零一九年六月十五日），一切以英文页面为最新，仅供参考！！！
 <img align="middle" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/sysinfo.png" alt="Sys Info" width="1000">
 
 ## 安装指示
