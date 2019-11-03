@@ -7,7 +7,7 @@
 
 <img align="right" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/catcritter.png" alt="Critter" width="250">
 
-> Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://errrneist.github.io/elder/).    
+> Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://hongjunwu.com/elder/).    
 ### Current Release: [10.15.1-V3.4](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
