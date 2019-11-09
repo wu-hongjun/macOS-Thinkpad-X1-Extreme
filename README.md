@@ -92,6 +92,8 @@
    * This can be solved by applying a BIOS update (1.17 -> 1.23).
 #### Windows:
    * Let me emphasize it again, do not boot Windows using Clover! It will cause weird problems.
+   * Touchpad in WINDOWS:
+     * People are experiencing weird **touchpad issues** when boot windows from CLOVER. So far not much can be done, so I recommend you to just set auto boot time in clover be 2sec or -1sec, and just use F12 to switch OS.
    * [Time sync issues](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/): Some might also experience between Windows and macOS. Here is a [Fix](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/timesync-v1.0) (cr. [SwampFox82](https://www.tonymacx86.com/threads/fix-incorrect-time-in-windows-osx-dual-boot.133719/)).
 #### Boot:
    * [Special Simplified Edition](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v10.14.0.SE): Many people are experiencing unknown issues to boot into macOS. 
@@ -101,8 +103,7 @@
       * No need for VoodooI2C.kext! (Change merged in the 10.15.0.3.2 release)
    * I was requested to make a video on how it works on the touch screen, link below.
       * [Touch screen gesture implementation on X1E, Errrneist, 2019.](https://youtu.be/mZ7sTGxccuc)
-   * Touchpad in WINDOWS:
-      * People are experiencing weird **touchpad issues** when boot windows from CLOVER. So far not much can be done, so I recommend you to just set auto boot time in clover be 2sec or -1sec, and just use F12 to switch OS.
+  
    * VoodooI2C.kext:
       * NOTE: I used to say VoodooI2C is not working and unuseful, I was wrong. It works to enable gesture on the touch display.
       * A interesting [discussion](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1986487) with [jamesxxx1997](https://www.tonymacx86.com/members/jamesxxx1997.2184482/) implies that (At least on 10.14) you can use [VoodooI2C.kext](https://github.com/alexandred/VoodooI2C) to achieve touch screen and touchpad gesture support.
