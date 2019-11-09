@@ -1,4 +1,4 @@
-# Thinkpad X1 隐士一代 黑苹果
+# Thinkpad X1 隐士一代 黑苹果 (20190615)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 > 你们搞的这个黑苹果啊, Excited!  ——— [那个改变了中国的男人](https://errrneist.github.io/elder/).
 ### 目前发布版本: [以首页为准](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
