@@ -15,7 +15,11 @@
 > 英语并非你的首选语言？[中文版文档（非最新）](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/README_zh_CN.md)
 
 ## Update
+
+### I am moving on to a new laptop, and I am considering to sell this laptop, so if you are interested let me know in issues. I will probably post a link here soon...
+
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20191114] I purchased a [Legion Y9000X](https://github.com/Errrneist/Hackintosh-Legion-Y9000X) and I am officially ending this project. It's been perfected. 
 * [20191102] Congrats team China for winning the second place in Overwatch World Cup 2019!!
 * [20191101] I guess I shall call this perfect and focus on other things in my life. It's been a fun year.
 * [20191030] Happy one year birthday to my X1E!
