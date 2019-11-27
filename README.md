@@ -16,7 +16,7 @@
 
 ## Update
 
-### I am moving on to a new laptop, and I am considering to sell this laptop, so if you are interested let me know in issues. I will probably post a link to eBay here soon...
+### I am moving on to a new laptop, and I am considering to sell this laptop, so if you are interested let me know in issues. I will probably post a link to eBay here soon...(Maybe January when I come back from China...)
 
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
 * [20191114] I purchased a [Legion Y9000X](https://github.com/Errrneist/Hackintosh-Legion-Y9000X) and I am officially ending this project. It's been perfected. 
