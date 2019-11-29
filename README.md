@@ -23,7 +23,8 @@
 * [20191030] Happy one year birthday to my X1E!
 
 ## Instructions
-### Please read the `Post-Install` section. It is long, I know, because I want to be as clear as possible in every detail and give you as much resource as I can so you can have less questions and have a place to refer to when problem rises. I cannot help everybody since my real life is quite freakin busy. Please, read it carefully. Thanks.
+### Please read the `Post-Install` section. 
+#### It is long, I know, because I want to be as clear as possible in every detail and give you as much resource as I can so you can have less questions and have a place to refer to when problem rises. I cannot help everybody since my real life is quite freakin busy. Please, read it carefully. Thanks.
 ##### Pre-Install
 ##### *FORK* the project to your own repository and clone it to your machine using Github Desktop to make changes.
 * Windows drivers for Wifi Adapters:
