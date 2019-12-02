@@ -1,7 +1,7 @@
 # Hackintosh for Thinkpad X1 Extreme Gen I
 [![macOS](https://img.shields.io/badge/macOS-10.15.1-orange)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![Clover](https://img.shields.io/badge/Clover-5070-yellowgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-[![BIOS](https://img.shields.io/badge/BIOS-1.24-brightgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![BIOS](https://img.shields.io/badge/BIOS-N2EET43W%201.25-brightgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![MODEL](https://img.shields.io/badge/Model-20MF000DUS-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
@@ -17,6 +17,7 @@
 ## Update
 
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20191202] Updated BIOS to N2EET43W 1.25.
 * [20191114] It's been perfected. 
 * [20191102] Congrats team China for winning the second place in Overwatch World Cup 2019!!
 * [20191101] I guess I shall call this perfect and focus on other things in my life. It's been a fun year.
