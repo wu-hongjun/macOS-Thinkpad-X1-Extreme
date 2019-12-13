@@ -131,6 +131,4 @@
 * [20181027] DO NOT USE FILEVAULT!!! 100% DISK BREAK AFTER REBOOT GUARANTEED.
 * [20181027] Project Started. Initial [INSTALL1.0](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/10.14.0/1.0-Initlal_BootAble) posted.
 
-### Cheers, Errrneist.
-
 
