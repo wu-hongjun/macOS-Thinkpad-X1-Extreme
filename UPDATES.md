@@ -1,7 +1,13 @@
 # Hackintosh for Thinkpad X1 Extreme-Update History
 
 ## 2019
+### November Updates
+* [20191114] It's been perfected. 
+* [20191102] Congrats team China for winning the second place in Overwatch World Cup 2019!!
+* [20191101] I guess I shall call this perfect and focus on other things in my life. It's been a fun year.
+
 ### October Updates
+* [20191030] Happy one year birthday to my X1E!
 * [20191029] Direct upgrade to macOS 10.15.1 is supported. Nothing to note. V3.4 is pretty much the same as V3.3.
 * [20191017] Solved eGPU. See "eGPU" section below. Now X1E is fully complete with everything supported. Yea!
 * [20191016] Added "32 bit program" and "repasting guide" section in the resource section. Read them.
