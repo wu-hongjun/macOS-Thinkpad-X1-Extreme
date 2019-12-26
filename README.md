@@ -115,6 +115,11 @@
 #### Samsung PM981 SSD:
    * Recently, people on TonyMacX86 are having **issue with PM981**. PM981 is troublesome for Hackintosh and I am not using it for install. I'm using a Toshiba XG3. However, you can check out [zysuper's repo](https://github.com/zysuper/Thinkpad-X1-extreme-EFI/blob/master/readme.md) on ACPI files to get rid of PM981.
    * However, I have no problem accessing my Windows disk (PM981) from macOS (XG3).
+#### GPU Compatibility:
+   * AMD Radeon GPU and Intel UHD/Iris Pro Graphics are supported by macOS 10.14.0 and above.
+   * NVIDIA GPU is no longer supported from macOS 10.14.0 and requires a Web Driver to run in macOS 10.13.5 or below.
+      * Pascal (GTX10XX series) are supported by the web driver, Turing or earlier (RTX20XX series/GTX16XX series) are not supported by the web driver even in macOS 10.13 (They didn't esist at that time).
+   * Mainly because there are some issues between NVIDIA and Apple (on the executive level) and they refuse to cooperate. This is such a shame given there now exists a modular Mac Pro and many professionals wanting to use eGPU on a rMBP so let's hope Apple and NVIDIA can get this resolved as soon as possible.
 #### External Graphics Processing Unit (eGPU):
    * I finally solved eGPU. It is running smooth as hell using a RX570 in a Razer Core X. 
       * [Pictures of my setup and eGPU](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/IMG/eGPU)
