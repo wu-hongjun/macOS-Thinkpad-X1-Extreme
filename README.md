@@ -178,7 +178,7 @@
       
 #### Misc:
    * Since I developed using the Clover Bootloader and is currently complete, there is no plan to move the development to another bootloader platform like OpenCore.
-   * I also have no plan to deprecate the legacy FakeSMC in the future unless it becomes a problem. 
+   * I also have no plan to deprecate the legacy FakeSMC and use VirtualSMC in the future unless it becomes a problem. I made some attempt though in 2.X builds you can check them out if you are interested but I decided to just stay with what works best for me.
    
 #### About This Machine:
    * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
