@@ -1,6 +1,10 @@
 # Hackintosh for Thinkpad X1 Extreme-Update History
 
 ## 2019
+### December Updates
+* [20191213] Released 10.15.2 V3.6.
+* [20191202] Updated BIOS to N2EET43W 1.25.
+
 ### November Updates
 * [20191114] It's been perfected. 
 * [20191102] Congrats team China for winning the second place in Overwatch World Cup 2019!!
