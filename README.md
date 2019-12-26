@@ -176,7 +176,7 @@
    * WARNING: It is possible for you to toast your machine if you replace your thermal paste! 
       * If you are not sure how good your craftmanship is, give it to a 3rd party repair shop.
       
-#### Misc:
+#### Legacy Components:
    * Since I developed using the Clover Bootloader and is currently complete, there is no plan to move the development to another bootloader platform like OpenCore.
    * I also have no plan to deprecate the legacy FakeSMC and use VirtualSMC in the future unless it becomes a problem. I made some attempt though in 2.X builds you can check them out if you are interested but I decided to just stay with what works best for me.
    
