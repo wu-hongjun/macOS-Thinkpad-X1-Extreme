@@ -175,6 +175,11 @@
       * [Lenovo X1 Extreme Disassembly Repaste, TechTubers, 2019.](https://www.youtube.com/watch?v=_iWLfo2t4_U)
    * WARNING: It is possible for you to toast your machine if you replace your thermal paste! 
       * If you are not sure how good your craftmanship is, give it to a 3rd party repair shop.
+      
+#### Misc:
+   * Since I developed using the Clover Bootloader and is currently complete, there is no plan to move the development to another bootloader platform like OpenCore.
+   * I also have no plan to deprecate the legacy FakeSMC in the future unless it becomes a problem. 
+   
 #### About This Machine:
    * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
    * [IORegistry](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/docs/X1E-IORegistry.ioreg): For researchers who want to see my IORegistry, updated 20191018, EFI version v10.15.0.3.3.
