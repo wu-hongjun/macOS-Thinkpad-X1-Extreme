@@ -1,7 +1,12 @@
 # Hackintosh for Thinkpad X1 Extreme-Update History
 
+## 2020
+### January Updates
+
 ## 2019
 ### December Updates
+* [20191227] Reached 200 Stars!! 
+* [20191225] Released Christmas Build 10.15.2 V3.7 for improvement in stability.
 * [20191213] Released 10.15.2 V3.6.
 * [20191202] Updated BIOS to N2EET43W 1.25.
 
