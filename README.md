@@ -17,6 +17,7 @@
 ## Update
 
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20200124] Happy the 4718th Lunar New Year everybody! 
 * [20191227] Reached 200 Stars!! 
 * [20191225] Released Christmas Build 10.15.2 V3.7 for improvement in stability.
 
