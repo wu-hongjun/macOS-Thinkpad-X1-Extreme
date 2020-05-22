@@ -1,7 +1,10 @@
 # Hackintosh for Thinkpad X1 Extreme-Update History
 
 ## 2020
+### Feburary Updates
+* [20200202] Officially closing this project. Thanks everyone! It's been fun.
 ### January Updates
+* [20200124] Happy the 4718th Lunar New Year everybody! 
 
 ## 2019
 ### December Updates
