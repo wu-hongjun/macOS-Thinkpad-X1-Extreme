@@ -118,44 +118,27 @@
    * AMD Radeon GPU 和 Intel UHD/Iris Pro Graphics 目前受 macOS 10.14.0 或更高支持。
    * 英伟达 RTX/GTX GPU 从10.14以后就不受支持了。
       * 帕斯卡 (GTX10XX series) 还能在10.13用web driver驱动, 图灵或更新 (RTX20XX series/GTX16XX series)就完全不能支持了。
-   * Mainly because there are some issues between NVIDIA and Apple (on the executive level) and they refuse to cooperate. This is such a shame given there now exists a modular Mac Pro and many professionals wanting to use eGPU on a rMBP so let's hope Apple and NVIDIA can get this resolved as soon as possible.
-#### External Graphics Processing Unit (eGPU):
-   * I finally solved eGPU. It is running smooth as hell using a RX570 in a Razer Core X. 
-      * [Pictures of my setup and eGPU](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/IMG/eGPU)
-      * All you need to do in BIOS is:
-         1. Enable Thunderbolt 3 support for Linux
-         2. Disable iGPU so switch Display from "Hybrid" to "Discrete".
-      * Then plug in your AMD eGPU, boot my EFI as usual, no extra steps.
-      * If you are having problems, try boot in verbose mode (-v).
-   * Now that I disabled my iGPU, what do I do when I don't use an eGPU?
-      * Well, you enable iGPU in BIOS when you need it. Disable it again in BIOS when you need eGPU.
-      * Or you kinda just don't use it on the go (Or until one day Apple work themselves out with NVIDIA then 1050Ti will work).
-      * It is a trade off for eGPU, but it is something you can easily tolerate. I don't think it is a big deal.
-      * What if I am in emergency and I want to use it on the go?
-         * Well, you can. Just boot macOS normally. You will only have a 3MB since your NVIDIA card now serves as a basic display controller and 1024x768 resolution, but everything else than the graphics card should work. Use that to tackle your macOS emergencies. Shouldn't be a big deal.
-   * Thanks for desmomarco999's guide, he worked it out on his XPS 13, but I used a different way. 
-      * For sole appreciation, here is [his approach to enable TB3 on XPS 13](https://www.tonymacx86.com/threads/macos-10-15-0-thinkpad-x1-extreme-hackintosh.263916/post-1998309), and here's his [full guide](https://www.tonymacx86.com/threads/guide-how-to-use-egpu-with-any-laptop-equipped-with-thunderbolt-3.283179/).
-#### USB Dongle with Display (HDMI/DP) Output (NOT eGPU):
-   * Long story short, it won't work. If it works, let me know.
-   * Why? Because all X1E display output is hard wired to the NVIDIA GPU. You can confirm this by going into NVIDIA controler panel in Windows and see PhysX, and you can see all display output is wired to the NVIDIA card, while the eDP in screen display is wired to the iGPU. 
-   * Therefore, since NVIDIA card won't work, also Optimus won't work, USB dongle display output just won't work because the output is not wired to the iGPU. Not to mention you disabled dGPU in SSDT.
-   * Note this also applies to any USB-C to DP/HDMI/DVI cables. These also does not work since they are essentially a dongle mentioned above.
-#### USB External DisplayLink Output (NOT eGPU): 
-   * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull): Inspired by [Issue #13](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) I bought an adapter and was able to achieve 4K60P via USB3.0 and HDMI2.0. Now output issue is solved. You can download the driver here: 
-      * [DisplayLink Driver](https://www.displaylink.com/downloads/macos). 
-   * Relative question: 
-      * [Will USB3-6950-USBC with USB-C plug work? (Issue #20)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/20) Yes, it's been [confirmed](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-573958928) by carlaiau.
-   * Alternative [Lenovo USB Dock (Issue #13)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-507499718), a dock by Lenovo and I believe darkal tested it. (cr. [darkal](https://github.com/darkal))
-   * However, it has its own limitations of [not being able to scale 4K into 1080P with 60FPS](http://assets.displaylink.com/live/downloads/release-notes/f1303_DisplayLink+USB+Graphics+Software+for+macOS+5.1-Release+Notes.txt). This is a known issue and we can only hope future update fix this.
-      * New discovery (20190920):
-         * There is actually one way to have the external display to do 4K60 with scaling. Here's how:
-         * Use the two screens as separate displays:
-            * One, make sure that both display is on (so the laptop screen is flipped up and open)
-            * Two, make sure that the laptop is the main display (aka the dock is in the laptop's screen), and if you go to System Preference -> Display Preferences -> Arrangement you can see that the menu bar is in the laptop's internal screen. 
-            * As long as the menu bar is in the internal screen and use the external 4k display as secondary, 4k60 works.
-         * Use the two screens as one display (Recommended):
-            * Also, another way is by clicking the [Mirror Displays] checkbox and leave the laptop screen on, and that will also work with 4k60. I find this most useful! And a much better experience.
-            * Animation might lag a bit (Especially launchpad) but by looking at the mouse pointer move speed the display is running at 4K60. 
+   * 主要是英伟达和苹果闹掰了。希望以后能支持吧。
+#### 外接显卡 (eGPU):
+   * 终于搞定外接显卡了，丝滑。用的是一块RX570和一个Razer Core X. 
+      * [我的设备照片](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/tree/master/IMG/eGPU)
+      * 你需要干的事:
+         1. 开启 Thunderbolt 3 support for Linux
+         2. 禁用 iGPU - 把显卡从 "Hybrid" 切换到 "Discrete".
+      * 插入AMD eGPU，开机，不需要额外步骤。
+      * 如果有问题，试试看用 verbose mode (-v)引导.
+
+#### USB DisplayLink 输出卡 (NOT eGPU): 
+   * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull): 在 [Issue #13](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13) 讨论过DisplayLink，是确实好使的。  
+      * 在这下载驱动: [DisplayLink Driver](https://www.displaylink.com/downloads/macos). 
+   * 相关问题: 
+      * [USB-C口的USB3-6950-USBC好使吗? (Issue #20)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/20) 好使的！ [确认](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-573958928) by carlaiau.
+   * 另外还有一款 [Lenovo USB Dock (Issue #13)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/13#issuecomment-507499718), 联想的dock，darkal测试过。 (cr. [darkal](https://github.com/darkal))
+   * 但它不能再4K下开Retina缩放并同时60帧（目测30） [not being able to scale 4K into 1080P with 60FPS](http://assets.displaylink.com/live/downloads/release-notes/f1303_DisplayLink+USB+Graphics+Software+for+macOS+5.1-Release+Notes.txt). 这是一个已知的软件问题，希望未来的驱动可以修复。
+      * 绕过Bug实现4K缩放60帧 (20190920):
+         * 镜像两个屏幕 (Recommended):
+            * 只要勾选镜像两个屏幕（前提是你得有4K屏，FHD不清楚）就可以4K缩放60帧了。
+            * 动画可能会卡（特别是Launchpad）但是从鼠标移速看确实是60帧了。
 #### 摄像头:
    * [Issue #33](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) macOS会错误的使用红外摄像头（就没有影像了）
    * 我在 v10.15.0.1.2 里修复了, 感谢 [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), 和 [ColeXJ](https://github.com/ColeXJ).
