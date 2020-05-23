@@ -10,6 +10,7 @@
 > 你们搞的这个黑苹果啊，excited!  ——— [他](https://hongjunwu.com/elder/).    
 ### 目前版本: [10.15-V3.7 LTS](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
 #### 主要开发人员: [@厄尔尼斯特](https://www.tonymacx86.com/members/errrneist.1550861/)
+#### 喜欢记得点个Star🤭
 #### 把Readme.MD读了， 不然很容易搞爆电脑的！
 
 ## 更新
