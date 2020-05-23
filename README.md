@@ -16,6 +16,7 @@
 ## Update
 
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20200523] Re-Translated the Chinese version of the Readme.MD.
 * [20200522] Made 10.15-V3.7 the LTS stable version.
 
 ## Instructions
