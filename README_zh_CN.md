@@ -117,7 +117,7 @@
 #### GPU 兼容:
    * AMD Radeon GPU 和 Intel UHD/Iris Pro Graphics 目前受 macOS 10.14.0 或更高支持。
    * 英伟达 RTX/GTX GPU 从10.14以后就不受支持了。
-      * Pascal (GTX10XX series) are supported by the web driver, Turing or earlier (RTX20XX series/GTX16XX series) are not supported by the web driver even in macOS 10.13 (They didn't esist at that time).
+      * 帕斯卡 (GTX10XX series) 还能在10.13用web driver驱动, 图灵或更新 (RTX20XX series/GTX16XX series)就完全不能支持了。
    * Mainly because there are some issues between NVIDIA and Apple (on the executive level) and they refuse to cooperate. This is such a shame given there now exists a modular Mac Pro and many professionals wanting to use eGPU on a rMBP so let's hope Apple and NVIDIA can get this resolved as soon as possible.
 #### External Graphics Processing Unit (eGPU):
    * I finally solved eGPU. It is running smooth as hell using a RX570 in a Razer Core X. 
@@ -156,35 +156,28 @@
          * Use the two screens as one display (Recommended):
             * Also, another way is by clicking the [Mirror Displays] checkbox and leave the laptop screen on, and that will also work with 4k60. I find this most useful! And a much better experience.
             * Animation might lag a bit (Especially launchpad) but by looking at the mouse pointer move speed the display is running at 4K60. 
-#### Camera:
-   * [Issue #33](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) discussed about that macOS would use the integrated IR camera to make video calls which does not quite work.
-   * This is fixed in v10.15.0.1.2, credit to [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), and [ColeXJ](https://github.com/ColeXJ).
-#### Undervolting:
-   * By undervolting the computer, the fan is MUCH quieter and more pleasant to use.
-   * I am using an app called [volta](https://volta.garymathews.com). 
-      * You can also google for undervolting using script which I hasn't tried so do it in your own risk.
-      * Unfortunately intel does not have a XTU software for macOS.
-   * It is not free, but it is cheap. Just two cups of coffee gives you a much better experience.
-      * You can download a "trial version" and try it out on your laptop. 
-      * I didn't get money for advertising this...it just works. 
-#### Replace Thermal Paste:
-   * Recently I replaced my X1E's thermal paste and by doing so it gained significant performance.
-      * About 5-7 degrees cooler. Now the fan doesn't even turn on under normal daily use.
-   * I used Thermal Grizzly Kryonaut Thermal Grease Paste. (Note: I have no business relationship with them)
-      * But if Thermal Grizzly sees this send me your advertising money plzzzzzzzzz
-   * This is the teardown and repasting guide I used when I repasted my machine.
+#### 摄像头:
+   * [Issue #33](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/33#issuecomment-514062099) macOS会错误的使用红外摄像头（就没有影像了）
+   * 我在 v10.15.0.1.2 里修复了, 感谢 [flymin](https://github.com/flymin), [kk1987](https://github.com/kk1987), 和 [ColeXJ](https://github.com/ColeXJ).
+#### 降频:
+   * 降个频发热会少很多。
+   * 我用的工具是 [volta](https://volta.garymathews.com)，macOS没有Intel XTU。 
+   * 付费软件，不过是一次性的也很便宜。
+
+#### 换硅脂:
+   * 最近换了硅脂，还是很有用的。温度降低5-7度。风扇都不怎么转了。用的是暴力熊的Thermal Grizzly Kryonaut Thermal Grease Paste. 
+   * 拆机视频：
       * [Lenovo X1 Extreme Disassembly Repaste, TechTubers, 2019.](https://www.youtube.com/watch?v=_iWLfo2t4_U)
-   * WARNING: It is possible for you to toast your machine if you replace your thermal paste! 
-      * If you are not sure how good your craftmanship is, give it to a 3rd party repair shop.
+   * 警告：拆机有风险，不会拆就去找第三方维修人员吧。
       
-#### OpenCore & Legacy Components:
-   * Since I developed using the Clover Bootloader and is currently complete, there is no plan to move the development to another bootloader platform like OpenCore.
-   * However, there are some support for OpenCore and patches ([Issue #62](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/62)) provided by 1Revenger1 [Link](https://github.com/1Revenger1/X1-Extreme-OpenCore-Resources).
-   * I also have no plan to deprecate the legacy FakeSMC and use VirtualSMC in the future unless it becomes a problem. I made some attempt though in 2.X builds you can check them out if you are interested but I decided to just stay with what works best for me.
+#### OpenCore 及其他启动器相关:
+   * 没有迁移到OpenCore启动器的计划。
+   * 其他人对OpenCore做了适配： ([Issue #62](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/issues/62)) 比如 1Revenger1 的配置 [链接](https://github.com/1Revenger1/X1-Extreme-OpenCore-Resources).
+   * 我也不准备将 FakeSMC 替换为 VirtualSMC。我在2.x版本里做了一些尝试不过目前能用就继续用吧懒得折腾了。
    
-#### About This Machine:
-   * [System Report](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md): If you want to see system specs.
-   * [IORegistry](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/docs/X1E-IORegistry.ioreg): For researchers who want to see my IORegistry, updated 20191018, EFI version v10.15.0.3.3.
+#### 关于本机:
+   * [系统报告](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/SPEC.md)
+   * [IORegistry](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/docs/X1E-IORegistry.ioreg): 更新于 20191018, EFI version v10.15.0.3.3.
    
 #### 其他配置文件:
 | 开发者 | CPU | 机型 | 链接 |
