@@ -232,7 +232,7 @@
 ## Donate
 * Donating to this project is OPTIONAL. 
 * However, if you would like to buy me a coffee, you can do that using QR codes (WechatPay or Venmo).
-<img align="middle" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/donate.png" alt="donate" width="500">
+<img align="middle" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/donate.png" alt="donate" width="800">
 
 ### Cheers, Errrneist.
 
