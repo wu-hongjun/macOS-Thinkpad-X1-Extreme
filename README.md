@@ -1,4 +1,4 @@
-# Hackintosh for Thinkpad X1 Extreme Gen I
+# Thinkpad X1 Extreme Gen I - macOS Configuration
 [![macOS](https://img.shields.io/badge/macOS-10.15.2-orange)](https://www.apple.com/macos/catalina/)
 [![Clover](https://img.shields.io/badge/Clover-5101-yellowgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![BIOS](https://img.shields.io/badge/BIOS-N2EET43W%201.25-brightgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
